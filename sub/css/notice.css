@@ -1,0 +1,539 @@
+@charset "utf-8";
+.confix {
+    width: 1200px;
+    /* 
+        그리드 시스템 사이즈 
+        그리드를 만들기 전에 포토샵으로 그리드의 값을 보고 나서 width값을 지정한다.
+    */
+    margin: 0 auto;
+    /* 가운데 정렬 */
+    padding: 0 15px;
+    /* 그리드 시스템의 좌우 마진 영역의 크기 */
+    /* background-color: brown; 영역확인 */
+    position: relative;
+    /* main이미지 때문에 넣어둔다. */
+}
+
+
+/* header 시작 */
+
+header {
+    position: relative;
+    width: 100%;
+    height: 285px;
+    background: url(../images/head_back.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.header-flex-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.left-menu ul {
+    display: flex;
+    margin-top: 58px;
+}
+
+.left-menu li a {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid white;
+}
+
+.left-menu li:first-child a {
+    padding-left: 0;
+    /* 리스트의 하나씩 설정 할 수 있다. */
+}
+
+.left-menu li:last-child a {
+    border-right: none;
+}
+
+.left-menu li a:hover,
+.right-menu li a:hover {
+    text-decoration: underline;
+    color: #3d2e0b;
+    /* 똑같이 같은색으로 하고 싶으면 reset.css에 넣으면 된다. */
+}
+
+.logo img {
+    width: 172px;
+    height: 151px;
+}
+
+.right-menu ul {
+    display: flex;
+    margin-top: 58px;
+}
+
+.right-menu li a {
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    padding-right: 12px;
+}
+
+
+/* main-menu */
+
+.main-menu {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #3d2e0b;
+}
+
+.main-menu .gnb {
+    display: flex;
+}
+
+.main-menu .gnb li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-menu .gnb li a {
+    border-right: 1px solid #aa8e79;
+    width: 200px;
+    text-align: center;
+    color: #aa8e79;
+}
+
+.main-menu .gnb li a:hover {
+    color: white;
+}
+
+.gnb li:first-child a {
+    width: 185px;
+    /* 시안을 확인하여 맨 왼쪽과 맨 오른쪽의 여백을 빼주어야한다. .confix의 값이 1200이고 padding 좌우가 15px 이기 때문에 */
+}
+
+.gnb li:last-child a {
+    border-right: none;
+    width: 185px;
+    /* 시안을 확인하여 맨 왼쪽과 맨 오른쪽의 여백을 빼주어야한다. .confix의 값이 1200이고 padding 좌우가 15px 이기 때문에 */
+}
+
+
+/* main 시작 */
+
+.news-notice {
+    margin-top: 87px;
+}
+
+hr {
+    border: 2px solid #b6b7b9;
+    margin-top: 33px;
+}
+.content-menu ul {
+    display: flex;
+    width: 600px;
+    margin: 32px auto 34px;
+}
+
+.content-menu li a {
+    width: 200px;
+    text-align: center;
+    border: 1px solid black;
+    border-right: none;
+    padding: 10px;
+}
+
+.content-menu li:last-child a {
+    border: 1px solid black;
+    color: white;
+    background-color: #aa8e79;
+}
+
+.content-menu li a:hover {
+    color: white;
+    background-color: #aa8e79;
+}
+
+/* brand-news */
+
+
+.brand-news h3 {
+    font-size: 0;
+    /* 
+        dispaly: none; 요소 자체가 사라지기때문에 사용을안한다.
+        position 값을 - 값을 줘서 +영역 밖으로 내보낸다.
+    */
+}
+
+.flex-news-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-news-box div {
+    position: relative;
+    width: 32.5%;
+    height: 370px;
+    border: 1px solid #aa8e79;
+
+}
+
+.flex-news-box strong {
+    display: block; /* strong이 inline요소여서 block요소로 변환 시켜준다. */
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.flex-news-box img {
+    width: 100%;
+}
+
+.flex-news-box time {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #927e97;
+    /* 
+        같은 영역의 위치는 position: absolute 줘야한다.
+        (같은 줄에 있으면 postion을 사용하고 기준점을 설정해줘야한다.) 
+    */
+}
+
+
+/* board */
+.board {
+    margin-top: 55px; 
+    margin-bottom: 25px;
+}
+
+.board tr:first-child {
+    background-color: #f8f8f8;
+}
+
+.board th:nth-child(3),
+.board td:nth-child(3) {
+    width: 826px;
+    text-align: left;
+}
+
+.board th:nth-child(3) {
+    text-align: center;
+}
+
+.board th, .board td {
+    padding: 20px 30px;
+    text-align: center;
+    border-left: 0;
+    border-right: 0;
+}
+
+.board mark {
+    /*
+        .board th, .board td에 padding이 들어가있기때문에 mark요소로 감싸주어서 요소의 값을 줄 수 있다.
+    */
+    font-weight: bold;
+    color: #fff;
+    background-color: #66920b;
+}
+
+/* board-number */
+.board-number {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: aliceblue; */
+}
+
+.board-number a {
+    padding: 1px 10px;
+    font-size: 12px;
+}
+
+.board-number a:hover {
+    font-weight: bold;
+    color: #66920b;
+}
+
+.board-number a:first-child,
+.board-number a:last-child {
+    font-weight: bolder;
+    font-size: 14px;
+    color: #66920b;
+    border: 1px solid #66920b;
+}
+
+/* search-box */
+.search-box form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 105px;
+    margin-top: 57px;
+    margin-bottom: 170px;
+    border: 2px solid #f8f8f8;
+    background-color: #ccc;
+    /* 
+                    순서
+        첫번째는 선언해주는 값을 적는다 (ex: display, position)
+        두번째는 width, height
+        세번째는 margin, padding
+        네번째는 font 등등적고
+        마지막은 background를 적어준다.
+
+        .search-box에 div가 들어오게되면은 컨테이너가 풀리기때문에 form을 잡아서 컨테이너로 잡아주면 된다.
+    */
+}
+
+/* search-box */
+.search-box select {
+    width: 160px;
+    padding: 10px 0;
+    margin-right: 10px;
+    border: 1px solid #66920b;
+}
+
+.search-box input {
+    width: 355px;
+    padding: 11px 0;
+    border: 1px solid #66920b;
+}
+
+.search-icon {
+    position: relative;
+}
+
+.search-icon img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+
+/* footer 시작 */
+
+footer {
+    width: 100%;
+    height: 287px;
+}
+
+.footer-menu {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+/* flex-menu-box */
+
+.flex-menu-box {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    /* align-item: center를 주어도 된다. */
+}
+
+
+/* footer-main-menu */
+
+.footer-main-menu {
+    width: 75%;
+    /* flex box의 크기 - 75% */
+}
+
+.footer-main-menu ul {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+.footer-main-menu li:first-child {
+    padding-left: 0;
+}
+
+.footer-main-menu li>a {
+    font-size: 12px;
+}
+
+.footer-main-menu li>a:hover {
+    text-decoration: underline;
+}
+
+
+/* 
+    .footer-main-menu li:nth-child(odd)>a {
+    color: green;
+    홀수 리스트를 바꾸고 싶으면 odd를 적는다.
+*/
+
+.footer-main-menu li:nth-child(even)>a {
+    color: #3f3f3f;
+    /* 짝수 리스트를 바꾸고 싶으면 even 적는다. */
+}
+
+#language {
+    color: #aa8e79;
+    border: none;
+    background-color: transparent; /* 백그라운드 배경색 없앤다. */
+}
+
+
+/* sns */
+
+.sns {
+    /* flex box의 크기 - 15% */
+    width: 15%;
+    /* background-color: aqua; */
+}
+
+.sns ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sns li {
+    width: 25px;
+    height: 25px;
+}
+
+.sns li>a {
+    width: 25px;
+    height: 25px;
+    padding-top: 4px; /* 동그라미안에 정확한 가운데정렬 해주기 위하여 패딩을 올려준다. (텍스트의 수직위치를 맞춰주기위하여 적어주었다) */ 
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 50%; /* 모서리를 둥굴게 표현 */
+    background-color: white;
+}
+
+.sns li>a:hover {
+    color: #fff;
+    background-color: black;
+}
+
+
+/* .flex-infomation-box */
+.flex-infomation-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 170px; /* 수직정렬을 하기 위해서는 height를 줘야한다. */
+}
+
+/* logo */
+
+/* contact-copyright */
+.contact-copyright {
+    width: 55%;
+    /* background-color: red; */
+}
+
+
+.contact-copyright p, 
+.contact-copyright address { 
+    font-size: 12px;
+    line-height: 24px; /* line-height는 자기만의 기준을 두는것이 좋다. */
+}
+
+.contact-copyright address {
+    font-style: normal;
+}
+
+.contact-copyright .tel,
+.contact-copyright .business {
+    color: green;
+}
+
+/* security */
+.security {
+    width: 30%;
+    /* background-color: green; */
+}
+
+.security h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.security p,
+.security .check {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.security .check {
+    margin-top: 10px;
+    color: #9bb86b;
+}
+
+/* bar */
+.bar {
+    position: absolute;
+    left: 785px;
+    width: 1px;
+    height: 170px;
+    background-color: black;
+}
+
+/* footer-bottom */
+
+.footer-bottom {
+    width: 100%;
+    height: 70px;
+    background-color: #3b302a;
+}
+
+.footer-bottom p {
+    display: inline-block;
+    color: #fff;
+    line-height: 70px; /* height값과 같은값으로 : 수직정렬 */
+    font-weight: 600;
+}
+
+.footer-bottom h2 {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 150px;
+    line-height: 70px; /* height값과 같은값으로 : 수직정렬 */
+}
+
+/* fixed-menu */
+.fixed-menu {
+    position: fixed;
+    right: 1%;
+    bottom: 20px;
+}
+
+.fixed-menu li a {
+    width: 90px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.fixed-menu li:first-child a {
+    color: white;
+    margin-bottom: 10px;
+    background-color: #709d0e;
+}
+
+.fixed-menu li:first-child a:hover,
+.fixed-menu li:nth-child(2) a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.fixed-menu li:nth-child(2) a {
+    color: #b98958;
+    border: 1px solid #b98958;
+    background-color: #fff;
+}
+

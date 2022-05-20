@@ -1,0 +1,490 @@
+@charset "utf-8";
+.confix {
+    width: 1200px;
+    /* 
+        그리드 시스템 사이즈 
+        그리드를 만들기 전에 포토샵으로 그리드의 값을 보고 나서 width값을 지정한다.
+    */
+    margin: 0 auto;
+    /* 가운데 정렬 */
+    padding: 0 15px;
+    /* 그리드 시스템의 좌우 마진 영역의 크기 */
+    /* background-color: brown; 영역확인 */
+    position: relative;
+    /* main이미지 때문에 넣어둔다. */
+}
+
+
+/* header 시작 */
+
+header {
+    position: relative;
+    width: 100%;
+    height: 285px;
+    background: url(../images/head_back.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.header-flex-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.left-menu ul {
+    display: flex;
+    margin-top: 58px;
+}
+
+.left-menu li a {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid white;
+}
+
+.left-menu li:first-child a {
+    padding-left: 0;
+    /* 리스트의 하나씩 설정 할 수 있다. */
+}
+
+.left-menu li:last-child a {
+    border-right: none;
+}
+
+.left-menu li a:hover,
+.right-menu li a:hover {
+    text-decoration: underline;
+    color: #3d2e0b;
+    /* 똑같이 같은색으로 하고 싶으면 reset.css에 넣으면 된다. */
+}
+
+.logo img {
+    width: 172px;
+    height: 151px;
+}
+
+.right-menu ul {
+    display: flex;
+    margin-top: 58px;
+}
+
+.right-menu li a {
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    padding-right: 12px;
+}
+
+
+/* main-menu */
+
+.main-menu {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #3d2e0b;
+}
+
+.main-menu .gnb {
+    display: flex;
+}
+
+.main-menu .gnb li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-menu .gnb li a {
+    border-right: 1px solid #aa8e79;
+    width: 200px;
+    text-align: center;
+    color: #aa8e79;
+}
+
+.main-menu .gnb li a:hover {
+    color: white;
+}
+
+.gnb li:first-child a {
+    width: 185px;
+    /* 시안을 확인하여 맨 왼쪽과 맨 오른쪽의 여백을 빼주어야한다. .confix의 값이 1200이고 padding 좌우가 15px 이기 때문에 */
+}
+
+.gnb li:last-child a {
+    border-right: none;
+    width: 185px;
+    /* 시안을 확인하여 맨 왼쪽과 맨 오른쪽의 여백을 빼주어야한다. .confix의 값이 1200이고 padding 좌우가 15px 이기 때문에 */
+}
+
+
+/* main 시작 */
+
+.content-menu ul {
+    display: flex;
+    width: 800px;
+    margin: 32px auto 34px;
+}
+
+.content-menu li a {
+    width: 200px;
+    text-align: center;
+    border: 1px solid black;
+    border-right: none;
+    padding: 10px;
+}
+
+.content-menu li:last-child a {
+    border: 1px solid black;
+}
+
+.content-menu li a:hover {
+    color: white;
+    background-color: #aa8e79;
+}
+
+
+/* silde */
+
+.silde {
+    width: 100%;
+}
+
+.silde img {
+    width: 100%;
+}
+
+
+/* bi */
+
+.bi {
+    margin-top: 52px;
+}
+
+.bi p {
+    width: 900px;
+    /* 시안상 가로 길이가 900이다. */
+    margin: 20px auto 35px;
+    /* 중앙 정렬을 하기위하여 해준다. */
+    text-align: center;
+}
+
+.bi-img-text {
+    position: absolute;
+    /* .confix에서 박스가 잡힌다. */
+    width: 900px;
+    left: 160px;
+    top: 200px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.bi-des {
+    display: flex;
+    /* 그림, 텍스트 전체를 가로 정렬한다. */
+}
+
+.bi-des div {
+    display: flex;
+    /* 텍스트를 가로 정렬한다. */
+    width: 50%;
+    height: 150px;
+    align-items: center;
+    /* 교차축 가운데 정렬 */
+    margin-top: 30px;
+    /* background-color: aqua; */
+}
+
+.bi-des div p {
+    width: 70%;
+    text-align: justify;
+    line-height: 1.2em;
+    /* background-color: yellow; */
+}
+
+
+/* raw */
+
+.raw-material {
+    margin-bottom: 35px;
+}
+
+.raw-material p {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.raw-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* 여러줄 정렬 */
+    justify-content: space-between;
+    /* div 박스 간의 공백을 주기 위하여 쓴다. */
+    margin-bottom: 100px;
+}
+
+
+/* 
+    row-box-text div : 하게되면은 div안에 또 div가 있기때문에 둘다 값이 적용이 되어서 값을 넣기 힘들어진다.
+*/
+
+.raw-list .rawbox {
+    width: 49.5%;
+    height: 258px;
+    display: flex;
+    margin-bottom: 12px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.raw-list .raw-box-text {
+    position: relative;
+    width: 55%;
+    padding: 10px;
+}
+
+.raw-list .raw-box-text p {
+    text-align: justify;
+}
+
+.raw-list .raw-box-text .product {
+    position: absolute;
+    /* bottom: 10px; */
+    color: #caa681;
+    font-size: 14px;
+    /* 컨텐츠가 역행을 했을 때만 position을 준다. 하지만 텍스트의 크기에 따라 형태가 변환을 할때는 position을 사용해준다. */
+}
+
+
+/* footer 시작 */
+
+footer {
+    width: 100%;
+    height: 287px;
+}
+
+.footer-menu {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+/* flex-menu-box */
+
+.flex-menu-box {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    /* align-item: center를 주어도 된다. */
+}
+
+
+/* footer-main-menu */
+
+.footer-main-menu {
+    width: 75%;
+    /* flex box의 크기 - 75% */
+}
+
+.footer-main-menu ul {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+.footer-main-menu li:first-child {
+    padding-left: 0;
+}
+
+.footer-main-menu li>a {
+    font-size: 12px;
+}
+
+.footer-main-menu li>a:hover {
+    text-decoration: underline;
+}
+
+
+/* 
+    .footer-main-menu li:nth-child(odd)>a {
+    color: green;
+    홀수 리스트를 바꾸고 싶으면 odd를 적는다.
+*/
+
+.footer-main-menu li:nth-child(even)>a {
+    color: #3f3f3f;
+    /* 짝수 리스트를 바꾸고 싶으면 even 적는다. */
+}
+
+#language {
+    color: #aa8e79;
+    border: none;
+    background-color: transparent; /* 백그라운드 배경색 없앤다. */
+}
+
+
+/* sns */
+
+.sns {
+    /* flex box의 크기 - 15% */
+    width: 15%;
+    /* background-color: aqua; */
+}
+
+.sns ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sns li {
+    width: 25px;
+    height: 25px;
+}
+
+.sns li>a {
+    width: 25px;
+    height: 25px;
+    padding-top: 4px; /* 동그라미안에 정확한 가운데정렬 해주기 위하여 패딩을 올려준다. (텍스트의 수직위치를 맞춰주기위하여 적어주었다) */ 
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 50%; /* 모서리를 둥굴게 표현 */
+    background-color: white;
+}
+
+.sns li>a:hover {
+    color: #fff;
+    background-color: black;
+}
+
+
+/* .flex-infomation-box */
+.flex-infomation-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 170px; /* 수직정렬을 하기 위해서는 height를 줘야한다. */
+}
+
+/* logo */
+
+/* contact-copyright */
+.contact-copyright {
+    width: 55%;
+    /* background-color: red; */
+}
+
+
+.contact-copyright p, 
+.contact-copyright address { 
+    font-size: 12px;
+    line-height: 24px; /* line-height는 자기만의 기준을 두는것이 좋다. */
+}
+
+.contact-copyright address {
+    font-style: normal;
+}
+
+.contact-copyright .tel,
+.contact-copyright .business {
+    color: green;
+}
+
+/* security */
+.security {
+    width: 30%;
+    /* background-color: green; */
+}
+
+.security h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.security p,
+.security .check {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.security .check {
+    margin-top: 10px;
+    color: #9bb86b;
+}
+
+/* bar */
+.bar {
+    position: absolute;
+    left: 785px;
+    width: 1px;
+    height: 170px;
+    background-color: black;
+}
+
+/* footer-bottom */
+
+.footer-bottom {
+    width: 100%;
+    height: 70px;
+    background-color: #3b302a;
+}
+
+.footer-bottom p {
+    display: inline-block;
+    color: #fff;
+    line-height: 70px; /* height값과 같은값으로 : 수직정렬 */
+    font-weight: 600;
+}
+
+.footer-bottom h2 {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 150px;
+    line-height: 70px; /* height값과 같은값으로 : 수직정렬 */
+}
+
+/* fixed-menu */
+.fixed-menu {
+    position: fixed;
+    right: 1%;
+    bottom: 20px;
+}
+
+.fixed-menu li a {
+    width: 90px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.fixed-menu li:first-child a {
+    color: white;
+    margin-bottom: 10px;
+    background-color: #709d0e;
+}
+
+.fixed-menu li:first-child a:hover,
+.fixed-menu li:nth-child(2) a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.fixed-menu li:nth-child(2) a {
+    color: #b98958;
+    border: 1px solid #b98958;
+    background-color: #fff;
+}
+
+.flex-fixed ul {
+    display: flex;
+}

@@ -147,7 +147,7 @@ header div.header-mobile div.header-flex-box div.hamburger input[id="menu"]:chec
 
 header div.header-mobile div.mobilemenu {
   position: absolute;
-  z-index: 999;
+  z-index: 1;
   width: 100%;
   background-color: #ffffff;
 }
@@ -561,7 +561,7 @@ footer div.wrapper div.copyright div.contact p:first-child {
 
 @media screen and (min-width: 768px) {
   footer {
-    padding: 0 50px;
+    padding: 0 200px;
   }
 }
 

@@ -10,7 +10,7 @@ var lastPage = $("section").length;
 
 $html.animate({scrollTop:0},10);
 
-$(window).on("wheel touchmove", function(e){
+$(window).on("wheel touchscoll", function(e){
 	
 	if($html.is(":animated")) return;
  

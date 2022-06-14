@@ -8,7 +8,7 @@ var $html = $("html");
 var page = 1;
 var lastPage = $("section").length;
 
-$html.animate({scrollTop:0},10);
+$html.stop().animate({scrollTop:0},10);
 
 $(window).on("wheel scroll touchmove", function(e){
  

@@ -88,7 +88,9 @@ section {
     }
 
     section.roy2 {
+        padding: 0;
         padding-bottom: 92px;
+
         h2 {
             text-align: center;
             margin: 50px 0;
@@ -107,7 +109,7 @@ section {
             th,
             td {
                 border: 1px solid #c1b7aa;
-                padding: 7px;
+                padding: 0.54em;
                 text-align: center;
 
                 .br_list {
@@ -124,7 +126,8 @@ section {
             tr{
                 .br_list{
                     div.list_align {
-                        width: 60%;
+                        // width: 60%;
+                        font-size: 0.85em;
                         margin: 0 auto;
                         text-align: left;
                     }

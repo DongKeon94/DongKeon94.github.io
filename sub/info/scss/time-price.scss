@@ -90,7 +90,7 @@ section {
     section.roy2 {
         padding: 0;
         padding-bottom: 92px;
-
+        width: 100%;
         h2 {
             text-align: center;
             margin: 50px 0;
@@ -99,7 +99,7 @@ section {
         
         #roy2-price {
             width: 100%;
-            word-break: keep-all;
+            // word-break: keep-all;
             @include responsive(tablet-size) {
                 padding: 30px;
             }

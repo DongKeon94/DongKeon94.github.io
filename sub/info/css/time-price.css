@@ -526,6 +526,7 @@ section section.roy1 ul li:last-child p {
 section section.roy2 {
   padding: 0;
   padding-bottom: 92px;
+  width: 100%;
 }
 
 section section.roy2 h2 {
@@ -536,7 +537,6 @@ section section.roy2 h2 {
 
 section section.roy2 #roy2-price {
   width: 100%;
-  word-break: keep-all;
   border-collapse: collapse;
 }
 

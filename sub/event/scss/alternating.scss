@@ -175,11 +175,11 @@ section.event {
                 justify-content: center;
 
                 div {
-                    width: 48%;
+                    width: 49%;
                     padding: 3px;
                     p {
                         margin-bottom: 18px;
-                        font-size: 16px;
+                        font-size: 0.75em;
                         @include responsive(tablet-size) {
                             font-size: 13px;
                         }

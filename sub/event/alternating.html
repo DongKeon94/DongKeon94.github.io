@@ -9,7 +9,7 @@
     <meta name="description" property="og:description" content="수라간 시식공감">
     <meta name="type" property="og:type" content="article">
     <meta name="Author" content="jihee">
-    <link rel="stylesheet" href="./css/alternating.css">
+    <link rel="stylesheet" href="./css/alternating.css" type="text/css">
     <link rel="shortcut icon" href="./../../images/favicon.ico" type="image/x-icon">
     <title>수문장 교대의식</title>
 </head>
@@ -18,7 +18,7 @@
         <div class="header-mobile">
             <div class="header-flex-box">
                 <h1 class="logo">
-                    <img src="./../../images/logo_wt.svg" alt="main-logo">
+                    <a href="./../../index.html"><img src="./../../images/logo_wt.svg" alt="main-logo"></a>
                 </h1> <!-- logo -->
                 <div class="hamburger">
                     <input type="checkbox" id="menu">
@@ -78,23 +78,25 @@
                         </ul> <!-- small-menu -->
                     </li> <!-- mobilemenu-notice -->
                     
-                    <div class="login-flex-box">
-                        <li class="mobilemenu-login mobilemenu">
-                            <a href="./../mypage/login.html">로그인</a>
-                        </li> <!-- mobilemenu-login -->
-                        
-                        <li class="mobilemenu-mypage mobilemenu">
-                            <a href="./../mypage/mypage.html">내 정보</a>
-                        </li> <!-- mobilemenu-mypage -->
-                        
-                        <li class="mobilemenu-reservation mobilemenu">
-                            <a href="./../mypage/booking.html">예약·예매</a>
-                        </li> <!-- mobilemenu-reservation -->
-                    </div> <!-- mobile-flex-box -->
+                    <li class="mobilemenu-box">
+                        <ul class="login-flex-box">
+                            <li class="mobilemenu-login mobilemenu">
+                                <a href="./../mypage/login.html">로그인</a>
+                            </li> <!-- mobilemenu-login -->
+                            
+                            <li class="mobilemenu-mypage mobilemenu">
+                                <a href="./../mypage/mypage.html">내 정보</a>
+                            </li> <!-- mobilemenu-mypage -->
+                            
+                            <li class="mobilemenu-reservation mobilemenu">
+                                <a href="./../mypage/booking.html">예약·예매</a>
+                            </li> <!-- mobilemenu-reservation -->
+                        </ul> <!-- login-flex-box -->
+                    </li> <!-- mobilemenu-box -->
                 </ul> <!-- mobile-gnb -->
             </div> <!-- mobilemenu -->
         </div> <!-- header-mobile -->
-        <script src="./js/mobile-menu.js" type="text/javascript"></script>
+        <script src="./js/mobile-menu.js"></script>
         
         <ul class="topmenu"> <!-- 현재 페이지 li.submenu 클래스에 selected 삽입 -->
             <li class="submenu selected">
@@ -116,7 +118,7 @@
         <aside>
             <div class="sidemenu">
                 <h1 class="header-logo">
-                    <img src="./../../images/logo.svg" alt="main-logo">
+                    <a href="./../../index.html"><img src="./../../images/logo.svg" alt="main-logo"></a>
                 </h1>
                 <ul class="gnb"> <!-- 현재 페이지 li.menu 클래스에 selected 삽입 -->
                     <li class="sidemenu-home menu">
@@ -181,11 +183,11 @@
         </aside>
 
         <section class="event">
-            <h1>수문장 교대의식</h1>
+            <h2>수문장 교대의식</h2>
             <div class="img-text">
                 <img src="./images/alternating-main.png" alt="수문장 교대의식">
                 <div class="main-text">
-                    <h2>수문장 교대의식</h2>
+                    <h3>수문장 교대의식</h3>
                     <p>“ 궁성의 문마다 수문장을 세우고,<br>
                         수문장패를 만들어 날마다 낙점하여 수문하게 하라”
                     </p>

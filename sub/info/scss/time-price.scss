@@ -88,9 +88,7 @@ section {
     }
 
     section.roy2 {
-        padding: 0;
         padding-bottom: 92px;
-        width: 100%;
         h2 {
             text-align: center;
             margin: 50px 0;
@@ -99,7 +97,6 @@ section {
         
         #roy2-price {
             width: 100%;
-            // word-break: keep-all;
             @include responsive(tablet-size) {
                 padding: 30px;
             }
@@ -109,7 +106,7 @@ section {
             th,
             td {
                 border: 1px solid #c1b7aa;
-                padding: 0.54em;
+                padding: 7px;
                 text-align: center;
 
                 .br_list {
@@ -124,16 +121,15 @@ section {
             border-collapse: collapse;
             
             tr{
-                .br_list{
-                    div.list_align {
-                        // width: 60%;
-                        font-size: 0.85em;
+                .br-list{
+                    div.list-align {
+                        width: 60%;
                         margin: 0 auto;
                         text-align: left;
                     }
                 }
 
-                .last_list a{
+                .last-list a{
                    text-decoration: underline;
                 }
             }

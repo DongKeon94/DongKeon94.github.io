@@ -210,19 +210,19 @@ header div.header-mobile div.mobilemenu ul.mobile-gnb > li.mobilemenu ul.small-m
   color: #231f20;
   font-weight: 500;
 }
-header div.header-mobile div.mobilemenu ul.mobile-gnb div.login-flex-box {
+header div.header-mobile div.mobilemenu ul.mobile-gnb li.mobilemenu-box ul.login-flex-box {
   margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-header div.header-mobile div.mobilemenu ul.mobile-gnb div.login-flex-box li.mobilemenu {
+header div.header-mobile div.mobilemenu ul.mobile-gnb li.mobilemenu-box ul.login-flex-box li.mobilemenu {
   width: 33.3333333333%;
   padding: 10px;
   border: 1px solid #dddddd;
   text-align: center;
 }
-header div.header-mobile div.mobilemenu ul.mobile-gnb div.login-flex-box li.mobilemenu:first-child, header div.header-mobile div.mobilemenu ul.mobile-gnb div.login-flex-box li.mobilemenu:nth-child(2) {
+header div.header-mobile div.mobilemenu ul.mobile-gnb li.mobilemenu-box ul.login-flex-box li.mobilemenu:first-child, header div.header-mobile div.mobilemenu ul.mobile-gnb li.mobilemenu-box ul.login-flex-box li.mobilemenu:nth-child(2) {
   border-right: none;
 }
 header ul.topmenu {
@@ -390,7 +390,7 @@ section .map-all .map iframe {
     height: 578px;
   }
 }
-section .map-all .map button {
+section .map-all .map a {
   float: right;
   border: 1px solid black;
   padding: 7px 20px;
@@ -462,6 +462,11 @@ footer div.wrapper div.copyright div.contact p:first-child {
 }
 @media screen and (min-width: 768px) {
   footer {
+    padding: 0 50px;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1520px) {
+  footer {
     padding: 0 200px;
   }
 }
@@ -499,4 +504,4 @@ footer div.wrapper div.copyright div.contact p:first-child {
   footer div.wrapper div.copyright div.contact p:first-child {
     display: none;
   }
-}/*# sourceMappingURL=road.css.map */
+}

@@ -1,0 +1,6384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19-pr16">
+
+    
+  <!-- Spot Style - spot kitchen -->
+
+
+  <style name="Iconspotkitchen"
+         url="%FIRSTXML%/spots/kitchen_op_user_defaultpoint0.png"
+         visible="false"
+         edge="center"
+         onloaded="showPermanentTooltip(std);"
+         onover="onoverIconspotkitchen"
+         onout="onoutIconspotkitchen"
+
+
+         />
+  <action name="onoverIconspotkitchen">
+tween(scale, 1.2);
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconspotkitchen">
+    tween(scale, 1);
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+  <!-- unsupported kind of display : PointMap -->
+
+
+    
+  <!-- Spot Style - spot living -->
+
+
+  <style name="Iconspotliving"
+         url="%FIRSTXML%/spots/living_op_user_defaultpoint1.png"
+         visible="false"
+         edge="center"
+         onloaded="showPermanentTooltip(std);"
+         onover="onoverIconspotliving"
+         onout="onoutIconspotliving"
+
+
+         />
+  <action name="onoverIconspotliving">
+tween(scale, 1.2);
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconspotliving">
+    tween(scale, 1);
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - r1 -->
+
+
+  <style name="Iconr1"
+         url="%FIRSTXML%/spots/r1_user_defaultpoint5.png"
+         visible="false"
+         edge="center"
+         onloaded="showPermanentTooltip(std);"
+         onover="onoverIconr1"
+         onout="onoutIconr1"
+
+
+         />
+  <action name="onoverIconr1">
+tween(scale, 1.2);
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconr1">
+    tween(scale, 1);
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - r2 -->
+
+
+  <style name="Iconr2"
+         url="%FIRSTXML%/spots/r2_user_defaultpoint6.png"
+         visible="false"
+         edge="center"
+         onloaded="showPermanentTooltip(std);"
+         onover="onoverIconr2"
+         onout="onoutIconr2"
+
+
+         />
+  <action name="onoverIconr2">
+tween(scale, 1.2);
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconr2">
+    tween(scale, 1);
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - r3 -->
+
+
+  <style name="Iconr3"
+         url="%FIRSTXML%/spots/r3_user_defaultpoint7.png"
+         visible="false"
+         edge="center"
+         onloaded="showPermanentTooltip(std);"
+         onover="onoverIconr3"
+         onout="onoutIconr3"
+
+
+         />
+  <action name="onoverIconr3">
+tween(scale, 1.2);
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconr3">
+    tween(scale, 1);
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - DRESS -->
+
+
+  <style name="IconDRESS"
+         url="%FIRSTXML%/spots/dress_user_defaultpoint8.png"
+         visible="false"
+         edge="center"
+         onloaded="showPermanentTooltip(std);"
+         onover="onoverIconDRESS"
+         onout="onoutIconDRESS"
+
+
+         />
+  <action name="onoverIconDRESS">
+tween(scale, 1.2);
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconDRESS">
+    tween(scale, 1);
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - bath1 -->
+
+
+  <style name="Iconbath1"
+         url="%FIRSTXML%/spots/_498921_user_defaultpoint9.png"
+         visible="false"
+         edge="center"
+         onloaded="showPermanentTooltip(std);"
+         onover="onoverIconbath1"
+         onout="onoutIconbath1"
+
+
+         />
+  <action name="onoverIconbath1">
+tween(scale, 1.2);
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconbath1">
+    tween(scale, 1);
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - bath2 -->
+
+
+  <style name="Iconbath2"
+         url="%FIRSTXML%/spots/_498922_user_defaultpoint10.png"
+         visible="false"
+         edge="center"
+         onloaded="showPermanentTooltip(std);"
+         onover="onoverIconbath2"
+         onout="onoutIconbath2"
+
+
+         />
+  <action name="onoverIconbath2">
+tween(scale, 1.2);
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconbath2">
+    tween(scale, 1);
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - enterance -->
+
+
+  <style name="Iconenterance"
+         url="%FIRSTXML%/spots/enterance_user_defaultpoint11.png"
+         visible="false"
+         edge="center"
+         onloaded="showPermanentTooltip(std);"
+         onover="onoverIconenterance"
+         onout="onoutIconenterance"
+
+
+         />
+  <action name="onoverIconenterance">
+tween(scale, 1.2);
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconenterance">
+    tween(scale, 1);
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 1_1 -->
+
+
+  <style name="Icon1-1"
+         url="%FIRSTXML%/spots/_1-1_user_defaultpoint24.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon1-1"
+         onover="onoverIcon1-1"
+         onout="onoutIcon1-1"
+
+
+         />
+  <action name="onhoverIcon1-1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon1-1">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon1-1">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 16 -->
+
+
+  <style name="Icon16"
+         url="%FIRSTXML%/spots/_16_user_defaultpoint25.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon16"
+         onover="onoverIcon16"
+         onout="onoutIcon16"
+
+
+         />
+  <action name="onhoverIcon16">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon16">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon16">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 15 -->
+
+
+  <style name="Icon15"
+         url="%FIRSTXML%/spots/_15_user_defaultpoint26.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon15"
+         onover="onoverIcon15"
+         onout="onoutIcon15"
+
+
+         />
+  <action name="onhoverIcon15">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon15">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon15">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 14_2 -->
+
+
+  <style name="Icon14-2"
+         url="%FIRSTXML%/spots/_14-2_user_defaultpoint27.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon14-2"
+         onover="onoverIcon14-2"
+         onout="onoutIcon14-2"
+
+
+         />
+  <action name="onhoverIcon14-2">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon14-2">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon14-2">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 14_1 -->
+
+
+  <style name="Icon14-1"
+         url="%FIRSTXML%/spots/_14-1_user_defaultpoint28.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon14-1"
+         onover="onoverIcon14-1"
+         onout="onoutIcon14-1"
+
+
+         />
+  <action name="onhoverIcon14-1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon14-1">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon14-1">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 13 -->
+
+
+  <style name="Icon13"
+         url="%FIRSTXML%/spots/_13_user_defaultpoint29.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon13"
+         onover="onoverIcon13"
+         onout="onoutIcon13"
+
+
+         />
+  <action name="onhoverIcon13">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon13">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon13">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 12 -->
+
+
+  <style name="Icon12"
+         url="%FIRSTXML%/spots/_12_user_defaultpoint30.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon12"
+         onover="onoverIcon12"
+         onout="onoutIcon12"
+
+
+         />
+  <action name="onhoverIcon12">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon12">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon12">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 11_2 -->
+
+
+  <style name="Icon11-2"
+         url="%FIRSTXML%/spots/_11-2_user_defaultpoint31.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon11-2"
+         onover="onoverIcon11-2"
+         onout="onoutIcon11-2"
+
+
+         />
+  <action name="onhoverIcon11-2">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon11-2">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon11-2">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 11_1 -->
+
+
+  <style name="Icon11-1"
+         url="%FIRSTXML%/spots/_11-1_user_defaultpoint32.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon11-1"
+         onover="onoverIcon11-1"
+         onout="onoutIcon11-1"
+
+
+         />
+  <action name="onhoverIcon11-1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon11-1">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon11-1">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 10 -->
+
+
+  <style name="Icon10"
+         url="%FIRSTXML%/spots/_10_user_defaultpoint33.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon10"
+         onover="onoverIcon10"
+         onout="onoutIcon10"
+
+
+         />
+  <action name="onhoverIcon10">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon10">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon10">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 9_2 -->
+
+
+  <style name="Icon9-2"
+         url="%FIRSTXML%/spots/_9-2_user_defaultpoint34.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon9-2"
+         onover="onoverIcon9-2"
+         onout="onoutIcon9-2"
+
+
+         />
+  <action name="onhoverIcon9-2">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon9-2">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon9-2">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 9_1 -->
+
+
+  <style name="Icon9-1"
+         url="%FIRSTXML%/spots/_9-1_user_defaultpoint36.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon9-1"
+         onover="onoverIcon9-1"
+         onout="onoutIcon9-1"
+
+
+         />
+  <action name="onhoverIcon9-1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon9-1">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon9-1">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 8_2 -->
+
+
+  <style name="Icon8-2"
+         url="%FIRSTXML%/spots/_8-2_user_defaultpoint37.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon8-2"
+         onover="onoverIcon8-2"
+         onout="onoutIcon8-2"
+
+
+         />
+  <action name="onhoverIcon8-2">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon8-2">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon8-2">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 8_1 -->
+
+
+  <style name="Icon8-1"
+         url="%FIRSTXML%/spots/_8-1_user_defaultpoint38.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon8-1"
+         onover="onoverIcon8-1"
+         onout="onoutIcon8-1"
+
+
+         />
+  <action name="onhoverIcon8-1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon8-1">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon8-1">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 7 -->
+
+
+  <style name="Icon7"
+         url="%FIRSTXML%/spots/_7_user_defaultpoint39.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon7"
+         onover="onoverIcon7"
+         onout="onoutIcon7"
+
+
+         />
+  <action name="onhoverIcon7">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon7">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon7">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 6 -->
+
+
+  <style name="Icon6"
+         url="%FIRSTXML%/spots/_6_user_defaultpoint40.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon6"
+         onover="onoverIcon6"
+         onout="onoutIcon6"
+
+
+         />
+  <action name="onhoverIcon6">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon6">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon6">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 5 -->
+
+
+  <style name="Icon5"
+         url="%FIRSTXML%/spots/_5_user_defaultpoint41.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon5"
+         onover="onoverIcon5"
+         onout="onoutIcon5"
+
+
+         />
+  <action name="onhoverIcon5">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon5">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon5">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 4 -->
+
+
+  <style name="Icon4"
+         url="%FIRSTXML%/spots/_4_user_defaultpoint42.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon4"
+         onover="onoverIcon4"
+         onout="onoutIcon4"
+
+
+         />
+  <action name="onhoverIcon4">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon4">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon4">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 3 -->
+
+
+  <style name="Icon3"
+         url="%FIRSTXML%/spots/_3_user_defaultpoint43.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon3"
+         onover="onoverIcon3"
+         onout="onoutIcon3"
+
+
+         />
+  <action name="onhoverIcon3">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon3">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon3">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 2_2 -->
+
+
+  <style name="Icon2-2"
+         url="%FIRSTXML%/spots/_2-2_user_defaultpoint44.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon2-2"
+         onover="onoverIcon2-2"
+         onout="onoutIcon2-2"
+
+
+         />
+  <action name="onhoverIcon2-2">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon2-2">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon2-2">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 2_1 -->
+
+
+  <style name="Icon2-1"
+         url="%FIRSTXML%/spots/_2-1_user_defaultpoint45.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon2-1"
+         onover="onoverIcon2-1"
+         onout="onoutIcon2-1"
+
+
+         />
+  <action name="onhoverIcon2-1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon2-1">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon2-1">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 1_3 -->
+
+
+  <style name="Icon1-3"
+         url="%FIRSTXML%/spots/_1-3_user_defaultpoint46.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon1-3"
+         onover="onoverIcon1-3"
+         onout="onoutIcon1-3"
+
+
+         />
+  <action name="onhoverIcon1-3">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon1-3">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon1-3">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 1_2 -->
+
+
+  <style name="Icon1-2"
+         url="%FIRSTXML%/spots/_1-2_user_defaultpoint47.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon1-2"
+         onover="onoverIcon1-2"
+         onout="onoutIcon1-2"
+
+
+         />
+  <action name="onhoverIcon1-2">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon1-2">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon1-2">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 9_3 -->
+
+
+  <style name="Icon9-3"
+         url="%FIRSTXML%/spots/_9-3_user_defaultpoint48.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIcon9-3"
+         onover="onoverIcon9-3"
+         onout="onoutIcon9-3"
+
+
+         />
+  <action name="onhoverIcon9-3">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIcon9-3">
+
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIcon9-3">
+    hideTooltip();
+
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+<!-- ********** -->
+<!-- iControl Bar2 -->
+<!-- id : controlBar_i2 -->
+<!-- ********** -->
+
+  <krpano controlBar_i2barbuilt="false" controlBar_i2backgroundwidthwhenclosed="0" controlBar_i2backgroundwidthwhenopened="0" controlBar_i2IsOpened="false" />
+  <events name="controlBar_i2events" 
+    onxmlcomplete="controlBar_i2buildMenuBar();" 
+
+
+    keep="true" />
+
+
+
+  <action name="controlBar_i2buildMenuBar">
+    ifnot (controlBar_i2barbuilt, controlBar_i2buildMenu(); set(controlBar_i2barbuilt, true););
+  </action>
+
+  <style name="controlBar_i2_btn_style"
+         keep="true"
+         edge="left"
+         align="left"
+         x="0" y="0"
+         width="30" height="30"
+         crop="0|0|60|60"
+         onovercrop="0|60|60|60"
+         ondowncrop="0|120|60|60"
+         />
+  <style name="controlBar_i2_btn_style_off"
+         keep="true"
+         edge="left"
+         align="left"
+         x="0" y="0"
+         width="30" height="30"
+         />
+
+  <layer name="controlBar_i2_menu_bg"
+         keep="true"
+         type="container"
+         zorder="1"
+         width="30"
+         height="30"
+         align="bottomleft"
+         x="266" y="20"
+         maskchildren="true"
+         rotate="0"
+         visible="false"
+         >
+
+
+
+    <layer name="controlBar_i2btn_sound_on"
+            url="%FIRSTXML%/graphics/icontrolbar2/btn_start_sound.png"
+            onclick="playTourSounds();
+"
+            style="controlBar_i2_btn_style"
+            visible="false"
+            />
+    <layer name="controlBar_i2btn_sound_off"
+            url="%FIRSTXML%/graphics/icontrolbar2/btn_stop_sound.png"
+            onclick="stopTourSounds();
+"
+            style="controlBar_i2_btn_style"
+            visible="false"
+            />
+
+
+
+
+
+
+
+
+ </layer>
+
+
+
+
+
+
+  <action name="controlBar_i2hideMenuControls">
+    set(controlBar_i2IsOpened, false);
+
+
+
+
+
+	controlBar_i2updateSoundButtons();
+
+
+
+
+
+	set(layer[controlBar_i2_menu_bg].width, get(controlBar_i2backgroundwidthwhenclosed));
+
+	set(layer[controlBar_i2_menu_bg].visible, true);
+  </action>
+  <action name="controlBar_i2showMenuControls">
+    set(controlBar_i2IsOpened, true);
+	set(layer[controlBar_i2_menu_bg].visible, true);
+
+
+
+
+
+	controlBar_i2updateSoundButtons();
+
+
+
+
+    set(layer[controlBar_i2_menu_bg].width, get(controlBar_i2backgroundwidthwhenopened));
+  </action>
+
+
+
+
+
+  <events name="controlBar_i2playstopsoundsevent" playtoursoundsevent="controlBar_i2updateSoundButtons();" stoptoursoundsevent="controlBar_i2updateSoundButtons();" keep="true"/>
+	<action name="controlBar_i2HideSoundButtons">
+		set(layer[controlBar_i2btn_sound_off].visible, false);
+		set(layer[controlBar_i2btn_sound_on].visible , false);
+	</action>
+	<action name="controlBar_i2ShowSoundButtons">
+		if (tour_soundson == false,
+			set(layer[controlBar_i2btn_sound_off].visible, false);
+			set(layer[controlBar_i2btn_sound_on].visible , true);
+		,
+			set(layer[controlBar_i2btn_sound_off].visible, true);
+			set(layer[controlBar_i2btn_sound_on].visible , false);
+		);
+	</action>
+	<action name="controlBar_i2updateSoundButtons">
+		if (controlBar_i2IsOpened,
+			controlBar_i2ShowSoundButtons();
+		,
+			controlBar_i2HideSoundButtons();
+		);
+	</action>
+
+
+  <action name="controlBar_i2buildMenu">
+    
+    set(controlBar_i2button_pos, 0);
+
+
+
+
+
+
+      set(layer[controlBar_i2btn_sound_on].x , get(controlBar_i2button_pos));
+      set(layer[controlBar_i2btn_sound_off].x, get(controlBar_i2button_pos));
+      inc(controlBar_i2button_pos, 35);
+
+
+
+
+
+
+
+
+      dec(controlBar_i2button_pos, 5);
+
+      set(controlBar_i2backgroundwidthwhenopened, get(controlBar_i2button_pos));
+
+
+    
+      set(layer[controlBar_i2_menu_bg].width, get(controlBar_i2backgroundwidthwhenopened));
+	
+	
+	
+    </action>
+
+	<events name="controlBar_i2StartTourEvents" onTourStart="controlBar_i2CallOnStartTour();" keep="true" />
+	
+	<action name="controlBar_i2CallOnStartTour">
+		
+		controlBar_i2showMenuControls();
+	</action>
+
+
+
+
+<!-- ********** -->
+<!-- Header -->
+<!-- id : header -->
+<!-- ********** -->
+
+  <layer name="header"
+         keep="true"
+         url="%FIRSTXML%/graphics/header/header.png" 
+         bgalpha="0.59999999999999998"
+         align="top"
+         x="0"
+         y="0"
+         zorder="2"
+         enabled="false"
+         capture="true"
+         visible="false"
+         height="36"
+         width="100%"
+         accuracy="1"
+         />
+
+  <events name="headerevents"
+    onTourStart="showheader();"
+    keep="true" />
+
+  <action name="showheader">
+    set(layer[header].visible, true);
+  </action>
+
+<!-- ********** -->
+<!-- plan see -->
+<!-- id : togglebutton1 -->
+<!-- ********** -->
+
+
+
+  <layer name="togglebutton1"
+         keep="true"
+         url="%FIRSTXML%/graphics/togglebutton1/plan_see_50.png" 
+         align="bottomright"
+         x="70"
+         y="20"
+         zorder="3"
+         state="true"
+         onclick="togglebutton1OnClick"
+         onout=""
+         visible="false"
+         />
+
+  <action name="togglebutton1OnClick">
+    if (state,
+      set(state, false);showFloorplan();
+
+
+      set(url,%FIRSTXML%/graphics/togglebutton1/plan_nosee.png);
+     ,
+      set(state, true);hideFloorplan();
+
+
+      set(url,%FIRSTXML%/graphics/togglebutton1/plan_see_50.png);
+    );
+  </action>
+
+  <events name="togglebutton1events" 
+    onTourStart="showtogglebutton1();"
+    keep="true" />
+  <action name="hidetogglebutton1">set(layer[togglebutton1].visible, false);</action>
+  <action name="showtogglebutton1">set(layer[togglebutton1].visible, true);</action>
+
+
+<!-- ********** -->
+<!-- plan see1 -->
+<!-- id : togglebutton2 -->
+<!-- ********** -->
+
+
+
+  <layer name="togglebutton2"
+         keep="true"
+         url="%FIRSTXML%/graphics/togglebutton2/plan_see_50.png" 
+         align="bottomright"
+         x="70"
+         y="20"
+         zorder="4"
+         state="true"
+         onclick="togglebutton2OnClick"
+         onout=""
+         visible="false"
+         />
+
+  <action name="togglebutton2OnClick">
+    if (state,
+      set(state, false);showFloorplan();
+
+
+      set(url,%FIRSTXML%/graphics/togglebutton2/plan_nosee.png);
+     ,
+      set(state, true);hideFloorplan();
+
+
+      set(url,%FIRSTXML%/graphics/togglebutton2/plan_see_50.png);
+    );
+  </action>
+
+  <events name="togglebutton2events" 
+    onTourStart="showtogglebutton2();"
+    keep="true" />
+  <action name="hidetogglebutton2">set(layer[togglebutton2].visible, false);</action>
+  <action name="showtogglebutton2">set(layer[togglebutton2].visible, true);</action>
+
+
+<!-- ********** -->
+<!-- Floor plan -->
+<!-- id : floorPlan -->
+<!-- ********** -->
+
+	<ptplugin name="floorPlan" engine="KolorFloorPlan">
+		<settings>
+			<option name="background_color" value="68f241" type="string" />
+			<option name="background_lighter_color" value="89ff68" type="string" />
+			<option name="background_darker_color" value="57ca36" type="string" />
+			<option name="background_alpha" value="0" type="float" />
+			<option name="text_color" value="251100" type="string" />
+
+			<option name="resize" value="true" type="bool" />
+			<option name="fp_selector" value="one" type="string" />
+			<option name="fp_selector_label" value="floorPlanmenu_label" type="string" />
+			<option name="display_title" value="false" type="bool" />
+			<option name="title_font" value="Verdana" type="string" />
+			<option name="title_size" value="14" type="int" />
+			<option name="title_weight" value="normal" type="string" />
+			<option name="title_decoration" value="normal" type="string" />
+			<option name="title_color" value="000000" type="string" />
+			<option name="display_orientation" value="false" type="bool" />
+			<option name="display_radar" value="true" type="bool" />
+			<option name="radar_radius" value="37" type="int" />
+			<option name="radar_line_width" value="1" type="int" />
+			<option name="radar_line_color" value="ffffff" type="string" />
+			<option name="radar_line_alpha" value="0.59999999999999998" type="float" />
+			<option name="radar_fill_color" value="57bcff" type="string" />
+			<option name="radar_fill_alpha" value="0.20000000000000001" type="float" />
+			<option name="selected_effect" value="pulsate" type="string" />
+			<option name="close_on_click" value="false" type="bool" />
+			<option name="position" value="bottomright" type="string" />
+			<option name="zorder" value="5" type="int" />
+			<option name="use_i18n" value="true" type="bool" />
+		</settings>
+		
+		<floorplanItems selectedItem="" selectedSpot="" selectedSpotScene="" selectedSpotHeading="" selectedSpotFov="">
+			
+			
+							<floorplanItem 
+								name="fpitempanogroup2290" 
+								width="300" 
+								height="315" 
+								groupName="panogroup2290" 
+								url="floorplan/_74a_panogroup2290.png" 
+								title="panogroup2290_floor_title"
+								heading="56">
+										<spot name="spotmap2335" posX="0.654275" posY="0.59010601" heading="90.000000000000682" desc="spotmap2335_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano2291" jsClick="spotmap2335ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap2336" posX="0.654275" posY="0.371024996" heading="-1.70530256582424e-12" desc="spotmap2336_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano2295" jsClick="spotmap2336ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap2337" posX="0.457248986" posY="0.759716988" heading="89.799999999999727" desc="spotmap2337_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano2299" jsClick="spotmap2337ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap2338" posX="0.442378998" posY="0.279152006" heading="2.0179413695586849e-12" desc="spotmap2338_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano2309" jsClick="spotmap2338ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap2340" posX="0.368030012" posY="0.40636" heading="-89.800000000001049" desc="spotmap2340_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano2326" jsClick="spotmap2340ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap2341" posX="0.375465006" posY="0.583038986" heading="1.2221335055073719e-12" desc="spotmap2341_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano2322" jsClick="spotmap2341ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap2342" posX="0.271375" posY="0.674911976" heading="-1.0231815394945441e-12" desc="spotmap2342_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano2303" jsClick="spotmap2342ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap2343" posX="0.144980997" posY="0.254417002" heading="-0.39999999999901092" desc="spotmap2343_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano2306" jsClick="spotmap2343ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap2344" posX="0.297398001" posY="0.155477002" heading="-1.4210854715202001e-13" desc="spotmap2344_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano2317" jsClick="spotmap2344ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+							</floorplanItem>
+							<floorplanItem 
+								name="fpitempanogroup168" 
+								width="300" 
+								height="315" 
+								groupName="panogroup168" 
+								url="floorplan/_74a_panogroup168.png" 
+								title="panogroup168_floor_title"
+								heading="56">
+										<spot name="spotmap1472" posX="0.639405012" posY="0.360424012" heading="-1.648459146963432e-12" desc="spotmap1472_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano15" jsClick="spotmap1472ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap1473" posX="0.446096987" posY="0.756183982" heading="90.199999999999932" desc="spotmap1473_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano43" jsClick="spotmap1473ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap1474" posX="0.449813992" posY="0.268550992" heading="3.1263880373444408e-13" desc="spotmap1474_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano340" jsClick="spotmap1474ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap1482" posX="0.360594988" posY="0.40636" heading="-90.200000000002291" desc="spotmap1482_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano342" jsClick="spotmap1482ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap1483" posX="0.3829" posY="0.586571991" heading="-0.2000000000024329" desc="spotmap1483_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano337" jsClick="spotmap1483ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap1484" posX="0.278809994" posY="0.667845011" heading="-0.1999999999991644" desc="spotmap1484_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano338" jsClick="spotmap1484ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap1485" posX="0.148699" posY="0.247350007" heading="-0.20000000000302981" desc="spotmap1485_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano339" jsClick="spotmap1485ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap2288" posX="0.293680012" posY="0.148410007" heading="2.7569058147491891e-12" desc="spotmap2288_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano2077" jsClick="spotmap2288ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap3470" posX="0.654275" posY="0.597172976" heading="89.799999999999272" desc="spotmap3470_tooltip" descType="label" groupName="" isScene="true" planar="false" scene="pano10" jsClick="spotmap3470ActionSpotFloorPlan">
+											<icon url="spots/p_user_defaultmap0_user_defaultmap0.png" iconWidth="20" iconHeight="20" iconAnchor="center" />
+										</spot>
+							</floorplanItem>
+		</floorplanItems>
+	</ptplugin>
+	
+	<action name="kolorFloorplanJsReady_floorPlan">
+		set(ptplugin[floorPlan].jsready, true);
+		
+		ifnot(ptplugin[floorPlan].floorplanItems.selectedSpot == "",
+			set(ptplugin[floorPlan].floorplanItems.selectedSpotFov, get(view.hfov));
+			js(invokePluginFunction(floorPlan, setKolorFloorPlanSelectedSpotOptions, get(xml.scene), get(view.hlookat), get(view.hfov)));
+		);
+	</action>
+	
+	
+	
+					<!-- floorplan panogroup2290 spots counter : 9 -->
+						<action name="spotmap2335ActionSpotFloorPlan">
+          mainloadscene(pano2291);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap2336ActionSpotFloorPlan">
+          mainloadscene(pano2295);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap2337ActionSpotFloorPlan">
+          mainloadscene(pano2299);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap2338ActionSpotFloorPlan">
+          mainloadscene(pano2309);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap2340ActionSpotFloorPlan">
+          mainloadscene(pano2326);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap2341ActionSpotFloorPlan">
+          mainloadscene(pano2322);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap2342ActionSpotFloorPlan">
+          mainloadscene(pano2303);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap2343ActionSpotFloorPlan">
+          mainloadscene(pano2306);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap2344ActionSpotFloorPlan">
+          mainloadscene(pano2317);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+					<!-- floorplan panogroup168 spots counter : 9 -->
+						<action name="spotmap1472ActionSpotFloorPlan">
+          mainloadscene(pano15);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap1473ActionSpotFloorPlan">
+          mainloadscene(pano43);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap1474ActionSpotFloorPlan">
+          mainloadscene(pano340);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap1482ActionSpotFloorPlan">
+          mainloadscene(pano342);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap1483ActionSpotFloorPlan">
+          mainloadscene(pano337);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap1484ActionSpotFloorPlan">
+          mainloadscene(pano338);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap1485ActionSpotFloorPlan">
+          mainloadscene(pano339);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap2288ActionSpotFloorPlan">
+          mainloadscene(pano2077);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap3470ActionSpotFloorPlan">
+          mainloadscene(pano10);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+	
+	
+	<events name="floorPlanEvents" 
+	onxmlcomplete="ifnot(floorPlanFloorPlanLoaded,set(tour_displayfloorplan,false););floorPlanActivateDefaultSpot();" 
+	onviewchanged="floorPlanOnViewChange();" 
+	onhidetourfloorplan="floorPlanCloseTourFloorPlan();" 
+	onshowtourfloorplan="if(tour_displayfloorplan,floorPlanOpenTourFloorPlan(););" 
+	onTourStart=""
+	changetourlanguage="floorPlanChangeLanguage();"
+	keep="true" />
+	
+	<action name="floorPlanChangeLanguage">
+		if(ptplugin[floorPlan].jsready,
+			stopdelayedcall(delay_floorPlan);
+			js(invokePluginFunction(floorPlanArea, changeLanguage, false));
+			js(invokePluginFunction(floorPlan, changeLanguage));
+		,
+			delayedcall(delay_floorPlan, 0.1, floorPlanChangeLanguage(););
+		);
+	</action>
+	
+	
+	<krpano floorPlanFloorPlanLoaded="false" />
+	
+	<action name="floorPlanHideTourFloorPlan">
+		hideKolorArea_floorPlanArea(true);
+	</action>
+	
+	<action name="floorPlanCloseTourFloorPlan">
+		closeKolorArea_floorPlanArea();
+	</action>
+	
+	<action name="floorPlanShowTourFloorPlan">
+		if(ptplugin[floorPlanArea].isOpen === null,
+			openKolorArea_floorPlanArea();
+		,
+			showKolorArea_floorPlanArea(true);
+		);
+	</action>
+	
+	<action name="floorPlanOpenTourFloorPlan">
+		openKolorArea_floorPlanArea();
+	</action>
+	
+	<action name="floorPlanOnViewChange">
+		if (floorPlanFloorPlanLoaded == true,
+			ifnot(ptplugin[floorPlan].floorplanItems.selectedSpot == "",
+				ifnot(scene[get(xml.scene)].planar,
+					js(invokePluginFunction(floorPlan, changeDirection, get(xml.scene), get(view.hlookat), get(view.hfov)));
+				);
+			);
+		);
+	</action>
+	
+	<action name="floorPlanActivateSpot">
+		
+		set(ptplugin[floorPlan].floorplanItems.selectedSpot, %1);
+		set(ptplugin[floorPlan].floorplanItems.selectedItem, %2);
+		
+		if(%1 !== "",
+			set(ptplugin[floorPlan].floorplanItems.selectedSpotScene, get(xml.scene));
+			set(ptplugin[floorPlan].floorplanItems.selectedSpotHeading, get(view.hlookat));
+			set(ptplugin[floorPlan].floorplanItems.selectedSpotFov, get(view.hfov));
+		);
+		
+		
+		if(ptplugin[floorPlanArea].isOpen,
+			floorPlanSelectActivatedSpot(%1, %2, %3);
+		);
+	</action>
+	
+	<action name="floorPlanSelectActivatedSpot">
+		js(invokePluginFunction(floorPlan, selectSpot, %1, %2, %3));
+
+		if(%1 !== "",
+			if(scene[get(xml.scene)].planar,
+				js(invokePluginFunction(floorPlan, hideRadar));
+			,
+				js(invokePluginFunction(floorPlan, changeDirection, get(xml.scene), get(view.hlookat), get(view.hfov)));
+			);
+		);
+	</action>
+	
+	<action name="floorPlanDeactivateSpot">
+		set(ptplugin[floorPlan].floorplanItems.selectedSpot, "");
+		
+		js(invokePluginFunction(floorPlan, unselectSpot));
+	</action>
+	
+	<action name="floorPlanActivateDefaultSpot">
+		set(floorPlanFloorPlanLoaded, true);
+		
+		set(floorPlanSpotFound, "");
+		set(floorPlanSpotScene, "");
+		set(floorPlanItemFound, "");
+		set(floorPlanItemSearch, true);
+		set(floorPlanSpotSearchActivated, true);
+		set(floorPlanSpotSearchContinue, true);
+		
+		
+		for(set(defaultfloorplaniteminc,0), defaultfloorplaniteminc LT ptplugin[floorPlan].floorplanItems.floorplanItem.count , inc(defaultfloorplaniteminc),
+                        if(floorPlanSpotSearchActivated == true,
+				
+				if(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].groupName == scene[get(xml.scene)].group,
+					set(floorPlanItemFound, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].name));
+					set(ptplugin[floorPlan].floorplanItems.selectedItem, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].name));
+					set(floorPlanItemSearch, false);
+				,
+					
+					if(floorPlanItemFound == "",
+						set(floorPlanItemFound, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].name));
+					);
+				);
+			);
+			if(floorPlanSpotSearchActivated == true,
+                                for(set(defaultspotinc,0), defaultspotinc LT ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].spot.count , inc(defaultspotinc),
+                                        if(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].isScene == true,
+					
+						if(floorPlanSpotSearchContinue == true,
+							if(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].scene == xml.scene,
+								set(floorPlanSpotFound, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].name));
+								set(floorPlanSpotScene, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].scene));
+								set(ptplugin[floorPlan].floorplanItems.selectedItem, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].name));
+								if(floorPlanItemSearch == false,
+									set(floorPlanSpotSearchContinue, false);
+									set(floorPlanSpotSearchActivated, false);
+								);
+							);
+						);
+					);
+					
+				);
+			);
+		);
+		
+		if(floorPlanSpotFound == "",
+			
+			
+			floorPlanDeactivateSpot();
+			
+			
+			set(ptplugin[floorPlan].floorplanItems.selectedItem, get(floorPlanItemFound));
+			
+			
+			ifnot(ptplugin[floorPlan].floorplanItems.selectedItem == "",
+				floorPlanActivateSpot("", get(ptplugin[floorPlan].floorplanItems.selectedItem), "");
+			);
+		,
+			
+			floorPlanActivateSpot(get(floorPlanSpotFound), get(ptplugin[floorPlan].floorplanItems.selectedItem), get(floorPlanSpotScene));
+		);
+	</action>
+	
+	<action name="floorPlanChangeTitle">
+		js(invokePluginFunction(floorPlan, changeTitle, %1));
+	</action>
+	
+	<ptplugin name="floorPlanArea" engine="kolorArea">
+	<settings>
+		<option name="position" value="bottomright" type="string" />
+		<option name="start_position" value="bottom" type="string" />
+		<option name="margin_x" value="30" type="int" />
+		<option name="margin_y" value="60" type="int" />
+		<option name="display_title" value="false" type="bool" />
+		<option name="title_font" value="Verdana" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_decoration" value="normal" type="string" />
+		<option name="title_color" value="000000" type="string" />
+		<option name="close_displayed" value="false" type="bool" />
+		<option name="close_text" value="floorPlandisplay_close_text" type="string" />
+
+		<option name="background_color" value="68f241" type="string" />
+		<option name="background_alpha" value="0" type="float" />
+		<option name="overlay_displayed" value="false" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="padding" value="0" type="int" />
+		<option name="topleft_radius" value="0" type="int" />
+		<option name="topright_radius" value="0" type="int" />
+		<option name="bottomleft_radius" value="0" type="int" />
+		<option name="bottomright_radius" value="0" type="int" />
+		<option name="area_border_width" value="0" type="int" />
+		<option name="area_border_color" value="f20000" type="string" />
+		<option name="area_border_alpha" value="0" type="float" />
+		<option name="area_width" value="400" type="int" />
+		<option name="area_height" value="250" type="int" />
+		<option name="area_width_unit" value="pixel" type="string" />
+		<option name="area_height_unit" value="pixel" type="string" />
+		<option name="animation" value="true" type="bool" />
+		<option name="animation_duration" value="100" type="int" />
+		<option name="close_on_click" value="false" type="bool" />
+		<option name="refresh_content" value="false" type="bool" />
+		<option name="open_callback" value="addKolorFloorPlan('floorPlan', 'floorPlanArea_floorplanDIV');" type="string" />
+		<option name="close_callback" value="invokeKrFunction('closeKolorAreaCallback_floorPlanArea')" type="string" />
+		<option name="zorder" value="5" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	</ptplugin>
+	
+	<action name="kolorAreaJsReady_floorPlanArea">
+		set(ptplugin[floorPlanArea].jsready, true);
+
+	</action>
+	
+	<action name="openKolorArea_floorPlanArea">
+		ifnot(ptplugin[floorPlanArea].isOpen,
+			set(ptplugin[floorPlanArea].isOpen, true);
+			
+			js(showKolorArea(floorPlanArea, &lt;div id="floorPlanArea_floorplanDIV"&gt;&lt;/div&gt;));
+			
+			if(ptplugin[floorPlan].floorplanItems.selectedSpot != "",
+				floorPlanSelectActivatedSpot(get(ptplugin[floorPlan].floorplanItems.selectedSpot), get(ptplugin[floorPlan].floorplanItems.selectedItem), get(ptplugin[floorPlan].floorplanItems.selectedSpotScene));
+			);
+			events.dispatch(onremovedisplayedobject);
+		);
+	</action>
+	
+	<action name="closeKolorArea_floorPlanArea">
+		if(ptplugin[floorPlanArea].isOpen,
+			js(invokePluginFunction(floorPlanArea, closeKolorArea));
+		);
+	</action>
+	
+	<action name="toggleKolorArea_floorPlanArea">
+		if(ptplugin[floorPlanArea].isOpen,
+			closeKolorArea_floorPlanArea();
+		,
+			openKolorArea_floorPlanArea();
+		);
+	</action>
+	
+	<action name="closeKolorAreaCallback_floorPlanArea">
+		set(ptplugin[floorPlanArea].isOpen, false);hideFloorplan();
+
+	</action>
+	
+	<action name="changeTitleKolorArea_floorPlanArea">
+		js(invokePluginFunction(floorPlanArea, changeTitle, %1));
+	</action>
+	
+	<action name="showKolorArea_floorPlanArea">
+		set(ptplugin[floorPlanArea].isOpen, true);
+		
+		js(invokePluginFunction(floorPlanArea, showKolorArea, %1));
+		events.dispatch(onremovedisplayedobject);
+	</action>
+		
+	<action name="hideKolorArea_floorPlanArea">
+		
+		set(ptplugin[floorPlanArea].isOpen, false);
+		js(invokePluginFunction(floorPlanArea, hideKolorArea, %1));
+	</action>
+	
+	<events name="kolorAreaEvents_floorPlanArea" 
+		keep="true"
+	/>
+	
+
+<!-- ********** -->
+<!-- Progress Bar and Loopings -->
+<!-- id : progressbar -->
+<!-- ********** -->
+
+  <progress showwait.flash="loopings(
+				0xffffff,
+				15,15,
+				0,0,
+				0xffffff,8,
+				0,0,center
+				)"
+			showreloads.flash="false"
+			parent=""
+			/>
+
+
+  <layer name="progressbar_bg"
+    align="center"
+    bgcolor="0xffffff"
+    bgalpha="1.0"
+    bgborder="0"
+    onclick="progressbar_stop();"
+    enabled="true"
+    handcursor="false"
+    bgcapture="true"
+    x="0" y="50"
+    type="container"
+    width="200" height="10"
+    visible="true"
+    keep="true">
+      <layer name="progressbar_bar" 
+        align="topleft"
+        bgcolor="0x8e8e8e"
+        bgalpha="1.0"
+        x="0" y="0"
+        type="container"
+        width="0%"
+        height="100%"
+        enabled="false"
+        bgshadow="0 0 2 0 0x000000 0.6 inset"
+        keep="true"
+        />
+  </layer>
+  <action name="progressbar_start">
+    if(scene[get(xml.scene)].video,
+      progressbar_stop();
+    ,
+      mul(progress_val, get(progress.progress), 100);
+      txtadd(progress_percent, get(progress_val),"%");
+      set(layer[progressbar_bar].width, get(progress_percent));
+    if (device.html5, 
+      mul(xcrop, layer[progressbarwheel].frame, 64);
+      txtadd(layer[progressbarwheel].crop, get(xcrop), '|0|64|64');
+      
+      inc(layer[progressbarwheel].frame);
+      if(layer[progressbarwheel].frame GE layer[progressbarwheel].frames, set(layer[progressbarwheel].frame,0));
+    );
+      delayedcall(progressbar_progresscall, 0.1,progressbar_start());
+      if(progress_val == 100,
+        progressbar_stop();
+      );
+    );
+  </action>
+  <action name="progressbar_stop">
+    stopdelayedcall(progressbar_progresscall);
+    set(layer[progressbar_bg].visible, false);
+    set(layer[progressbar_bar].width, "0%");
+    if (device.html5, set(layer[progressbarwheel].visible, false););
+  </action>
+  <events name="progressbar_events" onloadcomplete="progressbar_stop();" onxmlcomplete="if (device.html5,set(layer[progressbarwheel].visible, true););set(layer[progressbar_bg].visible, true);progressbar_start();" keep="true" />
+
+  <!-- loading wheel -->
+  <layer name="progressbarwheel"
+         keep="true"
+         devices="html5"
+         visible="false"
+         url="%FIRSTXML%/graphics/progressbarandloopings/loadingwheel.png"
+         crop="0|0|64|64"
+         align="center"
+         x="0" y="0"
+         frame="0" frames="12"
+         width="30"
+         height="30" />
+
+<!-- ********** -->
+<!-- iControl Bar1 -->
+<!-- id : controlBar_i1 -->
+<!-- ********** -->
+
+  <krpano controlBar_i1barbuilt="false" controlBar_i1backgroundwidthwhenclosed="0" controlBar_i1backgroundwidthwhenopened="0" controlBar_i1IsOpened="false" />
+  <events name="controlBar_i1events" 
+    onxmlcomplete="controlBar_i1buildMenuBar();" 
+
+
+    keep="true" />
+
+
+
+  <action name="controlBar_i1buildMenuBar">
+    ifnot (controlBar_i1barbuilt, controlBar_i1buildMenu(); set(controlBar_i1barbuilt, true););
+  </action>
+
+  <style name="controlBar_i1_btn_style"
+         keep="true"
+         edge="left"
+         align="left"
+         x="0" y="0"
+         width="30" height="30"
+         crop="0|0|60|60"
+         onovercrop="0|60|60|60"
+         ondowncrop="0|120|60|60"
+         />
+  <style name="controlBar_i1_btn_style_off"
+         keep="true"
+         edge="left"
+         align="left"
+         x="0" y="0"
+         width="30" height="30"
+         />
+
+  <layer name="controlBar_i1_menu_bg"
+         keep="true"
+         type="container"
+         zorder="7"
+         width="30"
+         height="30"
+         align="bottomleft"
+         x="20" y="20"
+         maskchildren="true"
+         rotate="0"
+         visible="false"
+         >
+
+
+    <layer name="controlBar_i1btn_in"
+            url="%FIRSTXML%/graphics/icontrolbar1/btn_zoom_in.png"
+            ondown="viewControlZoomIn(false);"
+            onup="viewControlZoomStop();
+"
+            style="controlBar_i1_btn_style"
+            visible="false"
+            devices="desktop"
+            />
+    <layer name="controlBar_i1btn_out"
+            url="%FIRSTXML%/graphics/icontrolbar1/btn_zoom_out.png"
+            ondown="viewControlZoomOut(false);
+"
+            onup="viewControlZoomStop();
+"
+            style="controlBar_i1_btn_style"
+            visible="false"
+            devices="desktop"
+            />
+
+    <layer name="controlBar_i1btn_left"
+            url="%FIRSTXML%/graphics/icontrolbar1/btn_move_left.png"
+            ondown="viewControlMoveLeft(false);
+"
+            onup="viewControlMoveHoriStop();
+"
+            style="controlBar_i1_btn_style"
+            visible="false"
+            devices="desktop"
+            />
+    <layer name="controlBar_i1btn_right"
+            url="%FIRSTXML%/graphics/icontrolbar1/btn_move_right.png"
+            ondown="viewControlMoveRight(false);
+"
+            onup="viewControlMoveHoriStop();
+"
+            style="controlBar_i1_btn_style"
+            visible="false"
+            devices="desktop"
+            />
+
+    <layer name="controlBar_i1btn_up"
+            url="%FIRSTXML%/graphics/icontrolbar1/btn_move_up.png"
+            ondown="viewControlMoveUp(false);
+"
+            onup="viewControlMoveVertStop();
+"
+            style="controlBar_i1_btn_style"
+            visible="false"
+            devices="desktop"
+            />
+    <layer name="controlBar_i1btn_down"
+            url="%FIRSTXML%/graphics/icontrolbar1/btn_move_down.png"
+            ondown="viewControlMoveDown(false);
+"
+            onup="viewControlMoveVertStop();
+"
+            style="controlBar_i1_btn_style"
+            visible="false"
+            devices="desktop"
+            />
+
+
+
+
+
+    <layer name="controlBar_i1btn_autorotate_on"
+            url="%FIRSTXML%/graphics/icontrolbar1/btn_start_autorotation.png"
+            onclick="resumeautorotation();
+"
+            style="controlBar_i1_btn_style"
+            visible="false"
+            />
+    <layer name="controlBar_i1btn_autorotate_off"
+            url="%FIRSTXML%/graphics/icontrolbar1/btn_stop_autorotation.png"
+            onclick="pauseautorotation();
+"
+            style="controlBar_i1_btn_style"
+            visible="false"
+            />
+
+
+
+
+
+ </layer>
+
+
+
+
+
+
+  <action name="controlBar_i1hideMenuControls">
+    set(controlBar_i1IsOpened, false);
+
+
+if (device.desktop,
+	set(layer[controlBar_i1btn_in].visible, false);
+	set(layer[controlBar_i1btn_out].visible, false);
+);
+if (device.desktop,
+	set(layer[controlBar_i1btn_up].visible, false);
+	set(layer[controlBar_i1btn_down].visible, false);
+);
+if (device.desktop,
+	set(layer[controlBar_i1btn_left].visible, false);
+	set(layer[controlBar_i1btn_right].visible, false);
+);
+
+
+	controlBar_i1updateAutorotationButtons();
+
+
+
+
+
+
+	set(layer[controlBar_i1_menu_bg].width, get(controlBar_i1backgroundwidthwhenclosed));
+
+	set(layer[controlBar_i1_menu_bg].visible, true);
+  </action>
+  <action name="controlBar_i1showMenuControls">
+    set(controlBar_i1IsOpened, true);
+	set(layer[controlBar_i1_menu_bg].visible, true);
+
+
+if (device.desktop,
+	set(layer[controlBar_i1btn_in].visible, true);
+	set(layer[controlBar_i1btn_out].visible, true);
+);
+if (device.desktop,
+	set(layer[controlBar_i1btn_up].visible, true);
+	set(layer[controlBar_i1btn_down].visible, true);
+);
+if (device.desktop,
+	set(layer[controlBar_i1btn_left].visible, true);
+	set(layer[controlBar_i1btn_right].visible, true);
+);
+
+
+	controlBar_i1updateAutorotationButtons();
+
+
+
+
+
+    set(layer[controlBar_i1_menu_bg].width, get(controlBar_i1backgroundwidthwhenopened));
+  </action>
+
+
+
+
+	<events name="controlBar_i1AutorotationEvents"
+		onstartautorotation="controlBar_i1updateAutorotationButtons();"
+		onresumeautorotation="controlBar_i1updateAutorotationButtons();"
+		onstopautorotation="controlBar_i1updateAutorotationButtons();"
+		onpauseautorotation="controlBar_i1updateAutorotationButtons();"
+		keep="true"/>
+	<action name="controlBar_i1HideAutorotationButtons">
+		set(layer[controlBar_i1btn_autorotate_off].visible, false);
+		set(layer[controlBar_i1btn_autorotate_on].visible , false);
+	</action>
+	<action name="controlBar_i1ShowAutorotationButtons">
+		if(autorotate.enabled == false,
+			set(layer[controlBar_i1btn_autorotate_off].visible, false);
+			set(layer[controlBar_i1btn_autorotate_on].visible , true);
+		,
+			set(layer[controlBar_i1btn_autorotate_off].visible, true);
+			set(layer[controlBar_i1btn_autorotate_on].visible , false);
+		);
+	</action>
+	<action name="controlBar_i1updateAutorotationButtons">
+		if (controlBar_i1IsOpened,
+			controlBar_i1ShowAutorotationButtons();
+		,
+			controlBar_i1HideAutorotationButtons();
+		);
+	</action>
+
+
+
+  <action name="controlBar_i1buildMenu">
+    
+    set(controlBar_i1button_pos, 0);
+
+
+
+
+
+      set(layer[controlBar_i1btn_autorotate_on].x , get(controlBar_i1button_pos));
+      set(layer[controlBar_i1btn_autorotate_off].x, get(controlBar_i1button_pos));
+      inc(controlBar_i1button_pos, 35);
+
+
+
+
+
+
+
+      if (device.desktop,
+        set(layer[controlBar_i1btn_left].x, get(controlBar_i1button_pos));
+        inc(controlBar_i1button_pos, 35);
+        set(layer[controlBar_i1btn_right].x, get(controlBar_i1button_pos));
+        inc(controlBar_i1button_pos, 35);
+      );
+
+      if (device.desktop,
+        set(layer[controlBar_i1btn_up].x, get(controlBar_i1button_pos));
+        inc(controlBar_i1button_pos, 35);
+        set(layer[controlBar_i1btn_down].x, get(controlBar_i1button_pos));
+        inc(controlBar_i1button_pos, 35);
+      );
+
+      if (device.desktop,
+        set(layer[controlBar_i1btn_in].x, get(controlBar_i1button_pos));
+        inc(controlBar_i1button_pos, 35);
+        set(layer[controlBar_i1btn_out].x, get(controlBar_i1button_pos));
+        inc(controlBar_i1button_pos, 35);
+      );
+
+
+
+      dec(controlBar_i1button_pos, 5);
+
+      set(controlBar_i1backgroundwidthwhenopened, get(controlBar_i1button_pos));
+
+
+    
+      set(layer[controlBar_i1_menu_bg].width, get(controlBar_i1backgroundwidthwhenopened));
+	
+	
+	
+    </action>
+
+	<events name="controlBar_i1StartTourEvents" onTourStart="controlBar_i1CallOnStartTour();" keep="true" />
+	
+	<action name="controlBar_i1CallOnStartTour">
+		
+		controlBar_i1showMenuControls();
+	</action>
+
+
+
+
+<!-- ********** -->
+<!-- Button - DP OFF -->
+<!-- id : buttonForASinglePano28 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano28"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano28/on-3.png"
+         align="bottomleft"
+         x="303"
+         y="20"
+         zorder="8"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano28events"
+    onTourStart="showbuttonForASinglePano28();"
+    hidetourcontrols="hidebuttonForASinglePano28();"
+    showtourcontrols="showbuttonForASinglePano28();"
+
+    onPanoStart="showbuttonForASinglePano28();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano28">set(layer[buttonForASinglePano28].visible, false);</action>
+  <action name="showbuttonForASinglePano28">
+    set(display_buttonForASinglePano28, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano10, set(display_buttonForASinglePano28, true); );
+
+    if (xml.scene == pano15, set(display_buttonForASinglePano28, true); );
+
+    if (xml.scene == pano43, set(display_buttonForASinglePano28, true); );
+
+    if (xml.scene == pano338, set(display_buttonForASinglePano28, true); );
+
+    if (xml.scene == pano339, set(display_buttonForASinglePano28, true); );
+
+    if (xml.scene == pano340, set(display_buttonForASinglePano28, true); );
+
+    if (xml.scene == pano341, set(display_buttonForASinglePano28, true); );
+
+    if (xml.scene == pano337, set(display_buttonForASinglePano28, true); );
+
+    if (xml.scene == pano342, set(display_buttonForASinglePano28, true); );
+
+
+    );
+    if (display_buttonForASinglePano28,
+      set(layer[buttonForASinglePano28].visible, true);
+    ,
+      hidebuttonForASinglePano28();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button -  DP ON -->
+<!-- id : buttonForASinglePano27 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano27"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano27/off-01.png"
+         align="bottomleft"
+         x="303"
+         y="20"
+         zorder="9"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano27events"
+    onTourStart="showbuttonForASinglePano27();"
+    hidetourcontrols="hidebuttonForASinglePano27();"
+    showtourcontrols="showbuttonForASinglePano27();"
+
+    onPanoStart="showbuttonForASinglePano27();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano27">set(layer[buttonForASinglePano27].visible, false);</action>
+  <action name="showbuttonForASinglePano27">
+    set(display_buttonForASinglePano27, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano1883, set(display_buttonForASinglePano27, true); );
+
+    if (xml.scene == pano1887, set(display_buttonForASinglePano27, true); );
+
+    if (xml.scene == pano1892, set(display_buttonForASinglePano27, true); );
+
+    if (xml.scene == pano1896, set(display_buttonForASinglePano27, true); );
+
+    if (xml.scene == pano1899, set(display_buttonForASinglePano27, true); );
+
+    if (xml.scene == pano1902, set(display_buttonForASinglePano27, true); );
+
+    if (xml.scene == pano1906, set(display_buttonForASinglePano27, true); );
+
+    if (xml.scene == pano1910, set(display_buttonForASinglePano27, true); );
+
+    if (xml.scene == pano1915, set(display_buttonForASinglePano27, true); );
+
+
+    );
+    if (display_buttonForASinglePano27,
+      set(layer[buttonForASinglePano27].visible, true);
+    ,
+      hidebuttonForASinglePano27();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Swap2pano living -->
+<!-- id : swap2pano -->
+<!-- ********** -->
+<!-- Swap2Pano - Copyright © 2019 - Chiocchetti Maurizio - panotourplugin.com -->
+
+<include url="%FIRSTXML%/graphics/swap2pano/core.xml" />
+
+
+
+<events name="swap2panocheckpano_devices" keep="true"
+     onloadcomplete="swap2panocheckdevices();"
+/>
+<action name="swap2panocheckdevices">
+if (device.desktop,
+,
+set(layer[swap2pano].url, '');
+set(layer[swap2pano].visible,false);
+removelayer(swap2pano);
+);
+</action>
+
+  <layer name="swap2pano"
+        keep="true"
+        devices="desktop"
+        scale.mobile="1"
+        scale.desktop="1"
+        scale.tablet="1"
+        align="bottomleft"
+        x="303"
+        y="20"
+        zorder="10"
+        state="true"
+        onclick="swap2panoOnClick();"
+        used_for_hotspots="false"
+        onout=""
+        height="30"
+        width="80"
+        visible="false"
+    />
+
+
+<events name="swap2panocheckpanoID" keep="true"
+	onTourStart=""
+    onnewpano="swap2panocheck();"
+
+ />
+
+
+<action name="swap2panocheck">
+
+
+            if(layer[splashscreenlayer].visible,
+            set(nointro, 1);
+            ,
+            set(nointro, 0);
+            );
+
+            
+
+
+            set(layer[swap2pano].visible,false);
+
+            set(contextmenu.item[swap2panokcon].visible,false);
+            set(ttt, get(scene[get(xml.scene)].name));
+            if (ttt == pano10 AND nointro == 0,
+            set(layer[swap2pano].visible,true);
+
+            set(layer[swap2pano].url, %FIRSTXML%/graphics/swap2pano/on-3.png););
+            if (ttt == pano2291 AND nointro == 0,
+            set(layer[swap2pano].visible,true);
+            set(layer[swap2pano].url, %FIRSTXML%/graphics/swap2pano/off-01.png);
+
+            );
+</action>
+
+
+
+
+<action name="swap2panoOnClick">
+        set(a1,);
+        set(a2,);
+        set(a3,);
+        nightday_a();
+        if (lll == pano2291,
+
+        loadscene(pano10,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+
+        if (lll == pano10,
+
+        loadscene(pano2291,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+        
+
+
+</action>
+
+<events name="swap2panoevents"
+
+    onTourStart="showswap2pano();"
+
+
+
+    keep="true" />
+
+
+
+  <action name="hideswap2pano">set(layer[swap2pano].visible, false);</action>
+  <action name="showswap2pano">
+
+
+
+swap2panocheck();
+
+);
+
+  </action>
+
+<!-- ********** -->
+<!-- Swap2pano kitchen -->
+<!-- id : swap2pano1 -->
+<!-- ********** -->
+<!-- Swap2Pano - Copyright © 2019 - Chiocchetti Maurizio - panotourplugin.com -->
+
+<include url="%FIRSTXML%/graphics/swap2pano1/core.xml" />
+
+
+
+<events name="swap2pano1checkpano_devices" keep="true"
+     onloadcomplete="swap2pano1checkdevices();"
+/>
+<action name="swap2pano1checkdevices">
+if (device.desktop,
+,
+set(layer[swap2pano1].url, '');
+set(layer[swap2pano1].visible,false);
+removelayer(swap2pano1);
+);
+</action>
+
+  <layer name="swap2pano1"
+        keep="true"
+        devices="desktop"
+        scale.mobile="1"
+        scale.desktop="1"
+        scale.tablet="1"
+        align="bottomleft"
+        x="303"
+        y="20"
+        zorder="11"
+        state="true"
+        onclick="swap2pano1OnClick();"
+        used_for_hotspots="false"
+        onout=""
+        height="30"
+        width="80"
+        visible="false"
+    />
+
+
+<events name="swap2pano1checkpanoID" keep="true"
+	onTourStart=""
+    onnewpano="swap2pano1check();"
+
+ />
+
+
+<action name="swap2pano1check">
+
+
+            if(layer[splashscreenlayer].visible,
+            set(nointro, 1);
+            ,
+            set(nointro, 0);
+            );
+
+            
+
+
+            set(layer[swap2pano1].visible,false);
+
+            set(contextmenu.item[swap2pano1kcon].visible,false);
+            set(ttt, get(scene[get(xml.scene)].name));
+            if (ttt == pano15 AND nointro == 0,
+            set(layer[swap2pano1].visible,true);
+
+            set(layer[swap2pano1].url, %FIRSTXML%/graphics/swap2pano1/on-3.png););
+            if (ttt == pano2295 AND nointro == 0,
+            set(layer[swap2pano1].visible,true);
+            set(layer[swap2pano1].url, %FIRSTXML%/graphics/swap2pano1/off-01.png);
+
+            );
+</action>
+
+
+
+
+<action name="swap2pano1OnClick">
+        set(a1,);
+        set(a2,);
+        set(a3,);
+        nightday_a();
+        if (lll == pano2295,
+
+        loadscene(pano15,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+
+        if (lll == pano15,
+
+        loadscene(pano2295,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+        
+
+
+</action>
+
+<events name="swap2pano1events"
+
+    onTourStart="showswap2pano1();"
+
+
+
+    keep="true" />
+
+
+
+  <action name="hideswap2pano1">set(layer[swap2pano1].visible, false);</action>
+  <action name="showswap2pano1">
+
+
+
+swap2pano1check();
+
+);
+
+  </action>
+
+<!-- ********** -->
+<!-- Swap2pano r1 -->
+<!-- id : swap2pano2 -->
+<!-- ********** -->
+<!-- Swap2Pano - Copyright © 2019 - Chiocchetti Maurizio - panotourplugin.com -->
+
+<include url="%FIRSTXML%/graphics/swap2pano2/core.xml" />
+
+
+
+<events name="swap2pano2checkpano_devices" keep="true"
+     onloadcomplete="swap2pano2checkdevices();"
+/>
+<action name="swap2pano2checkdevices">
+if (device.desktop,
+,
+set(layer[swap2pano2].url, '');
+set(layer[swap2pano2].visible,false);
+removelayer(swap2pano2);
+);
+</action>
+
+  <layer name="swap2pano2"
+        keep="true"
+        devices="desktop"
+        scale.mobile="1"
+        scale.desktop="1"
+        scale.tablet="1"
+        align="bottomleft"
+        x="303"
+        y="20"
+        zorder="12"
+        state="true"
+        onclick="swap2pano2OnClick();"
+        used_for_hotspots="false"
+        onout=""
+        height="30"
+        width="80"
+        visible="false"
+    />
+
+
+<events name="swap2pano2checkpanoID" keep="true"
+	onTourStart=""
+    onnewpano="swap2pano2check();"
+
+ />
+
+
+<action name="swap2pano2check">
+
+
+            if(layer[splashscreenlayer].visible,
+            set(nointro, 1);
+            ,
+            set(nointro, 0);
+            );
+
+            
+
+
+            set(layer[swap2pano2].visible,false);
+
+            set(contextmenu.item[swap2pano2kcon].visible,false);
+            set(ttt, get(scene[get(xml.scene)].name));
+            if (ttt == pano43 AND nointro == 0,
+            set(layer[swap2pano2].visible,true);
+
+            set(layer[swap2pano2].url, %FIRSTXML%/graphics/swap2pano2/on-3.png););
+            if (ttt == pano2299 AND nointro == 0,
+            set(layer[swap2pano2].visible,true);
+            set(layer[swap2pano2].url, %FIRSTXML%/graphics/swap2pano2/off-01.png);
+
+            );
+</action>
+
+
+
+
+<action name="swap2pano2OnClick">
+        set(a1,);
+        set(a2,);
+        set(a3,);
+        nightday_a();
+        if (lll == pano2299,
+
+        loadscene(pano43,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+
+        if (lll == pano43,
+
+        loadscene(pano2299,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+        
+
+
+</action>
+
+<events name="swap2pano2events"
+
+    onTourStart="showswap2pano2();"
+
+
+
+    keep="true" />
+
+
+
+  <action name="hideswap2pano2">set(layer[swap2pano2].visible, false);</action>
+  <action name="showswap2pano2">
+
+
+
+swap2pano2check();
+
+);
+
+  </action>
+
+<!-- ********** -->
+<!-- Swap2pano dress -->
+<!-- id : swap2pano3 -->
+<!-- ********** -->
+<!-- Swap2Pano - Copyright © 2019 - Chiocchetti Maurizio - panotourplugin.com -->
+
+<include url="%FIRSTXML%/graphics/swap2pano3/core.xml" />
+
+
+
+<events name="swap2pano3checkpano_devices" keep="true"
+     onloadcomplete="swap2pano3checkdevices();"
+/>
+<action name="swap2pano3checkdevices">
+if (device.desktop,
+,
+set(layer[swap2pano3].url, '');
+set(layer[swap2pano3].visible,false);
+removelayer(swap2pano3);
+);
+</action>
+
+  <layer name="swap2pano3"
+        keep="true"
+        devices="desktop"
+        scale.mobile="1"
+        scale.desktop="1"
+        scale.tablet="1"
+        align="bottomleft"
+        x="303"
+        y="20"
+        zorder="13"
+        state="true"
+        onclick="swap2pano3OnClick();"
+        used_for_hotspots="false"
+        onout=""
+        height="30"
+        width="80"
+        visible="false"
+    />
+
+
+<events name="swap2pano3checkpanoID" keep="true"
+	onTourStart=""
+    onnewpano="swap2pano3check();"
+
+ />
+
+
+<action name="swap2pano3check">
+
+
+            if(layer[splashscreenlayer].visible,
+            set(nointro, 1);
+            ,
+            set(nointro, 0);
+            );
+
+            
+
+
+            set(layer[swap2pano3].visible,false);
+
+            set(contextmenu.item[swap2pano3kcon].visible,false);
+            set(ttt, get(scene[get(xml.scene)].name));
+            if (ttt == pano338 AND nointro == 0,
+            set(layer[swap2pano3].visible,true);
+
+            set(layer[swap2pano3].url, %FIRSTXML%/graphics/swap2pano3/on-3.png););
+            if (ttt == pano2303 AND nointro == 0,
+            set(layer[swap2pano3].visible,true);
+            set(layer[swap2pano3].url, %FIRSTXML%/graphics/swap2pano3/off-01.png);
+
+            );
+</action>
+
+
+
+
+<action name="swap2pano3OnClick">
+        set(a1,);
+        set(a2,);
+        set(a3,);
+        nightday_a();
+        if (lll == pano2303,
+
+        loadscene(pano338,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+
+        if (lll == pano338,
+
+        loadscene(pano2303,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+        
+
+
+</action>
+
+<events name="swap2pano3events"
+
+    onTourStart="showswap2pano3();"
+
+
+
+    keep="true" />
+
+
+
+  <action name="hideswap2pano3">set(layer[swap2pano3].visible, false);</action>
+  <action name="showswap2pano3">
+
+
+
+swap2pano3check();
+
+);
+
+  </action>
+
+<!-- ********** -->
+<!-- Swap2pano bath1 -->
+<!-- id : swap2pano4 -->
+<!-- ********** -->
+<!-- Swap2Pano - Copyright © 2019 - Chiocchetti Maurizio - panotourplugin.com -->
+
+<include url="%FIRSTXML%/graphics/swap2pano4/core.xml" />
+
+
+
+<events name="swap2pano4checkpano_devices" keep="true"
+     onloadcomplete="swap2pano4checkdevices();"
+/>
+<action name="swap2pano4checkdevices">
+if (device.desktop,
+,
+set(layer[swap2pano4].url, '');
+set(layer[swap2pano4].visible,false);
+removelayer(swap2pano4);
+);
+</action>
+
+  <layer name="swap2pano4"
+        keep="true"
+        devices="desktop"
+        scale.mobile="1"
+        scale.desktop="1"
+        scale.tablet="1"
+        align="bottomleft"
+        x="303"
+        y="20"
+        zorder="14"
+        state="true"
+        onclick="swap2pano4OnClick();"
+        used_for_hotspots="false"
+        onout=""
+        height="30"
+        width="80"
+        visible="false"
+    />
+
+
+<events name="swap2pano4checkpanoID" keep="true"
+	onTourStart=""
+    onnewpano="swap2pano4check();"
+
+ />
+
+
+<action name="swap2pano4check">
+
+
+            if(layer[splashscreenlayer].visible,
+            set(nointro, 1);
+            ,
+            set(nointro, 0);
+            );
+
+            
+
+
+            set(layer[swap2pano4].visible,false);
+
+            set(contextmenu.item[swap2pano4kcon].visible,false);
+            set(ttt, get(scene[get(xml.scene)].name));
+            if (ttt == pano339 AND nointro == 0,
+            set(layer[swap2pano4].visible,true);
+
+            set(layer[swap2pano4].url, %FIRSTXML%/graphics/swap2pano4/on-3.png););
+            if (ttt == pano2306 AND nointro == 0,
+            set(layer[swap2pano4].visible,true);
+            set(layer[swap2pano4].url, %FIRSTXML%/graphics/swap2pano4/off-01.png);
+
+            );
+</action>
+
+
+
+
+<action name="swap2pano4OnClick">
+        set(a1,);
+        set(a2,);
+        set(a3,);
+        nightday_a();
+        if (lll == pano2306,
+
+        loadscene(pano339,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+
+        if (lll == pano339,
+
+        loadscene(pano2306,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+        
+
+
+</action>
+
+<events name="swap2pano4events"
+
+    onTourStart="showswap2pano4();"
+
+
+
+    keep="true" />
+
+
+
+  <action name="hideswap2pano4">set(layer[swap2pano4].visible, false);</action>
+  <action name="showswap2pano4">
+
+
+
+swap2pano4check();
+
+);
+
+  </action>
+
+<!-- ********** -->
+<!-- Swap2pano r2 -->
+<!-- id : swap2pano5 -->
+<!-- ********** -->
+<!-- Swap2Pano - Copyright © 2019 - Chiocchetti Maurizio - panotourplugin.com -->
+
+<include url="%FIRSTXML%/graphics/swap2pano5/core.xml" />
+
+
+
+<events name="swap2pano5checkpano_devices" keep="true"
+     onloadcomplete="swap2pano5checkdevices();"
+/>
+<action name="swap2pano5checkdevices">
+if (device.desktop,
+,
+set(layer[swap2pano5].url, '');
+set(layer[swap2pano5].visible,false);
+removelayer(swap2pano5);
+);
+</action>
+
+  <layer name="swap2pano5"
+        keep="true"
+        devices="desktop"
+        scale.mobile="1"
+        scale.desktop="1"
+        scale.tablet="1"
+        align="bottomleft"
+        x="303"
+        y="20"
+        zorder="15"
+        state="true"
+        onclick="swap2pano5OnClick();"
+        used_for_hotspots="false"
+        onout=""
+        height="30"
+        width="80"
+        visible="false"
+    />
+
+
+<events name="swap2pano5checkpanoID" keep="true"
+	onTourStart=""
+    onnewpano="swap2pano5check();"
+
+ />
+
+
+<action name="swap2pano5check">
+
+
+            if(layer[splashscreenlayer].visible,
+            set(nointro, 1);
+            ,
+            set(nointro, 0);
+            );
+
+            
+
+
+            set(layer[swap2pano5].visible,false);
+
+            set(contextmenu.item[swap2pano5kcon].visible,false);
+            set(ttt, get(scene[get(xml.scene)].name));
+            if (ttt == pano340 AND nointro == 0,
+            set(layer[swap2pano5].visible,true);
+
+            set(layer[swap2pano5].url, %FIRSTXML%/graphics/swap2pano5/on-3.png););
+            if (ttt == pano2309 AND nointro == 0,
+            set(layer[swap2pano5].visible,true);
+            set(layer[swap2pano5].url, %FIRSTXML%/graphics/swap2pano5/off-01.png);
+
+            );
+</action>
+
+
+
+
+<action name="swap2pano5OnClick">
+        set(a1,);
+        set(a2,);
+        set(a3,);
+        nightday_a();
+        if (lll == pano2309,
+
+        loadscene(pano340,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+
+        if (lll == pano340,
+
+        loadscene(pano2309,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+        
+
+
+</action>
+
+<events name="swap2pano5events"
+
+    onTourStart="showswap2pano5();"
+
+
+
+    keep="true" />
+
+
+
+  <action name="hideswap2pano5">set(layer[swap2pano5].visible, false);</action>
+  <action name="showswap2pano5">
+
+
+
+swap2pano5check();
+
+);
+
+  </action>
+
+<!-- ********** -->
+<!-- Swap2pano r3 -->
+<!-- id : swap2pano6 -->
+<!-- ********** -->
+<!-- Swap2Pano - Copyright © 2019 - Chiocchetti Maurizio - panotourplugin.com -->
+
+<include url="%FIRSTXML%/graphics/swap2pano6/core.xml" />
+
+
+
+<events name="swap2pano6checkpano_devices" keep="true"
+     onloadcomplete="swap2pano6checkdevices();"
+/>
+<action name="swap2pano6checkdevices">
+if (device.desktop,
+,
+set(layer[swap2pano6].url, '');
+set(layer[swap2pano6].visible,false);
+removelayer(swap2pano6);
+);
+</action>
+
+  <layer name="swap2pano6"
+        keep="true"
+        devices="desktop"
+        scale.mobile="1"
+        scale.desktop="1"
+        scale.tablet="1"
+        align="bottomleft"
+        x="303"
+        y="20"
+        zorder="16"
+        state="true"
+        onclick="swap2pano6OnClick();"
+        used_for_hotspots="false"
+        onout=""
+        height="30"
+        width="80"
+        visible="false"
+    />
+
+
+<events name="swap2pano6checkpanoID" keep="true"
+	onTourStart=""
+    onnewpano="swap2pano6check();"
+
+ />
+
+
+<action name="swap2pano6check">
+
+
+            if(layer[splashscreenlayer].visible,
+            set(nointro, 1);
+            ,
+            set(nointro, 0);
+            );
+
+            
+
+
+            set(layer[swap2pano6].visible,false);
+
+            set(contextmenu.item[swap2pano6kcon].visible,false);
+            set(ttt, get(scene[get(xml.scene)].name));
+            if (ttt == pano341 AND nointro == 0,
+            set(layer[swap2pano6].visible,true);
+
+            set(layer[swap2pano6].url, %FIRSTXML%/graphics/swap2pano6/on-3.png););
+            if (ttt == pano2313 AND nointro == 0,
+            set(layer[swap2pano6].visible,true);
+            set(layer[swap2pano6].url, %FIRSTXML%/graphics/swap2pano6/off-01.png);
+
+            );
+</action>
+
+
+
+
+<action name="swap2pano6OnClick">
+        set(a1,);
+        set(a2,);
+        set(a3,);
+        nightday_a();
+        if (lll == pano2313,
+
+        loadscene(pano341,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+
+        if (lll == pano341,
+
+        loadscene(pano2313,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+        
+
+
+</action>
+
+<events name="swap2pano6events"
+
+    onTourStart="showswap2pano6();"
+
+
+
+    keep="true" />
+
+
+
+  <action name="hideswap2pano6">set(layer[swap2pano6].visible, false);</action>
+  <action name="showswap2pano6">
+
+
+
+swap2pano6check();
+
+);
+
+  </action>
+
+<!-- ********** -->
+<!-- Swap2pano 침실3  -->
+<!-- id : swap2pano9 -->
+<!-- ********** -->
+<!-- Swap2Pano - Copyright © 2019 - Chiocchetti Maurizio - panotourplugin.com -->
+
+<include url="%FIRSTXML%/graphics/swap2pano9/core.xml" />
+
+
+
+<events name="swap2pano9checkpano_devices" keep="true"
+     onloadcomplete="swap2pano9checkdevices();"
+/>
+<action name="swap2pano9checkdevices">
+if (device.desktop,
+,
+set(layer[swap2pano9].url, '');
+set(layer[swap2pano9].visible,false);
+removelayer(swap2pano9);
+);
+</action>
+
+  <layer name="swap2pano9"
+        keep="true"
+        devices="desktop"
+        scale.mobile="1"
+        scale.desktop="1"
+        scale.tablet="1"
+        align="bottomleft"
+        x="303"
+        y="20"
+        zorder="17"
+        state="true"
+        onclick="swap2pano9OnClick();"
+        used_for_hotspots="false"
+        onout=""
+        height="30"
+        width="80"
+        visible="false"
+    />
+
+
+<events name="swap2pano9checkpanoID" keep="true"
+	onTourStart=""
+    onnewpano="swap2pano9check();"
+
+ />
+
+
+<action name="swap2pano9check">
+
+
+            if(layer[splashscreenlayer].visible,
+            set(nointro, 1);
+            ,
+            set(nointro, 0);
+            );
+
+            
+
+
+            set(layer[swap2pano9].visible,false);
+
+            set(contextmenu.item[swap2pano9kcon].visible,false);
+            set(ttt, get(scene[get(xml.scene)].name));
+            if (ttt == pano2077 AND nointro == 0,
+            set(layer[swap2pano9].visible,true);
+
+            set(layer[swap2pano9].url, %FIRSTXML%/graphics/swap2pano9/on-3.png););
+            if (ttt == pano2317 AND nointro == 0,
+            set(layer[swap2pano9].visible,true);
+            set(layer[swap2pano9].url, %FIRSTXML%/graphics/swap2pano9/off-01.png);
+
+            );
+</action>
+
+
+
+
+<action name="swap2pano9OnClick">
+        set(a1,);
+        set(a2,);
+        set(a3,);
+        nightday_a();
+        if (lll == pano2317,
+
+        loadscene(pano2077,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+
+        if (lll == pano2077,
+
+        loadscene(pano2317,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+        
+
+
+</action>
+
+<events name="swap2pano9events"
+
+    onTourStart="showswap2pano9();"
+
+
+
+    keep="true" />
+
+
+
+  <action name="hideswap2pano9">set(layer[swap2pano9].visible, false);</action>
+  <action name="showswap2pano9">
+
+
+
+swap2pano9check();
+
+);
+
+  </action>
+
+<!-- ********** -->
+<!-- Swap2pano bath2 -->
+<!-- id : swap2pano7 -->
+<!-- ********** -->
+<!-- Swap2Pano - Copyright © 2019 - Chiocchetti Maurizio - panotourplugin.com -->
+
+<include url="%FIRSTXML%/graphics/swap2pano7/core.xml" />
+
+
+
+<events name="swap2pano7checkpano_devices" keep="true"
+     onloadcomplete="swap2pano7checkdevices();"
+/>
+<action name="swap2pano7checkdevices">
+if (device.desktop,
+,
+set(layer[swap2pano7].url, '');
+set(layer[swap2pano7].visible,false);
+removelayer(swap2pano7);
+);
+</action>
+
+  <layer name="swap2pano7"
+        keep="true"
+        devices="desktop"
+        scale.mobile="1"
+        scale.desktop="1"
+        scale.tablet="1"
+        align="bottomleft"
+        x="303"
+        y="20"
+        zorder="18"
+        state="true"
+        onclick="swap2pano7OnClick();"
+        used_for_hotspots="false"
+        onout=""
+        height="30"
+        width="80"
+        visible="false"
+    />
+
+
+<events name="swap2pano7checkpanoID" keep="true"
+	onTourStart=""
+    onnewpano="swap2pano7check();"
+
+ />
+
+
+<action name="swap2pano7check">
+
+
+            if(layer[splashscreenlayer].visible,
+            set(nointro, 1);
+            ,
+            set(nointro, 0);
+            );
+
+            
+
+
+            set(layer[swap2pano7].visible,false);
+
+            set(contextmenu.item[swap2pano7kcon].visible,false);
+            set(ttt, get(scene[get(xml.scene)].name));
+            if (ttt == pano337 AND nointro == 0,
+            set(layer[swap2pano7].visible,true);
+
+            set(layer[swap2pano7].url, %FIRSTXML%/graphics/swap2pano7/on-3.png););
+            if (ttt == pano2322 AND nointro == 0,
+            set(layer[swap2pano7].visible,true);
+            set(layer[swap2pano7].url, %FIRSTXML%/graphics/swap2pano7/off-01.png);
+
+            );
+</action>
+
+
+
+
+<action name="swap2pano7OnClick">
+        set(a1,);
+        set(a2,);
+        set(a3,);
+        nightday_a();
+        if (lll == pano2322,
+
+        loadscene(pano337,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+
+        if (lll == pano337,
+
+        loadscene(pano2322,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+        
+
+
+</action>
+
+<events name="swap2pano7events"
+
+    onTourStart="showswap2pano7();"
+
+
+
+    keep="true" />
+
+
+
+  <action name="hideswap2pano7">set(layer[swap2pano7].visible, false);</action>
+  <action name="showswap2pano7">
+
+
+
+swap2pano7check();
+
+);
+
+  </action>
+
+<!-- ********** -->
+<!-- Swap2pano  enterance -->
+<!-- id : swap2pano8 -->
+<!-- ********** -->
+<!-- Swap2Pano - Copyright © 2019 - Chiocchetti Maurizio - panotourplugin.com -->
+
+<include url="%FIRSTXML%/graphics/swap2pano8/core.xml" />
+
+
+
+<events name="swap2pano8checkpano_devices" keep="true"
+     onloadcomplete="swap2pano8checkdevices();"
+/>
+<action name="swap2pano8checkdevices">
+if (device.desktop,
+,
+set(layer[swap2pano8].url, '');
+set(layer[swap2pano8].visible,false);
+removelayer(swap2pano8);
+);
+</action>
+
+  <layer name="swap2pano8"
+        keep="true"
+        devices="desktop"
+        scale.mobile="1"
+        scale.desktop="1"
+        scale.tablet="1"
+        align="bottomleft"
+        x="303"
+        y="20"
+        zorder="19"
+        state="true"
+        onclick="swap2pano8OnClick();"
+        used_for_hotspots="false"
+        onout=""
+        height="30"
+        width="80"
+        visible="false"
+    />
+
+
+<events name="swap2pano8checkpanoID" keep="true"
+	onTourStart=""
+    onnewpano="swap2pano8check();"
+
+ />
+
+
+<action name="swap2pano8check">
+
+
+            if(layer[splashscreenlayer].visible,
+            set(nointro, 1);
+            ,
+            set(nointro, 0);
+            );
+
+            
+
+
+            set(layer[swap2pano8].visible,false);
+
+            set(contextmenu.item[swap2pano8kcon].visible,false);
+            set(ttt, get(scene[get(xml.scene)].name));
+            if (ttt == pano342 AND nointro == 0,
+            set(layer[swap2pano8].visible,true);
+
+            set(layer[swap2pano8].url, %FIRSTXML%/graphics/swap2pano8/on-3.png););
+            if (ttt == pano2326 AND nointro == 0,
+            set(layer[swap2pano8].visible,true);
+            set(layer[swap2pano8].url, %FIRSTXML%/graphics/swap2pano8/off-01.png);
+
+            );
+</action>
+
+
+
+
+<action name="swap2pano8OnClick">
+        set(a1,);
+        set(a2,);
+        set(a3,);
+        nightday_a();
+        if (lll == pano2326,
+
+        loadscene(pano342,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+
+        if (lll == pano342,
+
+        loadscene(pano2326,null,MERGE|KEEPVIEW|KEEPMOVING|keepprogress|keepdisplay|keepcontrol,BLEND(1,linear));
+
+
+        );
+        
+
+
+</action>
+
+<events name="swap2pano8events"
+
+    onTourStart="showswap2pano8();"
+
+
+
+    keep="true" />
+
+
+
+  <action name="hideswap2pano8">set(layer[swap2pano8].visible, false);</action>
+  <action name="showswap2pano8">
+
+
+
+swap2pano8check();
+
+);
+
+  </action>
+
+<!-- ********** -->
+<!-- Button - 거실선택 -->
+<!-- id : buttonForASinglePano6 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano6"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano6/living02.png"
+         align="topleft"
+         x="0"
+         y="0"
+         zorder="20"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano6events"
+    onTourStart="showbuttonForASinglePano6();"
+    hidetourcontrols="hidebuttonForASinglePano6();"
+    showtourcontrols="showbuttonForASinglePano6();"
+
+    onPanoStart="showbuttonForASinglePano6();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano6">set(layer[buttonForASinglePano6].visible, false);</action>
+  <action name="showbuttonForASinglePano6">
+    set(display_buttonForASinglePano6, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano10, set(display_buttonForASinglePano6, true); );
+
+    if (xml.scene == pano2291, set(display_buttonForASinglePano6, true); );
+
+
+    );
+    if (display_buttonForASinglePano6,
+      set(layer[buttonForASinglePano6].visible, true);
+    ,
+      hidebuttonForASinglePano6();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - 주방선택 -->
+<!-- id : buttonForASinglePano7 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano7"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano7/kitchen02.png"
+         align="topleft"
+         x="60"
+         y="0"
+         zorder="21"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano7events"
+    onTourStart="showbuttonForASinglePano7();"
+    hidetourcontrols="hidebuttonForASinglePano7();"
+    showtourcontrols="showbuttonForASinglePano7();"
+
+    onPanoStart="showbuttonForASinglePano7();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano7">set(layer[buttonForASinglePano7].visible, false);</action>
+  <action name="showbuttonForASinglePano7">
+    set(display_buttonForASinglePano7, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano15, set(display_buttonForASinglePano7, true); );
+
+    if (xml.scene == pano2295, set(display_buttonForASinglePano7, true); );
+
+
+    );
+    if (display_buttonForASinglePano7,
+      set(layer[buttonForASinglePano7].visible, true);
+    ,
+      hidebuttonForASinglePano7();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - 침실1선택 -->
+<!-- id : buttonForASinglePano8 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano8"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano8/room01-02.png"
+         align="topleft"
+         x="120"
+         y="0"
+         zorder="22"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano8events"
+    onTourStart="showbuttonForASinglePano8();"
+    hidetourcontrols="hidebuttonForASinglePano8();"
+    showtourcontrols="showbuttonForASinglePano8();"
+
+    onPanoStart="showbuttonForASinglePano8();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano8">set(layer[buttonForASinglePano8].visible, false);</action>
+  <action name="showbuttonForASinglePano8">
+    set(display_buttonForASinglePano8, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano43, set(display_buttonForASinglePano8, true); );
+
+    if (xml.scene == pano2299, set(display_buttonForASinglePano8, true); );
+
+
+    );
+    if (display_buttonForASinglePano8,
+      set(layer[buttonForASinglePano8].visible, true);
+    ,
+      hidebuttonForASinglePano8();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - 드레스룸선택 -->
+<!-- id : buttonForASinglePano21 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano21"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano21/dressroom-02.png"
+         align="topleft"
+         x="190"
+         y="0"
+         zorder="23"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano21events"
+    onTourStart="showbuttonForASinglePano21();"
+    hidetourcontrols="hidebuttonForASinglePano21();"
+    showtourcontrols="showbuttonForASinglePano21();"
+
+    onPanoStart="showbuttonForASinglePano21();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano21">set(layer[buttonForASinglePano21].visible, false);</action>
+  <action name="showbuttonForASinglePano21">
+    set(display_buttonForASinglePano21, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano338, set(display_buttonForASinglePano21, true); );
+
+    if (xml.scene == pano2303, set(display_buttonForASinglePano21, true); );
+
+
+    );
+    if (display_buttonForASinglePano21,
+      set(layer[buttonForASinglePano21].visible, true);
+    ,
+      hidebuttonForASinglePano21();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - 부부욕실선택 -->
+<!-- id : buttonForASinglePano22 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano22"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano22/_498921-2.png"
+         align="topleft"
+         x="280"
+         y="0"
+         zorder="24"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano22events"
+    onTourStart="showbuttonForASinglePano22();"
+    hidetourcontrols="hidebuttonForASinglePano22();"
+    showtourcontrols="showbuttonForASinglePano22();"
+
+    onPanoStart="showbuttonForASinglePano22();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano22">set(layer[buttonForASinglePano22].visible, false);</action>
+  <action name="showbuttonForASinglePano22">
+    set(display_buttonForASinglePano22, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano339, set(display_buttonForASinglePano22, true); );
+
+    if (xml.scene == pano2306, set(display_buttonForASinglePano22, true); );
+
+
+    );
+    if (display_buttonForASinglePano22,
+      set(layer[buttonForASinglePano22].visible, true);
+    ,
+      hidebuttonForASinglePano22();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - 공용욕실선택 -->
+<!-- id : buttonForASinglePano25 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano25"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano25/_498922-2.png"
+         align="topleft"
+         x="350"
+         y="0"
+         zorder="25"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano25events"
+    onTourStart="showbuttonForASinglePano25();"
+    hidetourcontrols="hidebuttonForASinglePano25();"
+    showtourcontrols="showbuttonForASinglePano25();"
+
+    onPanoStart="showbuttonForASinglePano25();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano25">set(layer[buttonForASinglePano25].visible, false);</action>
+  <action name="showbuttonForASinglePano25">
+    set(display_buttonForASinglePano25, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano337, set(display_buttonForASinglePano25, true); );
+
+    if (xml.scene == pano2322, set(display_buttonForASinglePano25, true); );
+
+
+    );
+    if (display_buttonForASinglePano25,
+      set(layer[buttonForASinglePano25].visible, true);
+    ,
+      hidebuttonForASinglePano25();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - 침실2선택 -->
+<!-- id : buttonForASinglePano23 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano23"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano23/room02-02.png"
+         align="topleft"
+         x="420"
+         y="0"
+         zorder="26"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano23events"
+    onTourStart="showbuttonForASinglePano23();"
+    hidetourcontrols="hidebuttonForASinglePano23();"
+    showtourcontrols="showbuttonForASinglePano23();"
+
+    onPanoStart="showbuttonForASinglePano23();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano23">set(layer[buttonForASinglePano23].visible, false);</action>
+  <action name="showbuttonForASinglePano23">
+    set(display_buttonForASinglePano23, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano340, set(display_buttonForASinglePano23, true); );
+
+    if (xml.scene == pano2309, set(display_buttonForASinglePano23, true); );
+
+
+    );
+    if (display_buttonForASinglePano23,
+      set(layer[buttonForASinglePano23].visible, true);
+    ,
+      hidebuttonForASinglePano23();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - 침실3 선택 -->
+<!-- id : buttonForASinglePano29 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano29"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano29/room03-02.png"
+         align="topleft"
+         x="490"
+         y="0"
+         zorder="27"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano29events"
+    onTourStart="showbuttonForASinglePano29();"
+    hidetourcontrols="hidebuttonForASinglePano29();"
+    showtourcontrols="showbuttonForASinglePano29();"
+
+    onPanoStart="showbuttonForASinglePano29();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano29">set(layer[buttonForASinglePano29].visible, false);</action>
+  <action name="showbuttonForASinglePano29">
+    set(display_buttonForASinglePano29, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano2077, set(display_buttonForASinglePano29, true); );
+
+    if (xml.scene == pano2317, set(display_buttonForASinglePano29, true); );
+
+
+    );
+    if (display_buttonForASinglePano29,
+      set(layer[buttonForASinglePano29].visible, true);
+    ,
+      hidebuttonForASinglePano29();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - 현관선택 -->
+<!-- id : buttonForASinglePano26 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano26"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano26/enterance-02.png"
+         align="topleft"
+         x="560"
+         y="0"
+         zorder="28"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano26events"
+    onTourStart="showbuttonForASinglePano26();"
+    hidetourcontrols="hidebuttonForASinglePano26();"
+    showtourcontrols="showbuttonForASinglePano26();"
+
+    onPanoStart="showbuttonForASinglePano26();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano26">set(layer[buttonForASinglePano26].visible, false);</action>
+  <action name="showbuttonForASinglePano26">
+    set(display_buttonForASinglePano26, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano342, set(display_buttonForASinglePano26, true); );
+
+    if (xml.scene == pano2326, set(display_buttonForASinglePano26, true); );
+
+
+    );
+    if (display_buttonForASinglePano26,
+      set(layer[buttonForASinglePano26].visible, true);
+    ,
+      hidebuttonForASinglePano26();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - 거실OFF -->
+<!-- id : buttonForASinglePano -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano/living00.png"
+         align="topleft"
+         x="0"
+         y="0"
+         zorder="29"
+         visible="false"
+         onclick="buttonForASinglePanoOnClick"
+         />
+
+
+
+  <action name="buttonForASinglePanoOnClick">
+          mainloadscene(pano10);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePanoevents"
+    onTourStart="showbuttonForASinglePano();"
+    hidetourcontrols="hidebuttonForASinglePano();"
+    showtourcontrols="showbuttonForASinglePano();"
+
+    onPanoStart="showbuttonForASinglePano();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano">set(layer[buttonForASinglePano].visible, false);</action>
+  <action name="showbuttonForASinglePano">
+    set(display_buttonForASinglePano, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano10, set(display_buttonForASinglePano, true); );
+
+    if (xml.scene == pano3464, set(display_buttonForASinglePano, true); );
+
+    if (xml.scene == pano15, set(display_buttonForASinglePano, true); );
+
+    if (xml.scene == pano43, set(display_buttonForASinglePano, true); );
+
+    if (xml.scene == pano338, set(display_buttonForASinglePano, true); );
+
+    if (xml.scene == pano339, set(display_buttonForASinglePano, true); );
+
+    if (xml.scene == pano340 , set(display_buttonForASinglePano, true); );
+
+    if (xml.scene == pano341, set(display_buttonForASinglePano, true); );
+
+    if (xml.scene == pano337, set(display_buttonForASinglePano, true); );
+
+    if (xml.scene == pano342, set(display_buttonForASinglePano, true); );
+
+    if (xml.scene == pano2077, set(display_buttonForASinglePano, true); );
+
+
+    );
+    if (display_buttonForASinglePano,
+      set(layer[buttonForASinglePano].visible, true);
+    ,
+      hidebuttonForASinglePano();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button -  주방 OFF -->
+<!-- id : buttonForASinglePano1 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano1"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano1/kitchen00.png"
+         align="topleft"
+         x="60"
+         y="0"
+         zorder="30"
+         visible="false"
+         onclick="buttonForASinglePano1OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano1OnClick">
+          mainloadscene(pano15);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano1events"
+    onTourStart="showbuttonForASinglePano1();"
+    hidetourcontrols="hidebuttonForASinglePano1();"
+    showtourcontrols="showbuttonForASinglePano1();"
+
+    onPanoStart="showbuttonForASinglePano1();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano1">set(layer[buttonForASinglePano1].visible, false);</action>
+  <action name="showbuttonForASinglePano1">
+    set(display_buttonForASinglePano1, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano10, set(display_buttonForASinglePano1, true); );
+
+    if (xml.scene == pano3464, set(display_buttonForASinglePano1, true); );
+
+    if (xml.scene == pano15, set(display_buttonForASinglePano1, true); );
+
+    if (xml.scene == pano43, set(display_buttonForASinglePano1, true); );
+
+    if (xml.scene == pano338, set(display_buttonForASinglePano1, true); );
+
+    if (xml.scene == pano339, set(display_buttonForASinglePano1, true); );
+
+    if (xml.scene == pano340, set(display_buttonForASinglePano1, true); );
+
+    if (xml.scene == pano341, set(display_buttonForASinglePano1, true); );
+
+    if (xml.scene == pano337, set(display_buttonForASinglePano1, true); );
+
+    if (xml.scene == pano342, set(display_buttonForASinglePano1, true); );
+
+    if (xml.scene == pano2077, set(display_buttonForASinglePano1, true); );
+
+
+    );
+    if (display_buttonForASinglePano1,
+      set(layer[buttonForASinglePano1].visible, true);
+    ,
+      hidebuttonForASinglePano1();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - 침실1 OFF -->
+<!-- id : buttonForASinglePano2 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano2"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano2/room01-01.png"
+         align="topleft"
+         x="120"
+         y="0"
+         zorder="31"
+         visible="false"
+         onclick="buttonForASinglePano2OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano2OnClick">
+          mainloadscene(pano43);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano2events"
+    onTourStart="showbuttonForASinglePano2();"
+    hidetourcontrols="hidebuttonForASinglePano2();"
+    showtourcontrols="showbuttonForASinglePano2();"
+
+    onPanoStart="showbuttonForASinglePano2();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano2">set(layer[buttonForASinglePano2].visible, false);</action>
+  <action name="showbuttonForASinglePano2">
+    set(display_buttonForASinglePano2, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano10, set(display_buttonForASinglePano2, true); );
+
+    if (xml.scene == pano3464, set(display_buttonForASinglePano2, true); );
+
+    if (xml.scene == pano15, set(display_buttonForASinglePano2, true); );
+
+    if (xml.scene == pano43, set(display_buttonForASinglePano2, true); );
+
+    if (xml.scene == pano338, set(display_buttonForASinglePano2, true); );
+
+    if (xml.scene == pano339, set(display_buttonForASinglePano2, true); );
+
+    if (xml.scene == pano340, set(display_buttonForASinglePano2, true); );
+
+    if (xml.scene == pano341, set(display_buttonForASinglePano2, true); );
+
+    if (xml.scene == pano337, set(display_buttonForASinglePano2, true); );
+
+    if (xml.scene == pano342, set(display_buttonForASinglePano2, true); );
+
+    if (xml.scene == pano2077, set(display_buttonForASinglePano2, true); );
+
+
+    );
+    if (display_buttonForASinglePano2,
+      set(layer[buttonForASinglePano2].visible, true);
+    ,
+      hidebuttonForASinglePano2();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - 드레스룸 OFF -->
+<!-- id : buttonForASinglePano10 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano10"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano10/dressroom-01.png"
+         align="topleft"
+         x="190"
+         y="0"
+         zorder="32"
+         visible="false"
+         onclick="buttonForASinglePano10OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano10OnClick">
+          mainloadscene(pano338);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano10events"
+    onTourStart="showbuttonForASinglePano10();"
+    hidetourcontrols="hidebuttonForASinglePano10();"
+    showtourcontrols="showbuttonForASinglePano10();"
+
+    onPanoStart="showbuttonForASinglePano10();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano10">set(layer[buttonForASinglePano10].visible, false);</action>
+  <action name="showbuttonForASinglePano10">
+    set(display_buttonForASinglePano10, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano10, set(display_buttonForASinglePano10, true); );
+
+    if (xml.scene == pano3464, set(display_buttonForASinglePano10, true); );
+
+    if (xml.scene == pano15, set(display_buttonForASinglePano10, true); );
+
+    if (xml.scene == pano43, set(display_buttonForASinglePano10, true); );
+
+    if (xml.scene == pano338, set(display_buttonForASinglePano10, true); );
+
+    if (xml.scene == pano339, set(display_buttonForASinglePano10, true); );
+
+    if (xml.scene == pano340, set(display_buttonForASinglePano10, true); );
+
+    if (xml.scene == pano341, set(display_buttonForASinglePano10, true); );
+
+    if (xml.scene == pano337, set(display_buttonForASinglePano10, true); );
+
+    if (xml.scene == pano342, set(display_buttonForASinglePano10, true); );
+
+    if (xml.scene == pano2077, set(display_buttonForASinglePano10, true); );
+
+
+    );
+    if (display_buttonForASinglePano10,
+      set(layer[buttonForASinglePano10].visible, true);
+    ,
+      hidebuttonForASinglePano10();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button -  부부욕실 OFF -->
+<!-- id : buttonForASinglePano9 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano9"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano9/_498921-1.png"
+         align="topleft"
+         x="280"
+         y="0"
+         zorder="33"
+         visible="false"
+         onclick="buttonForASinglePano9OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano9OnClick">
+          mainloadscene(pano339);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano9events"
+    onTourStart="showbuttonForASinglePano9();"
+    hidetourcontrols="hidebuttonForASinglePano9();"
+    showtourcontrols="showbuttonForASinglePano9();"
+
+    onPanoStart="showbuttonForASinglePano9();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano9">set(layer[buttonForASinglePano9].visible, false);</action>
+  <action name="showbuttonForASinglePano9">
+    set(display_buttonForASinglePano9, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano10, set(display_buttonForASinglePano9, true); );
+
+    if (xml.scene == pano3464, set(display_buttonForASinglePano9, true); );
+
+    if (xml.scene == pano15, set(display_buttonForASinglePano9, true); );
+
+    if (xml.scene == pano43, set(display_buttonForASinglePano9, true); );
+
+    if (xml.scene == pano338, set(display_buttonForASinglePano9, true); );
+
+    if (xml.scene == pano339, set(display_buttonForASinglePano9, true); );
+
+    if (xml.scene == pano340, set(display_buttonForASinglePano9, true); );
+
+    if (xml.scene == pano341, set(display_buttonForASinglePano9, true); );
+
+    if (xml.scene == pano337, set(display_buttonForASinglePano9, true); );
+
+    if (xml.scene == pano342, set(display_buttonForASinglePano9, true); );
+
+    if (xml.scene == pano2077, set(display_buttonForASinglePano9, true); );
+
+
+    );
+    if (display_buttonForASinglePano9,
+      set(layer[buttonForASinglePano9].visible, true);
+    ,
+      hidebuttonForASinglePano9();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button -  공용욕실 OFF -->
+<!-- id : buttonForASinglePano13 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano13"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano13/_498922-1.png"
+         align="topleft"
+         x="350"
+         y="0"
+         zorder="34"
+         visible="false"
+         onclick="buttonForASinglePano13OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano13OnClick">
+          mainloadscene(pano337);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano13events"
+    onTourStart="showbuttonForASinglePano13();"
+    hidetourcontrols="hidebuttonForASinglePano13();"
+    showtourcontrols="showbuttonForASinglePano13();"
+
+    onPanoStart="showbuttonForASinglePano13();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano13">set(layer[buttonForASinglePano13].visible, false);</action>
+  <action name="showbuttonForASinglePano13">
+    set(display_buttonForASinglePano13, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano10, set(display_buttonForASinglePano13, true); );
+
+    if (xml.scene == pano3464, set(display_buttonForASinglePano13, true); );
+
+    if (xml.scene == pano15, set(display_buttonForASinglePano13, true); );
+
+    if (xml.scene == pano43, set(display_buttonForASinglePano13, true); );
+
+    if (xml.scene == pano338, set(display_buttonForASinglePano13, true); );
+
+    if (xml.scene == pano339, set(display_buttonForASinglePano13, true); );
+
+    if (xml.scene == pano340, set(display_buttonForASinglePano13, true); );
+
+    if (xml.scene == pano341, set(display_buttonForASinglePano13, true); );
+
+    if (xml.scene == pano337, set(display_buttonForASinglePano13, true); );
+
+    if (xml.scene == pano342, set(display_buttonForASinglePano13, true); );
+
+    if (xml.scene == pano2077, set(display_buttonForASinglePano13, true); );
+
+
+    );
+    if (display_buttonForASinglePano13,
+      set(layer[buttonForASinglePano13].visible, true);
+    ,
+      hidebuttonForASinglePano13();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button -  침실2 OFF -->
+<!-- id : buttonForASinglePano11 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano11"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano11/room02-01.png"
+         align="topleft"
+         x="420"
+         y="0"
+         zorder="35"
+         visible="false"
+         onclick="buttonForASinglePano11OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano11OnClick">
+          mainloadscene(pano340);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano11events"
+    onTourStart="showbuttonForASinglePano11();"
+    hidetourcontrols="hidebuttonForASinglePano11();"
+    showtourcontrols="showbuttonForASinglePano11();"
+
+    onPanoStart="showbuttonForASinglePano11();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano11">set(layer[buttonForASinglePano11].visible, false);</action>
+  <action name="showbuttonForASinglePano11">
+    set(display_buttonForASinglePano11, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano10, set(display_buttonForASinglePano11, true); );
+
+    if (xml.scene == pano3464, set(display_buttonForASinglePano11, true); );
+
+    if (xml.scene == pano15, set(display_buttonForASinglePano11, true); );
+
+    if (xml.scene == pano43, set(display_buttonForASinglePano11, true); );
+
+    if (xml.scene == pano338, set(display_buttonForASinglePano11, true); );
+
+    if (xml.scene == pano339, set(display_buttonForASinglePano11, true); );
+
+    if (xml.scene == pano340, set(display_buttonForASinglePano11, true); );
+
+    if (xml.scene == pano341, set(display_buttonForASinglePano11, true); );
+
+    if (xml.scene == pano337, set(display_buttonForASinglePano11, true); );
+
+    if (xml.scene == pano342, set(display_buttonForASinglePano11, true); );
+
+    if (xml.scene == pano2077, set(display_buttonForASinglePano11, true); );
+
+
+    );
+    if (display_buttonForASinglePano11,
+      set(layer[buttonForASinglePano11].visible, true);
+    ,
+      hidebuttonForASinglePano11();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button -  침실3  OFF -->
+<!-- id : buttonForASinglePano30 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano30"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano30/room03-01.png"
+         align="topleft"
+         x="490"
+         y="0"
+         zorder="36"
+         visible="false"
+         onclick="buttonForASinglePano30OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano30OnClick">
+          mainloadscene(pano2077);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano30events"
+    onTourStart="showbuttonForASinglePano30();"
+    hidetourcontrols="hidebuttonForASinglePano30();"
+    showtourcontrols="showbuttonForASinglePano30();"
+
+    onPanoStart="showbuttonForASinglePano30();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano30">set(layer[buttonForASinglePano30].visible, false);</action>
+  <action name="showbuttonForASinglePano30">
+    set(display_buttonForASinglePano30, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano10, set(display_buttonForASinglePano30, true); );
+
+    if (xml.scene == pano3464, set(display_buttonForASinglePano30, true); );
+
+    if (xml.scene == pano15, set(display_buttonForASinglePano30, true); );
+
+    if (xml.scene == pano43, set(display_buttonForASinglePano30, true); );
+
+    if (xml.scene == pano338, set(display_buttonForASinglePano30, true); );
+
+    if (xml.scene == pano339, set(display_buttonForASinglePano30, true); );
+
+    if (xml.scene == pano340, set(display_buttonForASinglePano30, true); );
+
+    if (xml.scene == pano341, set(display_buttonForASinglePano30, true); );
+
+    if (xml.scene == pano337, set(display_buttonForASinglePano30, true); );
+
+    if (xml.scene == pano342, set(display_buttonForASinglePano30, true); );
+
+    if (xml.scene == pano2077, set(display_buttonForASinglePano30, true); );
+
+
+    );
+    if (display_buttonForASinglePano30,
+      set(layer[buttonForASinglePano30].visible, true);
+    ,
+      hidebuttonForASinglePano30();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - 현관 OFF -->
+<!-- id : buttonForASinglePano14 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano14"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano14/enterance-01.png"
+         align="topleft"
+         x="560"
+         y="0"
+         zorder="37"
+         visible="false"
+         onclick="buttonForASinglePano14OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano14OnClick">
+          mainloadscene(pano342);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano14events"
+    onTourStart="showbuttonForASinglePano14();"
+    hidetourcontrols="hidebuttonForASinglePano14();"
+    showtourcontrols="showbuttonForASinglePano14();"
+
+    onPanoStart="showbuttonForASinglePano14();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano14">set(layer[buttonForASinglePano14].visible, false);</action>
+  <action name="showbuttonForASinglePano14">
+    set(display_buttonForASinglePano14, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano10, set(display_buttonForASinglePano14, true); );
+
+    if (xml.scene == pano3464, set(display_buttonForASinglePano14, true); );
+
+    if (xml.scene == pano15, set(display_buttonForASinglePano14, true); );
+
+    if (xml.scene == pano43, set(display_buttonForASinglePano14, true); );
+
+    if (xml.scene == pano338, set(display_buttonForASinglePano14, true); );
+
+    if (xml.scene == pano339, set(display_buttonForASinglePano14, true); );
+
+    if (xml.scene == pano340, set(display_buttonForASinglePano14, true); );
+
+    if (xml.scene == pano341, set(display_buttonForASinglePano14, true); );
+
+    if (xml.scene == pano337, set(display_buttonForASinglePano14, true); );
+
+    if (xml.scene == pano342, set(display_buttonForASinglePano14, true); );
+
+    if (xml.scene == pano2077, set(display_buttonForASinglePano14, true); );
+
+
+    );
+    if (display_buttonForASinglePano14,
+      set(layer[buttonForASinglePano14].visible, true);
+    ,
+      hidebuttonForASinglePano14();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button -  거실ON -->
+<!-- id : buttonForASinglePano3 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano3"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano3/living00.png"
+         align="topleft"
+         x="0"
+         y="0"
+         zorder="38"
+         visible="false"
+         onclick="buttonForASinglePano3OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano3OnClick">
+          mainloadscene(pano2291);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano3events"
+    onTourStart="showbuttonForASinglePano3();"
+    hidetourcontrols="hidebuttonForASinglePano3();"
+    showtourcontrols="showbuttonForASinglePano3();"
+
+    onPanoStart="showbuttonForASinglePano3();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano3">set(layer[buttonForASinglePano3].visible, false);</action>
+  <action name="showbuttonForASinglePano3">
+    set(display_buttonForASinglePano3, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano2291, set(display_buttonForASinglePano3, true); );
+
+    if (xml.scene == pano3467, set(display_buttonForASinglePano3, true); );
+
+    if (xml.scene == pano2295, set(display_buttonForASinglePano3, true); );
+
+    if (xml.scene == pano2299, set(display_buttonForASinglePano3, true); );
+
+    if (xml.scene == pano2303, set(display_buttonForASinglePano3, true); );
+
+    if (xml.scene == pano2306, set(display_buttonForASinglePano3, true); );
+
+    if (xml.scene == pano2309, set(display_buttonForASinglePano3, true); );
+
+    if (xml.scene == pano2313, set(display_buttonForASinglePano3, true); );
+
+    if (xml.scene == pano2317, set(display_buttonForASinglePano3, true); );
+
+    if (xml.scene == pano2322, set(display_buttonForASinglePano3, true); );
+
+    if (xml.scene == pano2326, set(display_buttonForASinglePano3, true); );
+
+
+    );
+    if (display_buttonForASinglePano3,
+      set(layer[buttonForASinglePano3].visible, true);
+    ,
+      hidebuttonForASinglePano3();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button -  주방ON1 -->
+<!-- id : buttonForASinglePano32 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano32"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano32/kitchen00.png"
+         align="topleft"
+         x="60"
+         y="0"
+         zorder="39"
+         visible="false"
+         onclick="buttonForASinglePano32OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano32OnClick">
+          mainloadscene(pano2295);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano32events"
+    onTourStart="showbuttonForASinglePano32();"
+    hidetourcontrols="hidebuttonForASinglePano32();"
+    showtourcontrols="showbuttonForASinglePano32();"
+
+    onPanoStart="showbuttonForASinglePano32();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano32">set(layer[buttonForASinglePano32].visible, false);</action>
+  <action name="showbuttonForASinglePano32">
+    set(display_buttonForASinglePano32, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano2291, set(display_buttonForASinglePano32, true); );
+
+    if (xml.scene == pano3467, set(display_buttonForASinglePano32, true); );
+
+    if (xml.scene == pano2295, set(display_buttonForASinglePano32, true); );
+
+    if (xml.scene == pano2299, set(display_buttonForASinglePano32, true); );
+
+    if (xml.scene == pano2303, set(display_buttonForASinglePano32, true); );
+
+    if (xml.scene == pano2306, set(display_buttonForASinglePano32, true); );
+
+    if (xml.scene == pano2309, set(display_buttonForASinglePano32, true); );
+
+    if (xml.scene == pano2313, set(display_buttonForASinglePano32, true); );
+
+    if (xml.scene == pano2317, set(display_buttonForASinglePano32, true); );
+
+    if (xml.scene == pano2322, set(display_buttonForASinglePano32, true); );
+
+    if (xml.scene == pano2326, set(display_buttonForASinglePano32, true); );
+
+
+    );
+    if (display_buttonForASinglePano32,
+      set(layer[buttonForASinglePano32].visible, true);
+    ,
+      hidebuttonForASinglePano32();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button -  침실ON1 -->
+<!-- id : buttonForASinglePano33 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano33"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano33/room01-01.png"
+         align="topleft"
+         x="120"
+         y="0"
+         zorder="40"
+         visible="false"
+         onclick="buttonForASinglePano33OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano33OnClick">
+          mainloadscene(pano2299);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano33events"
+    onTourStart="showbuttonForASinglePano33();"
+    hidetourcontrols="hidebuttonForASinglePano33();"
+    showtourcontrols="showbuttonForASinglePano33();"
+
+    onPanoStart="showbuttonForASinglePano33();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano33">set(layer[buttonForASinglePano33].visible, false);</action>
+  <action name="showbuttonForASinglePano33">
+    set(display_buttonForASinglePano33, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano2291, set(display_buttonForASinglePano33, true); );
+
+    if (xml.scene == pano3467, set(display_buttonForASinglePano33, true); );
+
+    if (xml.scene == pano2295, set(display_buttonForASinglePano33, true); );
+
+    if (xml.scene == pano2299, set(display_buttonForASinglePano33, true); );
+
+    if (xml.scene == pano2303, set(display_buttonForASinglePano33, true); );
+
+    if (xml.scene == pano2306, set(display_buttonForASinglePano33, true); );
+
+    if (xml.scene == pano2309, set(display_buttonForASinglePano33, true); );
+
+    if (xml.scene == pano2313, set(display_buttonForASinglePano33, true); );
+
+    if (xml.scene == pano2317, set(display_buttonForASinglePano33, true); );
+
+    if (xml.scene == pano2322, set(display_buttonForASinglePano33, true); );
+
+    if (xml.scene == pano2326, set(display_buttonForASinglePano33, true); );
+
+
+    );
+    if (display_buttonForASinglePano33,
+      set(layer[buttonForASinglePano33].visible, true);
+    ,
+      hidebuttonForASinglePano33();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button -  드레스룸ON1 -->
+<!-- id : buttonForASinglePano34 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano34"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano34/dressroom-01.png"
+         align="topleft"
+         x="190"
+         y="0"
+         zorder="41"
+         visible="false"
+         onclick="buttonForASinglePano34OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano34OnClick">
+          mainloadscene(pano2303);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano34events"
+    onTourStart="showbuttonForASinglePano34();"
+    hidetourcontrols="hidebuttonForASinglePano34();"
+    showtourcontrols="showbuttonForASinglePano34();"
+
+    onPanoStart="showbuttonForASinglePano34();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano34">set(layer[buttonForASinglePano34].visible, false);</action>
+  <action name="showbuttonForASinglePano34">
+    set(display_buttonForASinglePano34, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano2291, set(display_buttonForASinglePano34, true); );
+
+    if (xml.scene == pano3467, set(display_buttonForASinglePano34, true); );
+
+    if (xml.scene == pano2295, set(display_buttonForASinglePano34, true); );
+
+    if (xml.scene == pano2299, set(display_buttonForASinglePano34, true); );
+
+    if (xml.scene == pano2303, set(display_buttonForASinglePano34, true); );
+
+    if (xml.scene == pano2306, set(display_buttonForASinglePano34, true); );
+
+    if (xml.scene == pano2309, set(display_buttonForASinglePano34, true); );
+
+    if (xml.scene == pano2313, set(display_buttonForASinglePano34, true); );
+
+    if (xml.scene == pano2317, set(display_buttonForASinglePano34, true); );
+
+    if (xml.scene == pano2322, set(display_buttonForASinglePano34, true); );
+
+    if (xml.scene == pano2326, set(display_buttonForASinglePano34, true); );
+
+
+    );
+    if (display_buttonForASinglePano34,
+      set(layer[buttonForASinglePano34].visible, true);
+    ,
+      hidebuttonForASinglePano34();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button -  부부욕실ON1 -->
+<!-- id : buttonForASinglePano35 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano35"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano35/_498921-1.png"
+         align="topleft"
+         x="280"
+         y="0"
+         zorder="42"
+         visible="false"
+         onclick="buttonForASinglePano35OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano35OnClick">
+          mainloadscene(pano2306);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano35events"
+    onTourStart="showbuttonForASinglePano35();"
+    hidetourcontrols="hidebuttonForASinglePano35();"
+    showtourcontrols="showbuttonForASinglePano35();"
+
+    onPanoStart="showbuttonForASinglePano35();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano35">set(layer[buttonForASinglePano35].visible, false);</action>
+  <action name="showbuttonForASinglePano35">
+    set(display_buttonForASinglePano35, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano2291, set(display_buttonForASinglePano35, true); );
+
+    if (xml.scene == pano3467, set(display_buttonForASinglePano35, true); );
+
+    if (xml.scene == pano2295, set(display_buttonForASinglePano35, true); );
+
+    if (xml.scene == pano2299, set(display_buttonForASinglePano35, true); );
+
+    if (xml.scene == pano2303, set(display_buttonForASinglePano35, true); );
+
+    if (xml.scene == pano2306, set(display_buttonForASinglePano35, true); );
+
+    if (xml.scene == pano2309, set(display_buttonForASinglePano35, true); );
+
+    if (xml.scene == pano2313, set(display_buttonForASinglePano35, true); );
+
+    if (xml.scene == pano2317, set(display_buttonForASinglePano35, true); );
+
+    if (xml.scene == pano2322, set(display_buttonForASinglePano35, true); );
+
+    if (xml.scene == pano2326, set(display_buttonForASinglePano35, true); );
+
+
+    );
+    if (display_buttonForASinglePano35,
+      set(layer[buttonForASinglePano35].visible, true);
+    ,
+      hidebuttonForASinglePano35();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- iControl Bar -->
+<!-- id : controlBar_i -->
+<!-- ********** -->
+
+  <krpano controlBar_ibarbuilt="false" controlBar_ibackgroundwidthwhenclosed="0" controlBar_ibackgroundwidthwhenopened="0" controlBar_iIsOpened="false" />
+  <events name="controlBar_ievents" 
+    onxmlcomplete="controlBar_ibuildMenuBar();" 
+
+
+    keep="true" />
+
+
+
+  <action name="controlBar_ibuildMenuBar">
+    ifnot (controlBar_ibarbuilt, controlBar_ibuildMenu(); set(controlBar_ibarbuilt, true););
+  </action>
+
+  <style name="controlBar_i_btn_style"
+         keep="true"
+         edge="right"
+         align="right"
+         x="0" y="0"
+         width="30" height="30"
+         crop="0|0|60|60"
+         onovercrop="0|60|60|60"
+         ondowncrop="0|120|60|60"
+         />
+  <style name="controlBar_i_btn_style_off"
+         keep="true"
+         edge="right"
+         align="right"
+         x="0" y="0"
+         width="30" height="30"
+         />
+
+  <layer name="controlBar_i_menu_bg"
+         keep="true"
+         type="container"
+         zorder="43"
+         width="30"
+         height="30"
+         align="bottomright"
+         x="25" y="20"
+         maskchildren="true"
+         rotate="0"
+         visible="false"
+         >
+
+
+
+
+
+
+    <layer name="controlBar_ibtn_openfs"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_enter_fs.png"
+            onclick="enterFullscreen();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            devices="fullscreensupport"
+            />
+    <layer name="controlBar_ibtn_closefs"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_close_fs.png"
+            onclick="exitFullscreen();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            devices="fullscreensupport"
+            />
+
+
+
+
+
+ </layer>
+
+
+
+
+
+
+  <action name="controlBar_ihideMenuControls">
+    set(controlBar_iIsOpened, false);
+
+
+	controlBar_iupdateFullscreenButtons();
+
+
+
+
+
+
+
+
+	set(layer[controlBar_i_menu_bg].width, get(controlBar_ibackgroundwidthwhenclosed));
+
+	set(layer[controlBar_i_menu_bg].visible, true);
+  </action>
+  <action name="controlBar_ishowMenuControls">
+    set(controlBar_iIsOpened, true);
+	set(layer[controlBar_i_menu_bg].visible, true);
+
+
+	controlBar_iupdateFullscreenButtons();
+
+
+
+
+
+
+
+    set(layer[controlBar_i_menu_bg].width, get(controlBar_ibackgroundwidthwhenopened));
+  </action>
+
+
+
+
+  <events name="controlBar_imenufullscreenchangeevent"
+          onenterfullscreen="controlBar_iupdateFullscreenButtons();"
+          onexitfullscreen="controlBar_iupdateFullscreenButtons();"
+          keep="true"/>
+	<action name="controlBar_iHideFullscreenButtons">
+		set(layer[controlBar_ibtn_openfs].visible , false);
+		set(layer[controlBar_ibtn_closefs].visible, false);
+	</action>
+	<action name="controlBar_iShowFullscreenButtons">
+		if (device.fullscreensupport,
+			if(tour_fullscreen,
+				set(layer[controlBar_ibtn_openfs].visible , false);
+				set(layer[controlBar_ibtn_closefs].visible, true);
+			,
+				set(layer[controlBar_ibtn_openfs].visible ,true);
+				set(layer[controlBar_ibtn_closefs].visible,false);
+			);
+		,
+			controlBar_iHideFullscreenButtons();
+		);
+	</action>
+	<action name="controlBar_iupdateFullscreenButtons">
+		if (controlBar_iIsOpened,
+			controlBar_iShowFullscreenButtons();
+		,
+			controlBar_iHideFullscreenButtons();
+		);
+	</action>
+
+
+
+  <action name="controlBar_ibuildMenu">
+    
+    set(controlBar_ibutton_pos, 0);
+
+
+
+      if (device.fullscreensupport,
+        set(layer[controlBar_ibtn_openfs].x , get(controlBar_ibutton_pos));
+        set(layer[controlBar_ibtn_closefs].x, get(controlBar_ibutton_pos));
+        inc(controlBar_ibutton_pos, 35);
+      );
+
+
+
+
+
+
+
+
+
+
+
+      dec(controlBar_ibutton_pos, 5);
+
+      set(controlBar_ibackgroundwidthwhenopened, get(controlBar_ibutton_pos));
+
+
+    
+      set(layer[controlBar_i_menu_bg].width, get(controlBar_ibackgroundwidthwhenopened));
+	
+	
+	
+    </action>
+
+	<events name="controlBar_iStartTourEvents" onTourStart="controlBar_iCallOnStartTour();" keep="true" />
+	
+	<action name="controlBar_iCallOnStartTour">
+		
+		controlBar_ishowMenuControls();
+	</action>
+
+
+
+
+<!-- ********** -->
+<!-- Button -  공용욕실ON1 -->
+<!-- id : buttonForASinglePano36 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano36"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano36/_498922-1.png"
+         align="topleft"
+         x="350"
+         y="0"
+         zorder="44"
+         visible="false"
+         onclick="buttonForASinglePano36OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano36OnClick">
+          mainloadscene(pano2322);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano36events"
+    onTourStart="showbuttonForASinglePano36();"
+    hidetourcontrols="hidebuttonForASinglePano36();"
+    showtourcontrols="showbuttonForASinglePano36();"
+
+    onPanoStart="showbuttonForASinglePano36();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano36">set(layer[buttonForASinglePano36].visible, false);</action>
+  <action name="showbuttonForASinglePano36">
+    set(display_buttonForASinglePano36, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano2291, set(display_buttonForASinglePano36, true); );
+
+    if (xml.scene == pano3467, set(display_buttonForASinglePano36, true); );
+
+    if (xml.scene == pano2295, set(display_buttonForASinglePano36, true); );
+
+    if (xml.scene == pano2299, set(display_buttonForASinglePano36, true); );
+
+    if (xml.scene == pano2303, set(display_buttonForASinglePano36, true); );
+
+    if (xml.scene == pano2306, set(display_buttonForASinglePano36, true); );
+
+    if (xml.scene == pano2309, set(display_buttonForASinglePano36, true); );
+
+    if (xml.scene == pano2313, set(display_buttonForASinglePano36, true); );
+
+    if (xml.scene == pano2317, set(display_buttonForASinglePano36, true); );
+
+    if (xml.scene == pano2322, set(display_buttonForASinglePano36, true); );
+
+    if (xml.scene == pano2326, set(display_buttonForASinglePano36, true); );
+
+
+    );
+    if (display_buttonForASinglePano36,
+      set(layer[buttonForASinglePano36].visible, true);
+    ,
+      hidebuttonForASinglePano36();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button -  침실2ON1 -->
+<!-- id : buttonForASinglePano37 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano37"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano37/room02-01.png"
+         align="topleft"
+         x="420"
+         y="0"
+         zorder="45"
+         visible="false"
+         onclick="buttonForASinglePano37OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano37OnClick">
+          mainloadscene(pano2309);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano37events"
+    onTourStart="showbuttonForASinglePano37();"
+    hidetourcontrols="hidebuttonForASinglePano37();"
+    showtourcontrols="showbuttonForASinglePano37();"
+
+    onPanoStart="showbuttonForASinglePano37();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano37">set(layer[buttonForASinglePano37].visible, false);</action>
+  <action name="showbuttonForASinglePano37">
+    set(display_buttonForASinglePano37, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano2291, set(display_buttonForASinglePano37, true); );
+
+    if (xml.scene == pano3467, set(display_buttonForASinglePano37, true); );
+
+    if (xml.scene == pano2295, set(display_buttonForASinglePano37, true); );
+
+    if (xml.scene == pano2299, set(display_buttonForASinglePano37, true); );
+
+    if (xml.scene == pano2303, set(display_buttonForASinglePano37, true); );
+
+    if (xml.scene == pano2306, set(display_buttonForASinglePano37, true); );
+
+    if (xml.scene == pano2309, set(display_buttonForASinglePano37, true); );
+
+    if (xml.scene == pano2313, set(display_buttonForASinglePano37, true); );
+
+    if (xml.scene == pano2317, set(display_buttonForASinglePano37, true); );
+
+    if (xml.scene == pano2322, set(display_buttonForASinglePano37, true); );
+
+    if (xml.scene == pano2326, set(display_buttonForASinglePano37, true); );
+
+
+    );
+    if (display_buttonForASinglePano37,
+      set(layer[buttonForASinglePano37].visible, true);
+    ,
+      hidebuttonForASinglePano37();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button -  침실3 ON1 -->
+<!-- id : buttonForASinglePano39 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano39"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano39/room03-01.png"
+         align="topleft"
+         x="490"
+         y="0"
+         zorder="46"
+         visible="false"
+         onclick="buttonForASinglePano39OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano39OnClick">
+          mainloadscene(pano2317);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano39events"
+    onTourStart="showbuttonForASinglePano39();"
+    hidetourcontrols="hidebuttonForASinglePano39();"
+    showtourcontrols="showbuttonForASinglePano39();"
+
+    onPanoStart="showbuttonForASinglePano39();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano39">set(layer[buttonForASinglePano39].visible, false);</action>
+  <action name="showbuttonForASinglePano39">
+    set(display_buttonForASinglePano39, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano2291, set(display_buttonForASinglePano39, true); );
+
+    if (xml.scene == pano3467, set(display_buttonForASinglePano39, true); );
+
+    if (xml.scene == pano2295, set(display_buttonForASinglePano39, true); );
+
+    if (xml.scene == pano2299, set(display_buttonForASinglePano39, true); );
+
+    if (xml.scene == pano2303, set(display_buttonForASinglePano39, true); );
+
+    if (xml.scene == pano2306, set(display_buttonForASinglePano39, true); );
+
+    if (xml.scene == pano2309, set(display_buttonForASinglePano39, true); );
+
+    if (xml.scene == pano2313, set(display_buttonForASinglePano39, true); );
+
+    if (xml.scene == pano2317, set(display_buttonForASinglePano39, true); );
+
+    if (xml.scene == pano2322, set(display_buttonForASinglePano39, true); );
+
+    if (xml.scene == pano2326, set(display_buttonForASinglePano39, true); );
+
+
+    );
+    if (display_buttonForASinglePano39,
+      set(layer[buttonForASinglePano39].visible, true);
+    ,
+      hidebuttonForASinglePano39();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button -  현관ON1 -->
+<!-- id : buttonForASinglePano40 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano40"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano40/enterance-01.png"
+         align="topleft"
+         x="560"
+         y="0"
+         zorder="47"
+         visible="false"
+         onclick="buttonForASinglePano40OnClick"
+         />
+
+
+
+  <action name="buttonForASinglePano40OnClick">
+          mainloadscene(pano2326);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonForASinglePano40events"
+    onTourStart="showbuttonForASinglePano40();"
+    hidetourcontrols="hidebuttonForASinglePano40();"
+    showtourcontrols="showbuttonForASinglePano40();"
+
+    onPanoStart="showbuttonForASinglePano40();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano40">set(layer[buttonForASinglePano40].visible, false);</action>
+  <action name="showbuttonForASinglePano40">
+    set(display_buttonForASinglePano40, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano2291, set(display_buttonForASinglePano40, true); );
+
+    if (xml.scene == pano3467, set(display_buttonForASinglePano40, true); );
+
+    if (xml.scene == pano2295, set(display_buttonForASinglePano40, true); );
+
+    if (xml.scene == pano2299, set(display_buttonForASinglePano40, true); );
+
+    if (xml.scene == pano2303, set(display_buttonForASinglePano40, true); );
+
+    if (xml.scene == pano2306, set(display_buttonForASinglePano40, true); );
+
+    if (xml.scene == pano2309, set(display_buttonForASinglePano40, true); );
+
+    if (xml.scene == pano2313, set(display_buttonForASinglePano40, true); );
+
+    if (xml.scene == pano2317, set(display_buttonForASinglePano40, true); );
+
+    if (xml.scene == pano2322, set(display_buttonForASinglePano40, true); );
+
+    if (xml.scene == pano2326, set(display_buttonForASinglePano40, true); );
+
+
+    );
+    if (display_buttonForASinglePano40,
+      set(layer[buttonForASinglePano40].visible, true);
+    ,
+      hidebuttonForASinglePano40();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - Scene specific-공용 -->
+<!-- id : buttonForASinglePano41 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano41"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano41/_514524792449892_507244753248156_44277508575083749892_0925.png"
+         align="top"
+         x="0"
+         y="36"
+         zorder="48"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano41events"
+    onTourStart="showbuttonForASinglePano41();"
+    hidetourcontrols="hidebuttonForASinglePano41();"
+    showtourcontrols="showbuttonForASinglePano41();"
+
+    onPanoStart="showbuttonForASinglePano41();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano41">set(layer[buttonForASinglePano41].visible, false);</action>
+  <action name="showbuttonForASinglePano41">
+    set(display_buttonForASinglePano41, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano2306, set(display_buttonForASinglePano41, true); );
+
+    if (xml.scene == pano339, set(display_buttonForASinglePano41, true); );
+
+
+    );
+    if (display_buttonForASinglePano41,
+      set(layer[buttonForASinglePano41].visible, true);
+    ,
+      hidebuttonForASinglePano41();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - Scene specific-부부 -->
+<!-- id : buttonForASinglePano42 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano42"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano42/_514524792449892_507244753248156_48512485125083749892_0925.png"
+         align="top"
+         x="0"
+         y="36"
+         zorder="49"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano42events"
+    onTourStart="showbuttonForASinglePano42();"
+    hidetourcontrols="hidebuttonForASinglePano42();"
+    showtourcontrols="showbuttonForASinglePano42();"
+
+    onPanoStart="showbuttonForASinglePano42();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano42">set(layer[buttonForASinglePano42].visible, false);</action>
+  <action name="showbuttonForASinglePano42">
+    set(display_buttonForASinglePano42, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano2322, set(display_buttonForASinglePano42, true); );
+
+    if (xml.scene == pano337, set(display_buttonForASinglePano42, true); );
+
+
+    );
+    if (display_buttonForASinglePano42,
+      set(layer[buttonForASinglePano42].visible, true);
+    ,
+      hidebuttonForASinglePano42();
+    );
+  </action>
+
+
+
+  <!-- FLOORPLAN -->
+  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
+  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
+
+
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+
+<action name="viewControlMoveUp">
+	if(%1,
+		if(%2,
+			set(isfullvertical, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewvfov, panoview.vmax, panoview.vmin);
+				if (viewvfov == 180,
+					set(isfullvertical, true);
+				);
+			);
+			if(isfullvertical == false AND calc(view.vlookat-%2) LT view.vlookatmin,
+				moveto(get(view.hlookat), get(view.vlookatmin));
+			,
+				moveto(get(view.hlookat), calc(view.vlookat-%2));
+			);
+		,
+			set(vlookat_moveforce, -1);
+			delayedcall(0.1, viewControlMoveVertStop());
+		);
+	,
+		set(vlookat_moveforce, -1);
+	);
+</action>
+<action name="viewControlMoveDown">
+	if(%1,
+		if(%2,
+			set(isfullvertical, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewvfov, panoview.vmax, panoview.vmin);
+				if (viewvfov == 180,
+					set(isfullvertical, true);
+				);
+			);
+			if(sceneisfull360 == false AND calc(view.vlookat+%2) GT view.vlookatmax,
+				moveto(get(view.hlookat), get(view.vlookatmax));
+			,
+				moveto(get(view.hlookat), calc(view.vlookat+%2));
+			);
+		,
+			set(vlookat_moveforce, +1);
+			delayedcall(0.1, viewControlMoveVertStop());
+		);
+	,
+		set(vlookat_moveforce, +1);
+	);
+</action>
+<action name="viewControlMoveLeft">
+	if(%1,
+		if(%2,
+			set(isfullhorizontal, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewhfov, panoview.hmax, panoview.hmin);
+				if (viewhfov == 360,
+					set(isfullhorizontal, true);
+				);
+			);
+			if(isfullhorizontal == false AND calc(view.hlookat-%2) LT view.hlookatmin,
+				moveto(get(view.hlookatmin), get(view.vlookat));
+			,
+				moveto(calc(view.hlookat-%2), get(view.vlookat));
+			);
+		,
+			set(hlookat_moveforce, -1);
+			delayedcall(0.1, viewControlMoveHoriStop());
+		);
+	,
+		set(hlookat_moveforce, -1);
+	);
+</action>
+<action name="viewControlMoveRight">
+	if(%1,
+		if(%2,
+			set(isfullhorizontal, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewhfov, panoview.hmax, panoview.hmin);
+				if (viewhfov == 360,
+					set(isfullhorizontal, true);
+				);
+			);
+			if(isfullhorizontal == false AND calc(view.hlookat+%2) GT view.hlookatmax,
+				moveto(get(view.hlookatmax), get(view.vlookat));
+			,
+				moveto(calc(view.hlookat+%2), get(view.vlookat));
+			);
+		,
+			set(hlookat_moveforce, +1);
+			delayedcall(0.1, viewControlMoveHoriStop());
+			
+		);
+	,
+		set(hlookat_moveforce, +1);
+	);
+</action>
+<action name="viewControlMoveHoriStop">
+	set(hlookat_moveforce, 0);
+</action>
+<action name="viewControlMoveVertStop">
+	set(vlookat_moveforce, 0);
+</action>
+
+  <action name="displayImage">
+    if (layer[displayedStandardImage],
+      if(layer[displayedStandardImage].doNotDeleteMe,
+        set(layer[displayedStandardImage].currentCall, false);
+        set(layer[displayedStandardImage].doNotDeleteMe, false);
+        
+        if (%1 == layer[displayedStandardImage].url,
+          applyDisplayedImageObjectAnimation(%8);
+        ,
+          setDisplayedImageObjectParameters(%1, %2, %3, %4, %5, %6, %7, %8, %9, %10);
+        );
+      ,
+        set(layer[displayedStandardImage].currentCall, false);
+        set(layer[displayedStandardImage].doNotDeleteMe, true);
+        events.dispatch(onremovedisplayedobject);
+        delayedcall(0.2,displayImage(%1, %2, %3, %4, %5, %6, %7, %8, %9, %10, %11, %12););
+      );
+    ,
+      if(%10,
+        addlayer(displayedStandardImageOverlay);
+        set(layer[displayedStandardImageOverlay].keep, false);
+        set(layer[displayedStandardImageOverlay].width, 100%);
+        set(layer[displayedStandardImageOverlay].height, 100%);
+        set(layer[displayedStandardImageOverlay].type, container);
+        set(layer[displayedStandardImageOverlay].zorder, 98);
+        set(layer[displayedStandardImageOverlay].visible, false);
+        set(layer[displayedStandardImageOverlay].onclick, applyDisplayedImageObjectAnimation(%8););
+        set(layer[displayedStandardImageOverlay].bgcolor, "0x%11");
+        set(layer[displayedStandardImageOverlay].bgalpha, %12);
+        set(layer[displayedStandardImageOverlay].bgcapture, true);
+      );
+      addlayer(displayedStandardImage);
+      set(layer[displayedStandardImage].keep, false);
+      set(layer[displayedStandardImage].onclick, applyDisplayedImageObjectAnimation(%8););
+      set(layer[displayedStandardImage].zorder , 99);
+      set(layer[displayedStandardImage].currentCall, true);
+      set(layer[displayedStandardImage].doNotDeleteMe, true);
+      set(layer[displayedStandardImage].onloaded, resizeDisplayedImageObject());
+      events.dispatch(onremovedisplayedobject);
+      delayedcall(0.2,displayImage(%1, %2, %3, %4, %5, %6, %7, %8, %9, %10, %11, %12););
+      set(layer[displayedStandardImage].visible, false);
+    );
+  </action>
+  <action name="applyDisplayedImageObjectAnimation">resumeautorotation(forcehotspot);
+
+    if (%1,
+      stoptween(layer[displayedStandardImage].width, layer[displayedStandardImage].height);
+      tween(layer[displayedStandardImage].width|layer[displayedStandardImage].height, 1|1, 1, easeOutQuad, WAIT);
+      if(layer[displayedStandardImage].overlay,removelayer(displayedStandardImageOverlay););removelayer(displayedStandardImage);
+    ,
+      if(layer[displayedStandardImage].overlay,removelayer(displayedStandardImageOverlay););removelayer(displayedStandardImage);
+    );
+  </action>
+  <action name="setDisplayedImageObjectParameters">
+    set(layer[displayedStandardImage].url       , %1);
+    set(layer[displayedStandardImage].align     , %2);
+    set(layer[displayedStandardImage].x         , %3);
+    set(layer[displayedStandardImage].y         , %4);
+    set(layer[displayedStandardImage].imgwidth  , %5);
+    set(layer[displayedStandardImage].imgheight , %6);
+    set(layer[displayedStandardImage].animated  , %8);
+    set(layer[displayedStandardImage].applyratio, %9);
+    set(layer[displayedStandardImage].overlay   , %10);
+    if (%7,pauseautorotation(forcehotspot);
+);
+  </action>
+  <action name="resizeDisplayedImageObject">
+    if(layer[displayedStandardImage].url,
+    set(layer[displayedStandardImage].fullwidth, get(layer[displayedStandardImage].width));
+    set(layer[displayedStandardImage].fullheight, get(layer[displayedStandardImage].height));
+    if(layer[displayedStandardImage].animated,
+      set(layer[displayedStandardImage].width , 1);
+      set(layer[displayedStandardImage].height, 1);
+    );
+    if(layer[displayedStandardImage].imgwidth != "" AND layer[displayedStandardImage].imgheight != "",
+      if(layer[displayedStandardImage].imgwidth == "prop",
+        set(tempDisplayedImageObjectHeight, get(layer[displayedStandardImage].imgheight));
+        indexoftxt(tempDisplayedImageObjectHeightPercent, get(tempDisplayedImageObjectHeight), "%");
+        if(tempDisplayedImageObjectHeightPercent GT 0,
+          txtreplace(tempDisplayedImageObjectHeight, '%', '');
+          mul(tempDisplayedImageObjectHeight, get(stageheight));
+          div(tempDisplayedImageObjectHeight, 100);
+          Math.round(tempDisplayedImageObjectHeight);
+        );
+        mul(flyingImgWidth,get(layer[displayedStandardImage].fullwidth),get(tempDisplayedImageObjectHeight));
+        div(flyingImgWidth,get(layer[displayedStandardImage].fullheight));
+        Math.round(flyingImgWidth);
+        set(layer[displayedStandardImage].imgwidth , get(flyingImgWidth));
+        set(layer[displayedStandardImage].imgheight, get(tempDisplayedImageObjectHeight));
+      ,
+        if(layer[displayedStandardImage].imgheight == "prop",
+          set(tempDisplayedImageObjectWidth, get(layer[displayedStandardImage].imgwidth));
+          indexoftxt(tempDisplayedImageObjectWidthPercent, get(tempDisplayedImageObjectWidth), "%");
+          if(tempDisplayedImageObjectWidthPercent GT 0,
+            txtreplace(tempDisplayedImageObjectWidth, '%', '');
+            mul(tempDisplayedImageObjectWidth, get(stagewidth));
+            div(tempDisplayedImageObjectWidth, 100);
+            Math.round(tempDisplayedImageObjectWidth);
+          );
+          mul(flyingImgHeight,get(layer[displayedStandardImage].fullheight),get(tempDisplayedImageObjectWidth));
+          div(flyingImgHeight,get(layer[displayedStandardImage].fullwidth));
+          Math.round(flyingImgHeight);
+          set(layer[displayedStandardImage].imgwidth , get(tempDisplayedImageObjectWidth));
+          set(layer[displayedStandardImage].imgheight , get(flyingImgHeight));
+        ,
+          set(tempDisplayedImageObjectWidth, get(layer[displayedStandardImage].imgwidth));
+          set(tempDisplayedImageObjectHeight, get(layer[displayedStandardImage].imgheight));
+          indexoftxt(tempDisplayedImageObjectWidthPercent, get(tempDisplayedImageObjectWidth), "%");
+          indexoftxt(tempDisplayedImageObjectHeightPercent, get(tempDisplayedImageObjectHeight), "%");
+          if(tempDisplayedImageObjectWidthPercent GT 0,
+            txtreplace(tempDisplayedImageObjectWidth, '%', '');
+            mul(tempDisplayedImageObjectWidth, get(stagewidth));
+            div(tempDisplayedImageObjectWidth, 100);
+            Math.round(tempDisplayedImageObjectWidth);
+          );
+          if(tempDisplayedImageObjectHeightPercent GT 0,
+            txtreplace(tempDisplayedImageObjectHeight, '%', '');
+            mul(tempDisplayedImageObjectHeight, get(stageheight));
+            div(tempDisplayedImageObjectHeight, 100);
+            Math.round(tempDisplayedImageObjectHeight);
+          );
+          set(layer[displayedStandardImage].imgwidth , get(tempDisplayedImageObjectWidth));
+          set(layer[displayedStandardImage].imgheight, get(tempDisplayedImageObjectHeight));
+        );
+      );
+    ,
+      set(layer[displayedStandardImage].imgwidth , get(layer[displayedStandardImage].fullwidth));
+      set(layer[displayedStandardImage].imgheight, get(layer[displayedStandardImage].fullheight));
+    );
+    
+    set(resizedwidth, get(layer[displayedStandardImage].imgwidth));
+    set(resizedheight, get(layer[displayedStandardImage].imgheight));
+    if(layer[displayedStandardImage].applyratio,
+      sub(resizedstagewidth, get(stagewidth), get(layer[displayedStandardImage].x));
+      sub(resizedstageheight, get(stageheight), get(layer[displayedStandardImage].y));
+      Math.abs(resizedstagewidth);
+      Math.abs(resizedstageheight);
+      if(resizedwidth GT resizedstagewidth,
+        mul(tempresizedheight, get(resizedheight), get(resizedstagewidth));
+        div(tempresizedheight, get(resizedwidth));
+        Math.round(tempresizedheight);
+        set(resizedwidth, get(resizedstagewidth));
+        set(resizedheight, get(tempresizedheight));
+      );
+      if(resizedheight GT resizedstageheight,
+        mul(tempresizedwidth, get(resizedwidth), get(resizedstageheight));
+        div(tempresizedwidth, get(resizedheight));
+        Math.round(tempresizedwidth);
+        set(resizedheight, get(resizedstageheight));
+        set(resizedwidth, get(tempresizedwidth));
+      );
+    );
+    
+    if(layer[displayedStandardImage].animated,
+      set(layer[displayedStandardImage].animated, false);
+      tween(layer[displayedStandardImage].width , get(resizedwidth), 1, easeOutQuad);
+      tween(layer[displayedStandardImage].height, get(resizedheight), 1, easeOutQuad);
+    ,
+      set(layer[displayedStandardImage].width , get(resizedwidth));
+      set(layer[displayedStandardImage].height, get(resizedheight));
+    );
+    if(layer[displayedStandardImage].overlay,set(layer[displayedStandardImageOverlay].visible, true););
+    set(layer[displayedStandardImage].visible, true);
+    ,
+      delayedcall(0.2,resizeDisplayedImageObject(););
+    );
+  </action>
+  <events name="displayedImageObjectEvents" keep="true" onremovedisplayedobject="displayedImageObjectOnRemoveDisplayedObject" onresize="if(layer[displayedStandardImage],resizeDisplayedImageObject());" />
+  <action name="displayedImageObjectOnRemoveDisplayedObject">
+    ifnot(layer[displayedStandardImage].currentCall,if(layer[displayedStandardImage].visible,resumeautorotation(forcehotspot);
+
+      if(layer[displayedStandardImage].overlay,removelayer(displayedStandardImageOverlay););
+      removelayer(displayedStandardImage);
+    ););
+  </action>
+
+
+<action name="viewControlZoomIn">
+	if(%1,
+		if(%2,
+			if(%2 LT view.fovmin,
+				zoomto(get(view.fovmin));
+			,
+				if(%2 LT view.fov,
+					zoomto(%2);
+				);
+			);
+		,
+			set(fov_moveforce, -1);
+			delayedcall(0.1, viewControlZoomStop());
+		);
+	,
+		set(fov_moveforce, -1);
+	);
+</action>
+<action name="viewControlZoomOut">
+	if(%1,
+		if(%2,
+			if(%2 GT view.fovmax,
+				zoomto(get(view.fovmax));
+			,
+				if(%2 GT view.fov,
+					zoomto(%2);
+				);
+			);
+		,
+			set(fov_moveforce, +1);
+			delayedcall(0.1, viewControlZoomStop());
+		);
+	,
+		set(fov_moveforce, +1);
+	);
+</action>
+<action name="viewControlZoomStop">
+	set(fov_moveforce, 0);
+</action>
+
+  <!-- Sounds Management -->
+  <plugin name="soundinterface"
+          preload="true"
+          url.flash="%SWFPATH%/graphics/soundinterface.swf"
+          url.html5="%FIRSTXML%/graphics/soundinterface.js"
+          rootpath="%$videos_sounds_path%/sounds"
+          backgroundsound=""
+          backgroundsoundloops="0"
+          bgsound="false"
+          bgsoundpaused="false"
+          bgsoundloopended="false"
+          bgsoundtoforce = "false"
+          volumeinitialized="false"
+          started="true"
+          keep="true"/>
+  <events name="soundmanagementevents"
+          onnewpano="if(plugin[soundinterface].started,playbackgroundsound(););"
+          onxmlcomplete="soundinterfaceonxmlcomplete();"
+          keep="true"/>
+  <action name="soundinterfaceonxmlcomplete">
+    ifnot(plugin[soundinterface].volumeinitialized,
+      div(plugin[soundinterface].volume, tour_soundsvolume, 100);
+      set(plugin[soundinterface].volumeinitialized,true);
+    );
+  </action>
+  <action name="playsound3Dwhenpossible">
+    set(really_play_sound, true);
+    if (tour_current_played_sound,
+      if (%1 == tour_current_played_sound,
+        delete(tour_current_played_sound);
+        set(tour_current_played_sound_state, 0);
+        delete(tour_current_played_sound_paused);
+        stopsound(%1);
+        set(really_play_sound, false);
+        if(%4,
+          delete(tour_current_played_sound_pausesound);
+          resumeTourSoundsActions(true,true,true,true,true);
+        );
+      );
+    );
+    if (really_play_sound,
+      if (tour_current_played_sound,
+        stopsound(get(tour_current_played_sound));
+
+        ifnot(%4,
+          if(tour_current_played_sound_pausesound,
+            delete(tour_current_played_sound_pausesound);
+            resumeTourSoundsActions(true,true,true,true,true);
+          );
+        );
+      );
+      if(%4,
+        set(tour_current_played_sound_pausesound, true);
+        pauseTourSoundsActions(true,false,true,true,true);
+      );
+      set(tour_current_played_sound, %1);
+      if(tour_current_played_video,
+        set(tour_current_played_sound_state, 2);
+      ,
+        set(tour_current_played_sound_state, 1);
+      );
+      set(tour_current_played_sound_paused, false);
+      if (%3,
+        if (device.flash,
+          div(volume, tour_soundsvolume, 100);
+          if(%9 != null,
+            playsound3D(%1,%2,%5,%6,%7,get(volume),%8,stopsound3Dwhenpossible(%1,%4));
+          ,
+            playsound3D(%1,%2,%5,%6,%7,get(volume),%8);
+          );
+        ,
+          if(%9 != null,
+            playsound(%1,%2,%8,stopsound3Dwhenpossible(%1,%4));
+          ,
+            playsound(%1,%2,%8);
+          );
+        );
+      ,
+        if(%6 != null,
+          playsound(%1,%2,%5,stopsound3Dwhenpossible(%1,%4));
+        ,
+          playsound(%1,%2,%5);
+        );
+      );
+
+      ifnot(tour_soundson,
+        set(tour_current_played_sound_paused, true);
+        pausesound(%1);
+      );
+    );
+  </action>
+  <action name="stopsound3Dwhenpossible">
+    if (%1 == tour_current_played_sound,
+      delete(tour_current_played_sound);
+      set(tour_current_played_sound_state, 0);
+      delete(tour_current_played_sound_paused);
+
+      ifnot(device.safari,
+        stopsound(%1);
+      );
+      if(%2,
+        delete(tour_current_played_sound_pausesound);
+        resumeTourSoundsActions(true,true,true,true,true);
+      );
+    );
+  </action>
+  <action name="playbackgroundsound">
+  if(playsound,
+    if (xml.scene,
+      if (scene[get(xml.scene)].backgroundsound,
+        if (plugin[soundinterface].backgroundsound != scene[get(xml.scene)].backgroundsound,
+          copy(plugin[soundinterface].backgroundsound, scene[get(xml.scene)].backgroundsound);
+          copy(plugin[soundinterface].backgroundsoundloops, scene[get(xml.scene)].backgroundsoundloops);
+          if (tour_soundson,
+            set(plugin[soundinterface].bgsound, true);
+            set(plugin[soundinterface].bgsoundpaused, false);
+            set(plugin[soundinterface].bgsoundloopended, false);
+            set(plugin[soundinterface].bgsoundtoforce, false);
+            if(scene[get(xml.scene)].video == false OR (scene[get(xml.scene)].video == true AND scene[get(xml.scene)].scenevideomute == true),
+              if(plugin[soundinterface].backgroundsoundloops GT 0,
+                playsound(bgsoundname, get(plugin[soundinterface].backgroundsound), get(plugin[soundinterface].backgroundsoundloops), stopbackgroundsoundoncomplete());
+              ,
+                playsound(bgsoundname, get(plugin[soundinterface].backgroundsound), get(plugin[soundinterface].backgroundsoundloops));
+              );
+            );
+           ,
+            set(plugin[soundinterface].bgsoundtoforce, true);
+            set(plugin[soundinterface].bgsound, false);
+          );
+        ,
+          if (tour_soundson,
+            if((plugin[soundinterface].bgsoundpaused == true AND scene[get(xml.scene)].video == false) OR (scene[get(xml.scene)].video == true AND scene[get(xml.scene)].scenevideomute == true),
+              resumesound(bgsoundname);
+              set(plugin[soundinterface].bgsoundpaused, false);
+            );
+          ,
+            set(plugin[soundinterface].bgsoundtoforce, true);
+            set(plugin[soundinterface].bgsound, false);
+          );
+        );
+      );
+    );
+  ,
+    delayedcall(0.2, playbackgroundsound());
+  );
+  </action>
+  <action name="stopbackgroundsoundoncomplete">
+    if (plugin[soundinterface].backgroundsound,
+    if (plugin[soundinterface].backgroundsoundloops GT 0,
+
+      set(plugin[soundinterface].backgroundsoundloops, 0);
+      set(plugin[soundinterface].bgsound, false);
+      set(plugin[soundinterface].bgsoundpaused, false);
+      set(plugin[soundinterface].bgsoundloopended, true);
+    );
+    );
+  </action>
+  <action name="resetbackgroundsoundifneeded">
+    if (xml.scene,
+      if (scene[get(xml.scene)].backgroundsound != scene[%1].backgroundsound,
+        if(plugin[soundinterface].backgroundsound,
+          stopsound(bgsoundname);
+        );
+        set(plugin[soundinterface].backgroundsound, "");
+        set(plugin[soundinterface].backgroundsoundloops, 0);
+        set(plugin[soundinterface].bgsound, false);
+        set(plugin[soundinterface].bgsoundpaused, false);
+        set(plugin[soundinterface].bgsoundloopended, false);
+      );
+    );
+  </action>
+  <action name="pausebackgroundsound">
+    if(plugin[soundinterface].backgroundsound,
+      if (plugin[soundinterface].bgsound,
+        if(plugin[soundinterface].bgsoundpaused == false AND plugin[soundinterface].bgsoundloopended == false,
+          pausesound(bgsoundname);
+          set(plugin[soundinterface].bgsoundpaused, true);
+        );
+      );
+    );
+    
+  </action>
+  <action name="resumebackgroundsound">
+    set(bgSoundOnResume, true);
+    set(forceBgSoundOnResume, true);
+    if(layer[displayedStandardVideo],
+    if(layer[displayedStandardVideo].pausebgsound AND tour_current_played_video,
+      set(bgSoundOnResume, false);
+      set(forceBgSoundOnResume, false);
+    ););
+    if(layer[webvideodisplay_player],
+    if(layer[webvideodisplay_player].pausebgsound AND tour_current_played_web_video,
+      set(bgSoundOnResume, false);
+      set(forceBgSoundOnResume, false);
+    ););
+    if(tour_current_played_sound_pausesound AND tour_current_played_sound,
+      set(bgSoundOnResume, false);
+    );
+    ifnot(plugin[soundinterface].backgroundsound AND scene[get(xml.scene)].backgroundsound,
+      set(bgSoundOnResume, false);
+    );
+    if(videospots_playing GT 0,
+      set(bgSoundOnResume, false);
+      set(forceBgSoundOnResume, false);
+    );
+    if(bgSoundOnResume,
+      if (plugin[soundinterface].backgroundsound,
+        if (tour_soundson,
+          if (plugin[soundinterface].bgsound AND plugin[soundinterface].bgsoundloopended == false,
+            if((plugin[soundinterface].bgsoundpaused == true AND scene[get(xml.scene)].video == false) OR (scene[get(xml.scene)].video == true AND scene[get(xml.scene)].scenevideomute == true),
+              resumesound(bgsoundname);
+              set(plugin[soundinterface].bgsoundpaused, false);
+            ,
+
+              if(device.mobile OR device.tablet OR device.safari OR device.chrome,
+                resumesound(bgsoundname);
+                set(plugin[soundinterface].bgsoundpaused, false);
+              );
+            );
+          ,
+            if(((plugin[soundinterface].bgsoundpaused == true OR plugin[soundinterface].bgsoundtoforce == true) AND scene[get(xml.scene)].video == false) OR (scene[get(xml.scene)].video == true AND scene[get(xml.scene)].scenevideomute == true),
+              set(plugin[soundinterface].bgsound, true);
+              set(plugin[soundinterface].bgsoundpaused, false);
+              set(plugin[soundinterface].bgsoundloopended, false);
+              set(plugin[soundinterface].bgsoundtoforce, false);
+              if(plugin[soundinterface].backgroundsoundloops GT 0,
+                playsound(bgsoundname, get(plugin[soundinterface].backgroundsound), get(plugin[soundinterface].backgroundsoundloops), stopbackgroundsoundoncomplete());
+              ,
+                playsound(bgsoundname, get(plugin[soundinterface].backgroundsound), get(plugin[soundinterface].backgroundsoundloops));
+              );
+            );
+          );
+        );
+      );
+      
+    ,
+      if(forceBgSoundOnResume,
+        playbackgroundsound();
+        
+      );
+    );
+  </action>
+  <action name="preloadSounds">
+    preloadsound("_74a_4414449892.mp3");
+    preloadsound("_74a_5145248169.mp3");
+    preloadsound("_74a_5284049892.mp3");
+    preloadsound("_74a_46300471124982847352.mp3");
+    preloadsound("_74a_5083749892.mp3");
+    preloadsound("_74a_52840498922.mp3");
+    preloadsound("_74a_52840498923.mp3");
+    preloadsound("_74a_50837498922.mp3");
+    preloadsound("_74a_5478844288.mp3");
+  </action>
+
+  <action name="play3DLocalSounds">
+    if (xml.scene, if (scene[get(xml.scene)].haslocalsounds, playpanolocalsounds();););
+  </action>
+  <action name="stop3DLocalSounds">
+    if (xml.scene, if (scene[get(xml.scene)].haslocalsounds, stoppanolocalsounds();););
+  </action>
+  <action name="resume3DLocalSounds">
+    if (xml.scene, if (scene[get(xml.scene)].haslocalsounds, 
+      set(kill3dSoundOnResume, true);
+      if(layer[displayedStandardVideo],
+      if(layer[displayedStandardVideo].pausebgsound,
+      if(tour_current_played_video,
+        set(kill3dSoundOnResume, false);
+      );););
+      if(layer[webvideodisplay_player],
+      if(layer[webvideodisplay_player].pausebgsound,
+      if(tour_current_played_web_video,
+        set(kill3dSoundOnResume, false);
+      );););
+      if(tour_current_played_sound_pausesound,
+      if(tour_current_played_sound,
+        set(kill3dSoundOnResume, false);
+      ););
+      if(kill3dSoundOnResume,
+        resumepanolocalsounds();
+      );
+    ););
+  </action>
+  <action name="pause3DLocalSounds">
+    if (xml.scene, if (scene[get(xml.scene)].haslocalsounds, pausepanolocalsounds();););
+  </action>
+  <action name="set3DLocalSoundsVolume">
+    if (xml.scene, if (scene[get(xml.scene)].haslocalsounds, setpanolocalsoundsvolume();););
+  </action>
+  <action name="playTourSounds">
+    set(tour_soundson, true);events.dispatch(playtoursoundsevent);
+    resumeTourSoundsActions(true,true,true,true,true);
+  </action>
+  <action name="stopTourSounds">
+    set(tour_soundson, false);events.dispatch(stoptoursoundsevent);
+    pauseTourSoundsActions(true,true,true,true,true);
+  </action>
+  <action name="setTourSoundsVolume">
+    set(tour_soundsvolume, %1);events.dispatch(changetoursoundsevent);
+    div(volume, tour_soundsvolume, 100);
+    set(plugin[soundinterface].volume, get(volume));
+    set3DLocalSoundsVolume();
+  </action>
+  <action name="playTourSoundsActions">
+    if(%1,
+      if(plugin[soundinterface],
+        if(plugin[soundinterface].started,
+        play3DLocalSounds();
+        );
+      );
+    );
+    if(%2,
+      if(plugin[soundinterface],
+        if(plugin[soundinterface].started,
+          resumebackgroundsound();
+        );
+      );
+    );
+  </action>
+  <action name="stopTourSoundsActions">
+    if(%1,
+      stop3DLocalSounds();
+    );
+    if(%2,
+      stopSoundActionsSounds();
+    );
+    if(%3,
+      stopVideoActionsSounds();
+    );
+    if(%4,
+      pausebackgroundsound();
+    );
+  </action>
+  <action name="resumeTourSoundsActions">
+    if(%1,
+      if(plugin[soundinterface],
+        if(plugin[soundinterface].started,
+        resume3DLocalSounds();
+        );
+      );
+    );
+    if(%2,
+      resumeSoundActionsSounds();
+    );
+    if(%3,
+      resumeVideoActionsSounds();
+    );
+    if(%4,
+      if(%5,
+        if(plugin[soundinterface],
+          if(plugin[soundinterface].started,
+            resumebackgroundsound();
+          );
+        );
+      ,
+        pausebackgroundsound();
+      );
+    );
+  </action>
+  <action name="pauseTourSoundsActions">
+    if(%1,
+      pause3DLocalSounds();
+    );
+    if(%2,
+      pauseSoundActionsSounds();
+    );
+    if(%3,
+      pauseVideoActionsSounds();
+    );
+    if(%4,
+      if(%5,
+        pausebackgroundsound();
+      ,
+        if(plugin[soundinterface],
+          if(plugin[soundinterface].started,
+            resumebackgroundsound();
+          );
+        );
+      );
+    );
+  </action>
+  <action name="stopSoundActionsSounds">
+    if (tour_current_played_sound,
+      delete(tour_current_played_sound_paused);
+      stopsound(get(tour_current_played_sound));
+      delete(tour_current_played_sound);
+      set(tour_current_played_sound_state, 0);
+    );
+  </action>
+  <action name="stopVideoActionsSounds">
+    if(tour_current_played_video,
+      if(layer[displayedStandardVideo],
+        layer[displayedStandardVideo].stop();
+        removelayer(displayedStandardVideo);
+        if(layer[displayedStandardVideoOverlayButton], removelayer(displayedStandardVideoOverlayButton); );
+        if(layer[displayedStandardVideoOverlay], removelayer(displayedStandardVideoOverlay); );
+        delete(tour_current_played_video);
+        set(tour_current_played_video_state, 0);
+      );
+    );
+    if(tour_current_played_web_video,
+      displayWebVideoObjectClose();
+    );
+  </action>
+  <action name="resumeSoundActionsSounds">
+    if (tour_current_played_sound,
+      set(resumeSoundActionsVerification, true);
+      if(tour_current_played_video,
+        if(tour_current_played_sound_state LT tour_current_played_video_state,
+          set(resumeSoundActionsVerification, false);
+        );
+      );
+      if(resumeSoundActionsVerification,
+        if (tour_soundson,
+          if(tour_current_played_sound_paused,
+            set(tour_current_played_sound_paused, false);
+            resumesound(get(tour_current_played_sound));
+          ,
+
+            if(device.mobile OR device.tablet OR device.safari OR device.chrome,
+              set(tour_current_played_sound_paused, false);
+              resumesound(get(tour_current_played_sound));
+            );
+          );
+        );
+      );
+    );
+  </action>
+  <action name="resumeVideoActionsSounds">
+    if(tour_current_played_video,
+      set(resumeVideoActionsVerification, true);
+      if(tour_current_played_sound,
+        if(tour_current_played_video_state LT tour_current_played_sound_state,
+          set(resumeVideoActionsVerification, false);
+        );
+      );
+      if(resumeVideoActionsVerification,
+        if (tour_soundson,
+          if(device.flash OR (device.webgl AND !device.ios),
+            div(volume, tour_soundsvolume, 100);
+            set(layer[displayedStandardVideo].volume, get(volume));
+          ,
+            ifnot(device.ios,
+              js(kpanotour.Sounds.startVideosSounds(get(volume)));
+            ,
+              if(tour_soundsvolume GT 0,
+                set(layer[displayedStandardVideo].muted, false);
+              ,
+                set(layer[displayedStandardVideo].muted, true);
+              );
+            );
+          );
+        ,
+          if(device.flash OR (device.webgl AND !device.ios),
+            set(layer[displayedStandardVideo].volume, 0);
+          ,
+            ifnot(device.ios,
+              js(kpanotour.Sounds.stopVideosSounds());
+            ,
+              set(layer[displayedStandardVideo].muted, true);
+            );
+          );
+        );
+      );
+    );
+  </action>
+  <action name="pauseSoundActionsSounds">
+    if (tour_current_played_sound,
+      ifnot(tour_current_played_sound_paused,
+        set(tour_current_played_sound_paused, true);
+        pausesound(get(tour_current_played_sound));
+      );
+    );
+  </action>
+  <action name="pauseVideoActionsSounds">
+    if(tour_current_played_video,
+      if(device.flash OR (device.webgl AND !device.ios),
+        set(layer[displayedStandardVideo].volume, 0);
+      ,
+        ifnot(device.ios,
+          js(kpanotour.Sounds.stopVideosSounds());
+        ,
+          set(layer[displayedStandardVideo].muted, true);
+        );
+      );
+    );
+  </action>
+
+</krpano>

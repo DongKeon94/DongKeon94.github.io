@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="ko_project_title"><![CDATA[New Project]]></data>
+
+
+  <data name="ko_panogroup2290_title"><![CDATA[74A]]></data>
+
+  <data name="ko_pano2291_title"><![CDATA[거실]]></data>
+  <data name="ko_pano2295_title"><![CDATA[주방]]></data>
+  <data name="ko_pano2299_title"><![CDATA[침실1]]></data>
+  <data name="ko_pano2303_title"><![CDATA[드레스룸]]></data>
+  <data name="ko_pano2306_title"><![CDATA[욕실1]]></data>
+  <data name="ko_pano2309_title"><![CDATA[침실2]]></data>
+  <data name="ko_pano2317_title"><![CDATA[침실3]]></data>
+  <data name="ko_pano2322_title"><![CDATA[욕실2]]></data>
+  <data name="ko_pano2326_title"><![CDATA[현관]]></data>
+
+  <data name="ko_panogroup168_title"><![CDATA[DP OFF]]></data>
+
+  <data name="ko_pano10_title"><![CDATA[74A_DP제외_거실]]></data>
+  <data name="ko_pano15_title"><![CDATA[74A_DP제외_주방]]></data>
+  <data name="ko_pano43_title"><![CDATA[74A_DP제외_침실1]]></data>
+  <data name="ko_pano338_title"><![CDATA[74A_DP제외_드레스룸]]></data>
+  <data name="ko_pano339_title"><![CDATA[74A_DP제외_욕실1]]></data>
+  <data name="ko_pano340_title"><![CDATA[74A_DP제외_침실2]]></data>
+  <data name="ko_pano2077_title"><![CDATA[74A_DP제외_침실3]]></data>
+  <data name="ko_pano337_title"><![CDATA[74A_DP제외_욕실2]]></data>
+  <data name="ko_pano342_title"><![CDATA[74A_DP제외_현관]]></data>
+
+
+
+
+
+	<data name="ko_panogroup2290_floor_title"><![CDATA[74A]]></data>
+	<data name="ko_spotmap2335_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap2336_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap2337_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap2338_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap2340_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap2341_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap2342_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap2343_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap2344_tooltip"><![CDATA[]]></data>
+	<data name="ko_panogroup168_floor_title"><![CDATA[DP OFF]]></data>
+	<data name="ko_spotmap1472_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap1473_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap1474_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap1482_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap1483_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap1484_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap1485_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap2288_tooltip"><![CDATA[]]></data>
+	<data name="ko_spotmap3470_tooltip"><![CDATA[]]></data>
+
+  <data name="ko_togglebutton1firsttooltip"><![CDATA[]]></data>
+  <data name="ko_togglebutton1secondtooltip"><![CDATA[]]></data>
+  <data name="ko_togglebutton2firsttooltip"><![CDATA[]]></data>
+  <data name="ko_togglebutton2secondtooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePano28tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano10]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano15]]></data>
+  <data name="ko_buttonForASinglePano2panoid1082"><![CDATA[pano43]]></data>
+  <data name="ko_buttonForASinglePano14panoid1233"><![CDATA[pano338]]></data>
+  <data name="ko_buttonForASinglePano14panoid1244"><![CDATA[pano339]]></data>
+  <data name="ko_buttonForASinglePano14panoid1255"><![CDATA[pano340]]></data>
+  <data name="ko_buttonForASinglePano14panoid1266"><![CDATA[pano341]]></data>
+  <data name="ko_buttonForASinglePano14panoid1277"><![CDATA[pano337]]></data>
+  <data name="ko_buttonForASinglePano14panoid1288"><![CDATA[pano342]]></data>
+  <data name="ko_buttonForASinglePano27tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano1883]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano1887]]></data>
+  <data name="ko_buttonForASinglePano5panoid1102"><![CDATA[pano1892]]></data>
+  <data name="ko_buttonForASinglePano20panoid1253"><![CDATA[pano1896]]></data>
+  <data name="ko_buttonForASinglePano20panoid1264"><![CDATA[pano1899]]></data>
+  <data name="ko_buttonForASinglePano20panoid1275"><![CDATA[pano1902]]></data>
+  <data name="ko_buttonForASinglePano20panoid1286"><![CDATA[pano1906]]></data>
+  <data name="ko_buttonForASinglePano20panoid1297"><![CDATA[pano1910]]></data>
+  <data name="ko_buttonForASinglePano20panoid1308"><![CDATA[pano1915]]></data>
+  <data name="ko_swap2panopanoid"><![CDATA[pano10]]></data>
+  <data name="ko_swap2panopanoid1"><![CDATA[pano2291]]></data>
+  <data name="ko_swap2panofirsttooltip"><![CDATA[]]></data>
+  <data name="ko_swap2panosecondtooltip"><![CDATA[]]></data>
+  <data name="ko_swap2panoAnPar01"><![CDATA[]]></data>
+  <data name="ko_swap2panoAnPar02"><![CDATA[]]></data>
+  <data name="ko_swap2panoAnPar03"><![CDATA[]]></data>
+  <data name="ko_swap2pano1panoid"><![CDATA[pano15]]></data>
+  <data name="ko_swap2pano1panoid1"><![CDATA[pano2295]]></data>
+  <data name="ko_swap2pano1firsttooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano1secondtooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano1AnPar01"><![CDATA[]]></data>
+  <data name="ko_swap2pano1AnPar02"><![CDATA[]]></data>
+  <data name="ko_swap2pano1AnPar03"><![CDATA[]]></data>
+  <data name="ko_swap2pano2panoid"><![CDATA[pano43]]></data>
+  <data name="ko_swap2pano2panoid1"><![CDATA[pano2299]]></data>
+  <data name="ko_swap2pano2firsttooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano2secondtooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano2AnPar01"><![CDATA[]]></data>
+  <data name="ko_swap2pano2AnPar02"><![CDATA[]]></data>
+  <data name="ko_swap2pano2AnPar03"><![CDATA[]]></data>
+  <data name="ko_swap2pano3panoid"><![CDATA[pano338]]></data>
+  <data name="ko_swap2pano3panoid1"><![CDATA[pano2303]]></data>
+  <data name="ko_swap2pano3firsttooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano3secondtooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano3AnPar01"><![CDATA[]]></data>
+  <data name="ko_swap2pano3AnPar02"><![CDATA[]]></data>
+  <data name="ko_swap2pano3AnPar03"><![CDATA[]]></data>
+  <data name="ko_swap2pano4panoid"><![CDATA[pano339]]></data>
+  <data name="ko_swap2pano4panoid1"><![CDATA[pano2306]]></data>
+  <data name="ko_swap2pano4firsttooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano4secondtooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano4AnPar01"><![CDATA[]]></data>
+  <data name="ko_swap2pano4AnPar02"><![CDATA[]]></data>
+  <data name="ko_swap2pano4AnPar03"><![CDATA[]]></data>
+  <data name="ko_swap2pano5panoid"><![CDATA[pano340]]></data>
+  <data name="ko_swap2pano5panoid1"><![CDATA[pano2309]]></data>
+  <data name="ko_swap2pano5firsttooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano5secondtooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano5AnPar01"><![CDATA[]]></data>
+  <data name="ko_swap2pano5AnPar02"><![CDATA[]]></data>
+  <data name="ko_swap2pano5AnPar03"><![CDATA[]]></data>
+  <data name="ko_swap2pano6panoid"><![CDATA[pano341]]></data>
+  <data name="ko_swap2pano6panoid1"><![CDATA[pano2313]]></data>
+  <data name="ko_swap2pano6firsttooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano6secondtooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano6AnPar01"><![CDATA[]]></data>
+  <data name="ko_swap2pano6AnPar02"><![CDATA[]]></data>
+  <data name="ko_swap2pano6AnPar03"><![CDATA[]]></data>
+  <data name="ko_swap2pano9panoid"><![CDATA[pano2077]]></data>
+  <data name="ko_swap2pano9panoid1"><![CDATA[pano2317]]></data>
+  <data name="ko_swap2pano9firsttooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano9secondtooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano9AnPar01"><![CDATA[]]></data>
+  <data name="ko_swap2pano9AnPar02"><![CDATA[]]></data>
+  <data name="ko_swap2pano9AnPar03"><![CDATA[]]></data>
+  <data name="ko_swap2pano7panoid"><![CDATA[pano337]]></data>
+  <data name="ko_swap2pano7panoid1"><![CDATA[pano2322]]></data>
+  <data name="ko_swap2pano7firsttooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano7secondtooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano7AnPar01"><![CDATA[]]></data>
+  <data name="ko_swap2pano7AnPar02"><![CDATA[]]></data>
+  <data name="ko_swap2pano7AnPar03"><![CDATA[]]></data>
+  <data name="ko_swap2pano8panoid"><![CDATA[pano342]]></data>
+  <data name="ko_swap2pano8panoid1"><![CDATA[pano2326]]></data>
+  <data name="ko_swap2pano8firsttooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano8secondtooltip"><![CDATA[]]></data>
+  <data name="ko_swap2pano8AnPar01"><![CDATA[]]></data>
+  <data name="ko_swap2pano8AnPar02"><![CDATA[]]></data>
+  <data name="ko_swap2pano8AnPar03"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePano6tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePano6panoid1020"><![CDATA[pano10]]></data>
+  <data name="ko_buttonForASinglePano6panoid1031"><![CDATA[pano2291]]></data>
+  <data name="ko_buttonForASinglePano7tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePano7panoid1040"><![CDATA[pano15]]></data>
+  <data name="ko_buttonForASinglePano7panoid1051"><![CDATA[pano2295]]></data>
+  <data name="ko_buttonForASinglePano8tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePano8panoid1060"><![CDATA[pano43]]></data>
+  <data name="ko_buttonForASinglePano8panoid1071"><![CDATA[pano2299]]></data>
+  <data name="ko_buttonForASinglePano21tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePano8panoid1060"><![CDATA[pano338]]></data>
+  <data name="ko_buttonForASinglePano8panoid1071"><![CDATA[pano2303]]></data>
+  <data name="ko_buttonForASinglePano22tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePano8panoid1060"><![CDATA[pano339]]></data>
+  <data name="ko_buttonForASinglePano8panoid1071"><![CDATA[pano2306]]></data>
+  <data name="ko_buttonForASinglePano25tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePano8panoid1060"><![CDATA[pano337]]></data>
+  <data name="ko_buttonForASinglePano8panoid1071"><![CDATA[pano2322]]></data>
+  <data name="ko_buttonForASinglePano23tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePano8panoid1060"><![CDATA[pano340]]></data>
+  <data name="ko_buttonForASinglePano8panoid1071"><![CDATA[pano2309]]></data>
+  <data name="ko_buttonForASinglePano29tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePano8panoid1060"><![CDATA[pano2077]]></data>
+  <data name="ko_buttonForASinglePano8panoid1071"><![CDATA[pano2317]]></data>
+  <data name="ko_buttonForASinglePano26tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePano8panoid1060"><![CDATA[pano342]]></data>
+  <data name="ko_buttonForASinglePano8panoid1071"><![CDATA[pano2326]]></data>
+  <data name="ko_buttonForASinglePanotooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano10]]></data>
+  <data name="ko_buttonForASinglePanopanoid16810"><![CDATA[pano3464]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano15]]></data>
+  <data name="ko_buttonForASinglePanopanoid1042"><![CDATA[pano43]]></data>
+  <data name="ko_buttonForASinglePanopanoid1073"><![CDATA[pano338]]></data>
+  <data name="ko_buttonForASinglePanopanoid1084"><![CDATA[pano339]]></data>
+  <data name="ko_buttonForASinglePanopanoid1095"><![CDATA[pano340 ]]></data>
+  <data name="ko_buttonForASinglePanopanoid1106"><![CDATA[pano341]]></data>
+  <data name="ko_buttonForASinglePanopanoid1117"><![CDATA[pano337]]></data>
+  <data name="ko_buttonForASinglePanopanoid1128"><![CDATA[pano342]]></data>
+  <data name="ko_buttonForASinglePanopanoid1339"><![CDATA[pano2077]]></data>
+  <data name="ko_buttonForASinglePano1tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano10]]></data>
+  <data name="ko_buttonForASinglePano1panoid17010"><![CDATA[pano3464]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano15]]></data>
+  <data name="ko_buttonForASinglePano1panoid1062"><![CDATA[pano43]]></data>
+  <data name="ko_buttonForASinglePano1panoid1093"><![CDATA[pano338]]></data>
+  <data name="ko_buttonForASinglePano1panoid1104"><![CDATA[pano339]]></data>
+  <data name="ko_buttonForASinglePano1panoid1115"><![CDATA[pano340]]></data>
+  <data name="ko_buttonForASinglePano1panoid1126"><![CDATA[pano341]]></data>
+  <data name="ko_buttonForASinglePano1panoid1137"><![CDATA[pano337]]></data>
+  <data name="ko_buttonForASinglePano1panoid1148"><![CDATA[pano342]]></data>
+  <data name="ko_buttonForASinglePano1panoid1359"><![CDATA[pano2077]]></data>
+  <data name="ko_buttonForASinglePano2tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano10]]></data>
+  <data name="ko_buttonForASinglePano2panoid17210"><![CDATA[pano3464]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano15]]></data>
+  <data name="ko_buttonForASinglePano2panoid1082"><![CDATA[pano43]]></data>
+  <data name="ko_buttonForASinglePano2panoid1113"><![CDATA[pano338]]></data>
+  <data name="ko_buttonForASinglePano2panoid1124"><![CDATA[pano339]]></data>
+  <data name="ko_buttonForASinglePano2panoid1135"><![CDATA[pano340]]></data>
+  <data name="ko_buttonForASinglePano2panoid1146"><![CDATA[pano341]]></data>
+  <data name="ko_buttonForASinglePano2panoid1157"><![CDATA[pano337]]></data>
+  <data name="ko_buttonForASinglePano2panoid1168"><![CDATA[pano342]]></data>
+  <data name="ko_buttonForASinglePano2panoid1379"><![CDATA[pano2077]]></data>
+  <data name="ko_buttonForASinglePano10tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano10]]></data>
+  <data name="ko_buttonForASinglePano10panoid17610"><![CDATA[pano3464]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano15]]></data>
+  <data name="ko_buttonForASinglePano2panoid1082"><![CDATA[pano43]]></data>
+  <data name="ko_buttonForASinglePano10panoid1153"><![CDATA[pano338]]></data>
+  <data name="ko_buttonForASinglePano10panoid1164"><![CDATA[pano339]]></data>
+  <data name="ko_buttonForASinglePano10panoid1175"><![CDATA[pano340]]></data>
+  <data name="ko_buttonForASinglePano10panoid1186"><![CDATA[pano341]]></data>
+  <data name="ko_buttonForASinglePano10panoid1197"><![CDATA[pano337]]></data>
+  <data name="ko_buttonForASinglePano10panoid1208"><![CDATA[pano342]]></data>
+  <data name="ko_buttonForASinglePano10panoid1419"><![CDATA[pano2077]]></data>
+  <data name="ko_buttonForASinglePano9tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano10]]></data>
+  <data name="ko_buttonForASinglePano9panoid17410"><![CDATA[pano3464]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano15]]></data>
+  <data name="ko_buttonForASinglePano2panoid1082"><![CDATA[pano43]]></data>
+  <data name="ko_buttonForASinglePano9panoid1133"><![CDATA[pano338]]></data>
+  <data name="ko_buttonForASinglePano9panoid1144"><![CDATA[pano339]]></data>
+  <data name="ko_buttonForASinglePano9panoid1155"><![CDATA[pano340]]></data>
+  <data name="ko_buttonForASinglePano9panoid1166"><![CDATA[pano341]]></data>
+  <data name="ko_buttonForASinglePano9panoid1177"><![CDATA[pano337]]></data>
+  <data name="ko_buttonForASinglePano9panoid1188"><![CDATA[pano342]]></data>
+  <data name="ko_buttonForASinglePano9panoid1399"><![CDATA[pano2077]]></data>
+  <data name="ko_buttonForASinglePano13tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano10]]></data>
+  <data name="ko_buttonForASinglePano13panoid18210"><![CDATA[pano3464]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano15]]></data>
+  <data name="ko_buttonForASinglePano2panoid1082"><![CDATA[pano43]]></data>
+  <data name="ko_buttonForASinglePano13panoid1213"><![CDATA[pano338]]></data>
+  <data name="ko_buttonForASinglePano13panoid1224"><![CDATA[pano339]]></data>
+  <data name="ko_buttonForASinglePano13panoid1235"><![CDATA[pano340]]></data>
+  <data name="ko_buttonForASinglePano13panoid1246"><![CDATA[pano341]]></data>
+  <data name="ko_buttonForASinglePano13panoid1257"><![CDATA[pano337]]></data>
+  <data name="ko_buttonForASinglePano13panoid1268"><![CDATA[pano342]]></data>
+  <data name="ko_buttonForASinglePano13panoid1479"><![CDATA[pano2077]]></data>
+  <data name="ko_buttonForASinglePano11tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano10]]></data>
+  <data name="ko_buttonForASinglePano11panoid17810"><![CDATA[pano3464]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano15]]></data>
+  <data name="ko_buttonForASinglePano2panoid1082"><![CDATA[pano43]]></data>
+  <data name="ko_buttonForASinglePano11panoid1173"><![CDATA[pano338]]></data>
+  <data name="ko_buttonForASinglePano11panoid1184"><![CDATA[pano339]]></data>
+  <data name="ko_buttonForASinglePano11panoid1195"><![CDATA[pano340]]></data>
+  <data name="ko_buttonForASinglePano11panoid1206"><![CDATA[pano341]]></data>
+  <data name="ko_buttonForASinglePano11panoid1217"><![CDATA[pano337]]></data>
+  <data name="ko_buttonForASinglePano11panoid1228"><![CDATA[pano342]]></data>
+  <data name="ko_buttonForASinglePano11panoid1439"><![CDATA[pano2077]]></data>
+  <data name="ko_buttonForASinglePano30tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano10]]></data>
+  <data name="ko_buttonForASinglePano30panoid18210"><![CDATA[pano3464]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano15]]></data>
+  <data name="ko_buttonForASinglePano2panoid1082"><![CDATA[pano43]]></data>
+  <data name="ko_buttonForASinglePano12panoid1193"><![CDATA[pano338]]></data>
+  <data name="ko_buttonForASinglePano12panoid1204"><![CDATA[pano339]]></data>
+  <data name="ko_buttonForASinglePano12panoid1215"><![CDATA[pano340]]></data>
+  <data name="ko_buttonForASinglePano12panoid1226"><![CDATA[pano341]]></data>
+  <data name="ko_buttonForASinglePano12panoid1237"><![CDATA[pano337]]></data>
+  <data name="ko_buttonForASinglePano12panoid1248"><![CDATA[pano342]]></data>
+  <data name="ko_buttonForASinglePano30panoid1479"><![CDATA[pano2077]]></data>
+  <data name="ko_buttonForASinglePano14tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano10]]></data>
+  <data name="ko_buttonForASinglePano14panoid18410"><![CDATA[pano3464]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano15]]></data>
+  <data name="ko_buttonForASinglePano2panoid1082"><![CDATA[pano43]]></data>
+  <data name="ko_buttonForASinglePano14panoid1233"><![CDATA[pano338]]></data>
+  <data name="ko_buttonForASinglePano14panoid1244"><![CDATA[pano339]]></data>
+  <data name="ko_buttonForASinglePano14panoid1255"><![CDATA[pano340]]></data>
+  <data name="ko_buttonForASinglePano14panoid1266"><![CDATA[pano341]]></data>
+  <data name="ko_buttonForASinglePano14panoid1277"><![CDATA[pano337]]></data>
+  <data name="ko_buttonForASinglePano14panoid1288"><![CDATA[pano342]]></data>
+  <data name="ko_buttonForASinglePano14panoid1499"><![CDATA[pano2077]]></data>
+  <data name="ko_buttonForASinglePano3tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano2291]]></data>
+  <data name="ko_buttonForASinglePano3panoid17010"><![CDATA[pano3467]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano2295]]></data>
+  <data name="ko_buttonForASinglePano3panoid1062"><![CDATA[pano2299]]></data>
+  <data name="ko_buttonForASinglePano3panoid1093"><![CDATA[pano2303]]></data>
+  <data name="ko_buttonForASinglePano3panoid1104"><![CDATA[pano2306]]></data>
+  <data name="ko_buttonForASinglePano3panoid1115"><![CDATA[pano2309]]></data>
+  <data name="ko_buttonForASinglePano3panoid1126"><![CDATA[pano2313]]></data>
+  <data name="ko_buttonForASinglePano3panoid1137"><![CDATA[pano2317]]></data>
+  <data name="ko_buttonForASinglePano3panoid1148"><![CDATA[pano2322]]></data>
+  <data name="ko_buttonForASinglePano3panoid1359"><![CDATA[pano2326]]></data>
+  <data name="ko_buttonForASinglePano32tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano2291]]></data>
+  <data name="ko_buttonForASinglePano32panoid17210"><![CDATA[pano3467]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano2295]]></data>
+  <data name="ko_buttonForASinglePano3panoid1062"><![CDATA[pano2299]]></data>
+  <data name="ko_buttonForASinglePano3panoid1093"><![CDATA[pano2303]]></data>
+  <data name="ko_buttonForASinglePano3panoid1104"><![CDATA[pano2306]]></data>
+  <data name="ko_buttonForASinglePano3panoid1115"><![CDATA[pano2309]]></data>
+  <data name="ko_buttonForASinglePano3panoid1126"><![CDATA[pano2313]]></data>
+  <data name="ko_buttonForASinglePano3panoid1137"><![CDATA[pano2317]]></data>
+  <data name="ko_buttonForASinglePano3panoid1148"><![CDATA[pano2322]]></data>
+  <data name="ko_buttonForASinglePano3panoid1359"><![CDATA[pano2326]]></data>
+  <data name="ko_buttonForASinglePano33tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano2291]]></data>
+  <data name="ko_buttonForASinglePano33panoid17410"><![CDATA[pano3467]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano2295]]></data>
+  <data name="ko_buttonForASinglePano3panoid1062"><![CDATA[pano2299]]></data>
+  <data name="ko_buttonForASinglePano3panoid1093"><![CDATA[pano2303]]></data>
+  <data name="ko_buttonForASinglePano3panoid1104"><![CDATA[pano2306]]></data>
+  <data name="ko_buttonForASinglePano3panoid1115"><![CDATA[pano2309]]></data>
+  <data name="ko_buttonForASinglePano3panoid1126"><![CDATA[pano2313]]></data>
+  <data name="ko_buttonForASinglePano3panoid1137"><![CDATA[pano2317]]></data>
+  <data name="ko_buttonForASinglePano3panoid1148"><![CDATA[pano2322]]></data>
+  <data name="ko_buttonForASinglePano3panoid1359"><![CDATA[pano2326]]></data>
+  <data name="ko_buttonForASinglePano34tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano2291]]></data>
+  <data name="ko_buttonForASinglePano34panoid17610"><![CDATA[pano3467]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano2295]]></data>
+  <data name="ko_buttonForASinglePano3panoid1062"><![CDATA[pano2299]]></data>
+  <data name="ko_buttonForASinglePano3panoid1093"><![CDATA[pano2303]]></data>
+  <data name="ko_buttonForASinglePano3panoid1104"><![CDATA[pano2306]]></data>
+  <data name="ko_buttonForASinglePano3panoid1115"><![CDATA[pano2309]]></data>
+  <data name="ko_buttonForASinglePano3panoid1126"><![CDATA[pano2313]]></data>
+  <data name="ko_buttonForASinglePano3panoid1137"><![CDATA[pano2317]]></data>
+  <data name="ko_buttonForASinglePano3panoid1148"><![CDATA[pano2322]]></data>
+  <data name="ko_buttonForASinglePano3panoid1359"><![CDATA[pano2326]]></data>
+  <data name="ko_buttonForASinglePano35tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano2291]]></data>
+  <data name="ko_buttonForASinglePano35panoid17810"><![CDATA[pano3467]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano2295]]></data>
+  <data name="ko_buttonForASinglePano3panoid1062"><![CDATA[pano2299]]></data>
+  <data name="ko_buttonForASinglePano3panoid1093"><![CDATA[pano2303]]></data>
+  <data name="ko_buttonForASinglePano3panoid1104"><![CDATA[pano2306]]></data>
+  <data name="ko_buttonForASinglePano3panoid1115"><![CDATA[pano2309]]></data>
+  <data name="ko_buttonForASinglePano3panoid1126"><![CDATA[pano2313]]></data>
+  <data name="ko_buttonForASinglePano3panoid1137"><![CDATA[pano2317]]></data>
+  <data name="ko_buttonForASinglePano3panoid1148"><![CDATA[pano2322]]></data>
+  <data name="ko_buttonForASinglePano3panoid1359"><![CDATA[pano2326]]></data>
+  <data name="ko_buttonForASinglePano36tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano2291]]></data>
+  <data name="ko_buttonForASinglePano36panoid18010"><![CDATA[pano3467]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano2295]]></data>
+  <data name="ko_buttonForASinglePano3panoid1062"><![CDATA[pano2299]]></data>
+  <data name="ko_buttonForASinglePano3panoid1093"><![CDATA[pano2303]]></data>
+  <data name="ko_buttonForASinglePano3panoid1104"><![CDATA[pano2306]]></data>
+  <data name="ko_buttonForASinglePano3panoid1115"><![CDATA[pano2309]]></data>
+  <data name="ko_buttonForASinglePano3panoid1126"><![CDATA[pano2313]]></data>
+  <data name="ko_buttonForASinglePano3panoid1137"><![CDATA[pano2317]]></data>
+  <data name="ko_buttonForASinglePano3panoid1148"><![CDATA[pano2322]]></data>
+  <data name="ko_buttonForASinglePano3panoid1359"><![CDATA[pano2326]]></data>
+  <data name="ko_buttonForASinglePano37tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano2291]]></data>
+  <data name="ko_buttonForASinglePano37panoid18210"><![CDATA[pano3467]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano2295]]></data>
+  <data name="ko_buttonForASinglePano3panoid1062"><![CDATA[pano2299]]></data>
+  <data name="ko_buttonForASinglePano3panoid1093"><![CDATA[pano2303]]></data>
+  <data name="ko_buttonForASinglePano3panoid1104"><![CDATA[pano2306]]></data>
+  <data name="ko_buttonForASinglePano3panoid1115"><![CDATA[pano2309]]></data>
+  <data name="ko_buttonForASinglePano3panoid1126"><![CDATA[pano2313]]></data>
+  <data name="ko_buttonForASinglePano3panoid1137"><![CDATA[pano2317]]></data>
+  <data name="ko_buttonForASinglePano3panoid1148"><![CDATA[pano2322]]></data>
+  <data name="ko_buttonForASinglePano3panoid1359"><![CDATA[pano2326]]></data>
+  <data name="ko_buttonForASinglePano39tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano2291]]></data>
+  <data name="ko_buttonForASinglePano39panoid18610"><![CDATA[pano3467]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano2295]]></data>
+  <data name="ko_buttonForASinglePano3panoid1062"><![CDATA[pano2299]]></data>
+  <data name="ko_buttonForASinglePano3panoid1093"><![CDATA[pano2303]]></data>
+  <data name="ko_buttonForASinglePano3panoid1104"><![CDATA[pano2306]]></data>
+  <data name="ko_buttonForASinglePano3panoid1115"><![CDATA[pano2309]]></data>
+  <data name="ko_buttonForASinglePano3panoid1126"><![CDATA[pano2313]]></data>
+  <data name="ko_buttonForASinglePano3panoid1137"><![CDATA[pano2317]]></data>
+  <data name="ko_buttonForASinglePano3panoid1148"><![CDATA[pano2322]]></data>
+  <data name="ko_buttonForASinglePano3panoid1359"><![CDATA[pano2326]]></data>
+  <data name="ko_buttonForASinglePano40tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePanopanoid1020"><![CDATA[pano2291]]></data>
+  <data name="ko_buttonForASinglePano40panoid18810"><![CDATA[pano3467]]></data>
+  <data name="ko_buttonForASinglePanopanoid1031"><![CDATA[pano2295]]></data>
+  <data name="ko_buttonForASinglePano3panoid1062"><![CDATA[pano2299]]></data>
+  <data name="ko_buttonForASinglePano3panoid1093"><![CDATA[pano2303]]></data>
+  <data name="ko_buttonForASinglePano3panoid1104"><![CDATA[pano2306]]></data>
+  <data name="ko_buttonForASinglePano3panoid1115"><![CDATA[pano2309]]></data>
+  <data name="ko_buttonForASinglePano3panoid1126"><![CDATA[pano2313]]></data>
+  <data name="ko_buttonForASinglePano3panoid1137"><![CDATA[pano2317]]></data>
+  <data name="ko_buttonForASinglePano3panoid1148"><![CDATA[pano2322]]></data>
+  <data name="ko_buttonForASinglePano3panoid1359"><![CDATA[pano2326]]></data>
+  <data name="ko_buttonForASinglePano41tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePano41panoid1060"><![CDATA[pano2306]]></data>
+  <data name="ko_buttonForASinglePano41panoid1101"><![CDATA[pano339]]></data>
+  <data name="ko_buttonForASinglePano42tooltip"><![CDATA[]]></data>
+  <data name="ko_buttonForASinglePano42panoid1110"><![CDATA[pano2322]]></data>
+  <data name="ko_buttonForASinglePano42panoid1131"><![CDATA[pano337]]></data>
+
+
+  <data name="ko_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>
+  <data name="ko_vr_setup_advanced"><![CDATA[ADVANCED SETTINGS]]></data>
+  <data name="ko_vr_setup_title"><![CDATA[WEB VR SETTINGS]]></data>
+  <data name="ko_vr_setup_dvn1"><![CDATA[Device:]]></data>
+  <data name="ko_vr_setup_siz1"><![CDATA[Screen size:]]></data>
+  <data name="ko_vr_setup_ipd1"><![CDATA[IPD:]]></data>
+  <data name="ko_vr_setup_hmd1"><![CDATA[HMD:]]></data>
+  <data name="ko_vr_setup_hmd3"><![CDATA[Customize]]></data>
+  <data name="ko_vr_setup_cal"><![CDATA[Calibrate gyroscope]]></data>
+  <data name="ko_vr_setup_sav"><![CDATA[SAVE]]></data>
+  <data name="ko_vr_setup_rst"><![CDATA[RESET]]></data>
+  <data name="ko_vr_setup_simple"><![CDATA[SIMPLE]]></data>
+  <data name="ko_vr_setup_cls"><![CDATA[CLOSE]]></data>
+  <data name="ko_vr_setup_m31"><![CDATA[HMD SETTINGS]]></data>
+  <data name="ko_vr_setup_fov1"><![CDATA[FOV:]]></data>
+  <data name="ko_vr_setup_dst1"><![CDATA[Distortion:]]></data>
+  <data name="ko_vr_setup_d2tx"><![CDATA[Distortion 2:]]></data>
+  <data name="ko_vr_setup_vig1"><![CDATA[Vignette:]]></data>
+  <data name="ko_vr_setup_cac1"><![CDATA[Chromatic aberration:]]></data>
+  <data name="ko_vr_setup_olp1"><![CDATA[Overlap:]]></data>
+  <data name="ko_vr_setup_m35"><![CDATA[RETURN]]></data>
+  <data name="ko_vr_setup_cb1"><![CDATA[GYROSCOPE]]></data>
+  <data name="ko_vr_setup_cb2"><![CDATA[Place the device on a flat and[br]stable surface and tab CALIBRATE[br]to correct a gyroscope drifting.]]></data>
+  <data name="ko_vr_setup_cb3"><![CDATA[CALIBRATE]]></data>
+  <data name="ko_vr_setup_cb4"><![CDATA[RESET]]></data>
+  <data name="ko_vr_setup_cb5"><![CDATA[RETURN]]></data>
+  <data name="ko_vr_setup_cb6"><![CDATA[Calibrating...]]></data>
+  <data name="ko_vr_setup_cb7"><![CDATA[Successful calibration]]></data>
+  <data name="ko_vr_setup_cb8"><![CDATA[Calibration failed]]></data>
+  <data name="ko_vr_setup_unavailable"><![CDATA[VR mode[br]is unavailable on your device]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>
